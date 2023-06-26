@@ -1,0 +1,25 @@
+site_name: "PipelineTCU"
+
+repo_name: "04_PipelineTCU"
+repo_url: "https://github.com/ResidenciaTICBrisa/04_PipelineTCU"
+
+theme:
+  name: "material"
+  language: "pt"
+  logo: "assets/favicon.svg"
+  favicon: "assets/favicon.svg"
+  palette:
+    primary: "#fff"
+    accent: "#0B4D9B"
+  font:
+    text: "Montserrat"
+    code: "sans-serif"
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+  - Início: index.md
+
+plugins:
+  - search
