@@ -12,7 +12,7 @@ Período: De 19/06/2023 até 23/06/2023
 | Reunião com o TCU                                      | Toda a equipe     |
 | Reunião com a equipe                                   | Toda a equipe     |
 
-## 3. Histórico de versão
+## 2. Histórico de versão
 
 | Versão | Data       | Descrição                                   | Autor   |
 | ------ | ---------- | ------------------------------------------- | ------- |
