@@ -5,26 +5,56 @@ repo_url: "https://github.com/ResidenciaTICBrisa/04_PipelineTCU"
 
 theme:
   name: "material"
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.pat
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   language: "pt"
-  logo: "assets/favicon.svg"
-  favicon: "assets/favicon.svg"
+  logo: "assets/PipelineTCU.png"
+  favicon: "assets/PipelineTCU.png"
   palette:
     primary: "#fff"
     accent: "#0B4D9B"
-  font:
-    text: "Montserrat"
-    code: "sans-serif"
+
 
 extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Início: index.md
+  - Home: index.md
 
   - Sprints:
-    - Sprint 1: sprints/sprint1.md
-    - Sprint 2: sprints/sprint2.md
-
+    - Sprint 1: 
+      - Reunião de apresentação: sprints/sprint1/reuniao.md
+    - Sprint 2: 
+      - Reunião regras de negócio: sprints/sprint2/reuniao.md
+      - Acompanhamento projeto: sprints/sprint2/acompanhamento.md
 
 plugins:
   - search
