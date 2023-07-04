@@ -48,7 +48,7 @@ extra_css:
 
 nav:
   - Home: index.md
-
+  - Cronograma: planejamento/cronograma.md
   - Sprints:
     - Sprint 1: 
       - Reunião de apresentação: sprints/sprint1/reuniao.md
