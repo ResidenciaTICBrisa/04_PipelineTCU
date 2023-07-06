@@ -757,6 +757,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
 
 <br>
 
+
+
 #### Requisitos não funcionais
  São os critérios ou restrições que definem qualidades ou características do sistema que não estão diretamente relacionadas às funcionalidades específicas do sistema, mas são importantes para garantir seu desempenho, segurança, usabilidade, confiabilidade, entre outros aspectos.
 
@@ -787,6 +789,64 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
 
 
 </details>
+
+<details>
+  <summary> RNF02 - A aplicação terá acesso por usuário senha</summary>
+  <table>
+    <tr>
+      <th>Tópico</th>
+      <th>Referência</th>
+    </tr>
+    <tr>
+      <td>NFR</td>
+      <td><a href="">Performance</a></td>
+    </tr>
+    <tr>
+      <td>Especificação Suplementar</td>
+      <td><a
+          href="">Performance</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Elicitação</td>
+      <td><a
+          href="">INT07</a>
+      </td>
+    </tr>
+  </table>
+
+
+</details>
+
+<details>
+  <summary> RNF03 - A aplicação irá gerar os gráficos de forma eficiente</summary>
+  <table>
+    <tr>
+      <th>Tópico</th>
+      <th>Referência</th>
+    </tr>
+    <tr>
+      <td>NFR</td>
+      <td><a href="">Performance</a></td>
+    </tr>
+    <tr>
+      <td>Especificação Suplementar</td>
+      <td><a
+          href="">Performance</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Elicitação</td>
+      <td><a
+          href="">INT07</a>
+      </td>
+    </tr>
+  </table>
+
+
+</details>
+
+
 
 
 
