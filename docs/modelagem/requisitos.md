@@ -770,7 +770,7 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       <th>Referência</th>
     </tr>
     <tr>
-      <td>NFR</td>
+      <td></td>
       <td><a href="">Performance</a></td>
     </tr>
     <tr>
@@ -782,7 +782,7 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
     <tr>
       <td>Elicitação</td>
       <td><a
-          href="">INT07</a>
+          href=""></a>
       </td>
     </tr>
   </table>
@@ -798,7 +798,7 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       <th>Referência</th>
     </tr>
     <tr>
-      <td>NFR</td>
+      <td></td>
       <td><a href="">Performance</a></td>
     </tr>
     <tr>
@@ -810,7 +810,7 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
     <tr>
       <td>Elicitação</td>
       <td><a
-          href="">INT07</a>
+          href=""></a>
       </td>
     </tr>
   </table>
@@ -826,10 +826,6 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       <th>Referência</th>
     </tr>
     <tr>
-      <td>NFR</td>
-      <td><a href="">Performance</a></td>
-    </tr>
-    <tr>
       <td>Especificação Suplementar</td>
       <td><a
           href="">Performance</a>
@@ -838,7 +834,7 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
     <tr>
       <td>Elicitação</td>
       <td><a
-          href="">INT07</a>
+          href=""></a>
       </td>
     </tr>
   </table>
@@ -853,13 +849,6 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
 ## Bibliografia
 > [1] SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 24. 2019. Acessado em: 04/07/2023 </br>
 >
-> [2] Pohl, Klaus; Rupp, Chris. Requirements Engineering Fundamentals. Disponivel em
-[Aprender3](https://aprender3.unb.br/pluginfile.php/2523174/mod_resource/content/2/Rastreabilidade.pdf). Acesso em 04 de
-jul de 2023 </br>
->
-> [3] Leite, Julio .Ratreabilidade de Requisitos.Disponivel em
-[Aprender3](https://aprender3.unb.br/pluginfile.php/2523175/mod_resource/content/3/05_20_sayao.pdf ). Acesso em 04 de
-jul de 2023</br>
 
 
 ### Histórico de versão
