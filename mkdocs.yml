@@ -49,16 +49,17 @@ extra_css:
 nav:
   - Home: index.md
   - Cronograma: planejamento/cronograma.md
+  - Fonte de dados: fonte_dados/fonte_dados.md
   - Modelagem:
     - Requisitos: modelagem/requisitos.md
-  - Sprints:
-    - Sprint 1: 
-      - Reunião de apresentação: sprints/sprint1/reuniao.md
-    - Sprint 2: 
-      - Reunião regras de negócio: sprints/sprint2/reuniao.md
-      - Acompanhamento projeto: sprints/sprint2/acompanhamento.md
-    - Sprint 3:
-      - Reunião: sprints/sprint3/reuniao.md
+  - Reuniões:
+    - Reunião 1: 
+      - Reunião de apresentação: reunioes/reuniao1/reuniao.md
+    - Reunião 2: 
+      - Reunião regras de negócio: reunioes/reuniao2/reuniao.md
+      - Acompanhamento projeto: reunioes/reuniao2/acompanhamento.md
+    - Reunião 3:
+      - Reunião: reunioes/reuniao3/reuniao.md
 
 plugins:
   - search
