@@ -33,7 +33,7 @@ Abaixo estão listadas algumas legendas que serão utilizadas nas tabelas dos re
 </div>
 
 #### Requisitos funcionais
-As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações já citadas dos requisitos funcionais elicitados durante o projeto. Tabelas a seguir:
+As tabelas contidas dentros dos toggles evidenciam as informações já citadas dos requisitos funcionais elicitados durante o projeto. Tabelas a seguir:
 
 <details>
   <summary>RF01 - Selecionar um cenário de política</summary>
@@ -79,7 +79,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/0fbee679-b49e-4606-b41c-cbed18c82104)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -130,7 +131,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/0a61dc84-8c16-4f0d-8376-dd449ec26f0f)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -183,7 +185,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/aea10c95-8e9f-42a9-9512-56c9a7d976e5)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -235,7 +238,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/bb05049d-ca01-4a30-9a10-cfc489093033)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -286,7 +290,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/75fc5947-9478-45c2-b6f9-b62b9a86a191)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -337,7 +342,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/0399b93b-5a78-45f8-8bdc-e4008767a50e)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -390,7 +396,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/82d10f4f-9052-44c1-9294-1983d2388b7a)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
@@ -441,7 +448,8 @@ As tabelas 2 até a 15 contidas dentros dos toggles evidenciam as informações 
       </tr>
       <tr>
         <td>Funcionalidade</td>
-        <td><iframe src="" width="640" height="480"></iframe></td>
+        <td><iframe src="![image](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/82b63513-cf44-4c79-b5e2-171392a4afb2)
+" width="640" height="480"></iframe></td>
       </tr>
     </tbody>
   </table>
