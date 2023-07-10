@@ -53,6 +53,34 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
 
 </details>
 
+<details>
+  <summary> Plano Nacional de Energia 2050 </summary>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Anexos</th>
+        <th>Referência</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Referência dos dados</td>
+        <td><a href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/Plano-Nacional-de-Energia-2050">Empresa de Pesquisa energética</a></td>
+      </tr>
+      <tr>
+        <td>Relatório Síntese</td>
+        <td><a href="https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-227/topico-563/Relatorio%20Final%20do%20PNE%202050.pdf">Relatório Síntese.pdf</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Tipo de dados</td>
+        <td>.pdf, .csv</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
 
   </table>
 
@@ -66,4 +94,5 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
 | Versão | Data | Descrição | Autor(es) |
 | ------ | ---------- | ------------------------------------------ | ----------- |
 | `1.0` | 09/07/2023 | Criação do documento | Eduardo | 
+| `1.1` | 10/07/2023 | Adição da fonte Plano Nacional de Energia | Victório | 
 
