@@ -9,6 +9,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.pat
+    - navigation.sections
+    - navigation.expand
   palette:
 
     # Palette toggle for automatic mode
@@ -60,6 +62,11 @@ nav:
       - Acompanhamento projeto: reunioes/reuniao2/acompanhamento.md
     - Reunião 3:
       - Reunião: reunioes/reuniao3/reuniao.md
-
+    - Reunião 4:
+      - Reunião: reunioes/reuniao4/reuniao.md      
+    - Reunião 5:
+      - Reunião: reunioes/reuniao5/reuniao.md   
+    - Reunião 6:
+      - Reunião: reunioes/reuniao6/reuniao.md   
 plugins:
   - search
