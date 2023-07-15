@@ -1,4 +1,4 @@
-# Sprint 1 - Reunião de apresentação
+# Reunião 3 - Reunião de apresentação
 
 Nesta semana realizamos a reunião com os mentores (TCU) e também a primeira reunião do grupo do projeto
 
