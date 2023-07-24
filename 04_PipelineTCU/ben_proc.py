@@ -27,10 +27,6 @@ if __name__ == '__main__' :
                 df.drop(i, axis=0, inplace=True)
                 i += 1
         except:    
-            #OLEO DIESEL = DIESEL DE PETROLEO
-            #GAS DE COQUEIRA = GAS DE CIDADE E DE COQUERIA 
-            #COQUE DE PETROLEO APAGADO 
-            #OUTROS ENERGETICOS DE PETROLEO = OUTRAS SECUNDARIAS DE PETRÓLEO 
             coeficientes = {
                 "PETROLEO" : 3.04,
                 "GAS NATURAL" : 2.34,
