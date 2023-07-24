@@ -14,35 +14,46 @@ proporcionalmente ao conjunto de políticas
 inseridas nos cenários. Os dados de entrada
 na ferramenta devem ser estudados, medidos
 ou simulados sob determinado conjunto de
-hipóteses. Essas condições podem não refletir 
-todas as combinações possíveis de configurações 
-de política que um usuário pode selecionar no
-modelo. Geralmente, o cenário BAU é o mais
-próximo das condições refletidas pelos dados de 
-entrada. Portanto, a incerteza dos efeitos da política
-é provavelmente menor quando poucas políticas
-são usadas, e quando estas são definidas com níveis
-baixos de implementação. A incerteza aumenta à
-medida que o pacote de políticas inclui um número
-maior de opções e as configurações delas se tornam
-mais extremas.
+hipóteses.
 
 - O modelo não avalia adicionalidades de
-medidas.
+medidas. O usuário pode, livremente, testar o
+impacto da inserção dos 50 instrumentos de políticas
+públicas disponíveis na ferramenta, embora muitas
+não sejam adicionais.
 
 - Caracterizar o nível de incerteza,
-numericamente, não é possível
+numericamente, não é possível.
+Limites de incerteza não foram associados aos dados
+de entrada. Portanto, não é possível estimar o
+grau de incerteza relativo aos dados de saída
+(resultados). Como alternativa, o modelo oferece
+suporte à análise de Monte Carlo, que pode medir a
+sensibilidade dos resultados a alterações nos dados
+de entrada
 
 - A ferramenta simula o impacto e não as 
-metas de políticas públicas.
+metas de políticas públicas. O EPS Brasil é 
+um modelo que permite a simulação de cenários 
+futuros, ou seja, de construção de trajetórias 
+possíveis. Contudo, esses cenários factíveis estão 
+sob a influência do operador da ferramenta do EPS 
+Brasil, o qual faz a inserção e estabelece o nível 
+de adoção de políticas.
 
 - São limitadas as opções de políticas para 
 o setor agrícola, florestas e outros usos 
-da terra.
+da terra. Na versão adaptada para o Brasil 
+não foi possível adicionar, sobretudo, políticas 
+da agricultura de baixo carbono. 
 
 - Diversas técnicas são usadas para evitar 
 dupla contagem de impacto de políticas, e 
-essas técnicas envolvem trade-offs
+essas técnicas envolvem trade-offs. Políticas 
+que alteram preços, como é o caso da taxação de 
+carbono, alteram a demanda por bens ou serviços e 
+as decisões dos compradores que procuram novos 
+equipamentos.
 
 ## FUTUROS DESENVOLVIMENTOS
 No momento, a ferramenta contempla somente dois 
@@ -79,11 +90,26 @@ transportes aéreo e marítimo, tendo em vista metas de
 redução de emissões que terão que cumprir.
 
 
-## Fontes de dados
-Podem ser afetados por limitações dos
-dados disponíveis
+## Fontes de dados úteis
+Podem ser afetados por limitações dos dados disponíveis. Mas existem algumas fontes que podemos usar no nosso projeto.
+OBS: Os dados abaixo contém apenas uma amostra dos dados totais disponíveis.
 
+| DESCRIÇÃO  | Valores específicos para o Brasil?     | Fonte de dados |
+| ---------- | ---------------------------------------| -------------- |
+| Custo social do carbono | Não | US Gov.  |
+| Custo da geração solar distribuída  | Não | NREL; EnerNex, 2015 |
+| Eficiência de conversão elétrica por combustível | Sim | Koberle et al., 2018 |
+| Importação e exportação de eletricidade | Sim | EPE; ONS |
+| Custo de substituição de combustível como fração do custo de construção | Não | Herald News; ENN |
+| Uso de água por tipo de planta | Não | PNNL |
+| Capacidade da bateria por tipo de veículo | Não | Irena; Lindon, 2016; Lambert, 2016 |
+| Capacidade total de geração solar e eólica | Não | IEA; Bloomberg, 2017a |
+| Subsídios a combustíveis no cenário BAU | Sim | Khanna et al., 2016; IISD;ODI |
+| Taxa de importação por combustíve | Sim | KPMG |
+| Potencial de captura de CO2 direta do ar | Parcialmente | Realmonte et al., 2019; IBGE |
+| Elasticidades de produção | Não | Damodaran, 2014; RFF  |
+| População | Sim | IBGE |
+
+
+## Bibliografia
 https://www.wribrasil.org.br/sites/default/files/wribrasil-nota-tecnica-eps-brasil-pt.pdf
-
-## TENTATIVA DE CONTATO
-Tentamos entrar em contato com a Gerente de Clima, mas a previsão de de reunião seria para o final de agosto, o que impossibilita a execução do cronograma do projeto.
