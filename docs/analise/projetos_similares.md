@@ -86,4 +86,4 @@ dados disponíveis
 https://www.wribrasil.org.br/sites/default/files/wribrasil-nota-tecnica-eps-brasil-pt.pdf
 
 ## TENTATIVA DE CONTATO
-Tentamos entrar em contato com a Gerente de Clima, mas a previsão de de reunião seria para o final de agosto.
+Tentamos entrar em contato com a Gerente de Clima, mas a previsão de de reunião seria para o final de agosto, o que impossibilita a execução do cronograma do projeto.
