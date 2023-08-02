@@ -16,69 +16,33 @@ if __name__ == '__main__':
                 loc = cenarios + arquivo + ".xlsx"
                 writer = pd.ExcelWriter(loc, engine="openpyxl")
                 df.drop('Unnamed: 0', axis=1, inplace=True)
-                df.drop('Unnamed: 1', axis=1, inplace=True)
-                colunas_mantidas = df.columns[:4]
+                colunas_mantidas = df.columns[:5]
                 df = df[colunas_mantidas]
-                df_pot_acumulada = df.iloc[32:43]                
-                linhas = [
-                    "Hidro",
-                    "Gas Natural",
-                    "Carvao",
-                    "Nuclear",
-                    "Oleos Comb",
-                    "Biomassa",
-                    "Eolica",
-                    "Solar",
-                    "Outros",
-                    "Pot Compl",
-                    "GD"
-                ]
+                df_pot_acumulada = df.iloc[32:43]        
                 linhas_ant = range(32,43)
-                cols = ["2015","2030","2040","2050"]
-                cols_ant = df_pot_acumulada.columns[0:4].values.tolist()
-                ren_col = {cols_ant[j]: cols[j] for j in range(len(cols_ant))}
-                ren_lin = {linhas_ant[i]: linhas[i] for i in range(len(linhas_ant))}
-                df_pot_acumulada.rename(columns=ren_col, index = ren_lin, inplace=True)
-                df_pot_acumulada = df_pot_acumulada.applymap(lambda x : int(x))
-                df_pot_acumulada.to_excel(writer,sheet_name="Potencia Acumulada - SIN (MW)")
+                cols = ["Fonte/Tecnologia", "2015","2030","2040","2050"]
+                df_pot_acumulada.iloc[:, 1:] = df_pot_acumulada.iloc[:, 1:].applymap(lambda x : int(x))
+                df_pot_acumulada.to_excel(writer,sheet_name="Potencia Acumulada - SIN (MW)", header=cols, index=False)
                 df_geracao_per_medio = df.iloc[120 : 131]
-                linhas_ant = range(120,131)
-                ren_lin = {linhas_ant[i]: linhas[i] for i in range(len(linhas_ant))}
-                df_geracao_per_medio.rename(columns=ren_col, index = ren_lin, inplace=True)
-                df_geracao_per_medio = df_geracao_per_medio.applymap(lambda x : int(x))
-                df_geracao_per_medio.to_excel(writer,sheet_name="Geracao Periodo Medio (MWMed)")
+                df_geracao_per_medio.iloc[:, 1:] = df_geracao_per_medio.iloc[:, 1:].applymap(lambda x : int(x))
+                df_geracao_per_medio.to_excel(writer,sheet_name="Geracao Periodo Medio (MWMed)", header=cols, index=False)
                 df_atendimento_a_ponta = df.iloc[154 : 165]
-                linhas_ant = range(154,165)
-                ren_lin = {linhas_ant[i]: linhas[i] for i in range(len(linhas_ant))}
-                df_atendimento_a_ponta.rename(columns=ren_col, index = ren_lin, inplace=True)
-                df_atendimento_a_ponta = df_atendimento_a_ponta.applymap(lambda x : int(x))
-                df_atendimento_a_ponta.to_excel(writer,sheet_name="Atendimento a Ponta(MW)")
+                df_atendimento_a_ponta.iloc[:, 1:] = df_atendimento_a_ponta.iloc[:, 1:].applymap(lambda x : int(x))
+                df_atendimento_a_ponta.to_excel(writer,sheet_name="Atendimento a Ponta(MW)",header=cols, index=False)
                 df_pot_incremental= df.iloc[76:87]
-                cols = ["2015","2015-2030","2031-2040","2041-2050"]
-                ren_col = {cols_ant[j]: cols[j] for j in range(len(cols_ant))}
-                linhas_ant = range(76,87)
-                ren_lin = {linhas_ant[i]: linhas[i] for i in range(len(linhas_ant))}
-                df_pot_incremental.rename(columns=ren_col, index = ren_lin, inplace=True)
-                df_pot_incremental = df_pot_incremental.applymap(lambda x : int(x))
-                df_pot_incremental.to_excel(writer,sheet_name="Potencia Incremental - SIN(MW)")
-                cols = ["2015","2030","2040","2050"]
-                linhas = ["P Medio", "P Critico", "Teto"]
-                linhas_ant = range(169, 172)
-                df_emissoes_totais = df.iloc[169 : 172]
-                ren_col = {cols_ant[j]: cols[j] for j in range(len(cols_ant))}
-                ren_lin = {linhas_ant[i]: linhas[i] for i in range(len(linhas_ant))}
-                df_emissoes_totais.rename(index=ren_lin, columns=ren_col, inplace=True)
-                df_emissoes_totais = df_emissoes_totais.applymap(lambda x : int(x))
-                df_emissoes_totais.to_excel(writer,sheet_name="Emissoes Totais (MtCO2eq)")
+                cols = ["Fonte/Tecnologia", "2015","2015-2030","2031-2040","2041-2050"]
+                df_pot_incremental.iloc[:, 1:] = df_pot_incremental.iloc[:, 1:].applymap(lambda x : int(x))
+                df_pot_incremental.to_excel(writer,sheet_name="Potencia Incremental - SIN(MW)", header=cols, index=False)
+                cols = ["Período", "2015","2030","2040","2050"]
+                df_emissoes_totais = df.iloc[169 : 171]
+                df_emissoes_totais.iloc[:, 1:] = df_emissoes_totais.iloc[:, 1:].applymap(lambda x : int(x))
+                df_emissoes_totais.to_excel(writer,sheet_name="Emissoes Totais (MtCO2eq)",  header=cols, index=False)
+                cols=["Tipo Expansão", "2015"]
                 df_custo_total = df[184:186]
-                df_custo_total.drop(df.columns[0], axis=1, inplace=True)
                 df_custo_total.drop(df.columns[2:], axis=1, inplace=True)
-                linhas_ant = range(184,186)
-                linhas = ["Expansao Centralizada", "Expansao por GD", "Total"]
-                ren_lin = {linhas_ant[i] : linhas[i] for i in range(len(linhas_ant))}
-                ren_col = {"Unnamed: 3" : "Custo"}
-                df_custo_total.rename(index=ren_lin, columns=ren_col, inplace=True)
-                df_custo_total = df_custo_total.applymap(lambda x : int(x))
-                df_custo_total.to_excel(writer,sheet_name="Custo Total (bilhões de R$)")
+                df_custo_total.iloc[:, 1:] = df_custo_total.iloc[:, 1:].applymap(lambda x : int(x))
+                df_custo_total.iloc[0, 0] = "Expansão Centralizada"
+                df_custo_total.iloc[1, 0] = "Expansão por GD"
+                df_custo_total.to_excel(writer,sheet_name="Custo Total (bilhões de R$)", index=False, header=cols)
                 writer.close()
                 break
