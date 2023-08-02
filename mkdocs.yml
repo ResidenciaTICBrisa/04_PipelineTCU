@@ -51,9 +51,12 @@ extra_css:
 nav:
   - Home: index.md
   - Cronograma: planejamento/cronograma.md
-  - Fonte de dados: fonte_dados/fonte_dados.md
+  - Análise:
+    - Projetos Similares: analise/projetos_similares.md 
   - Modelagem:
     - Requisitos: modelagem/requisitos.md
+  - Fonte de dados: fonte_dados/fonte_dados.md  
+  - Gráficos : analise/dashboards.md
   - Reuniões:
     - Reunião 1: 
       - Reunião de apresentação: reunioes/reuniao1/reuniao.md
@@ -68,7 +71,6 @@ nav:
       - Reunião: reunioes/reuniao5/reuniao.md   
     - Reunião 6:
       - Reunião: reunioes/reuniao6/reuniao.md
-  - Análise:
-    - Projetos Similares: analise/projetos_similares.md   
+
 plugins:
   - search
