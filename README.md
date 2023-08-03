@@ -18,7 +18,7 @@ OBS: o próprio MCTI tinha iniciado uma ação nesse sentido mas não sabemos a 
 levantamento de dados públicos de fontes nacionais e internacionais, arquitetura, análises e propostas de curva de custo marginal de abatimento de carbono das diversas alternativas para transição energética brasileira.
 
 
-## Colaboradores
+## 3. Colaboradores
 
 
 <table>
@@ -67,3 +67,12 @@ levantamento de dados públicos de fontes nacionais e internacionais, arquitetur
 </table>
 
 <br/> 
+
+## 4. Papéis
+| Membro | Papel |
+|--- |--- |
+| Caio Vitor | Community Manager |
+| Eduardo Gurgel | Product Manager |
+| Pedro Braga | Scrum master |
+| Ugor Costa | Líder Técnico |
+| Victório Lázaro | Devops/Arquitetura |  
