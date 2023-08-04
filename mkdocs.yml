@@ -71,6 +71,8 @@ nav:
       - Reunião: reunioes/reuniao5/reuniao.md   
     - Reunião 6:
       - Reunião: reunioes/reuniao6/reuniao.md
+    - Reunião 7:
+      - Reunião: reunioes/reuniao7/reuniao.md
 
 plugins:
   - search

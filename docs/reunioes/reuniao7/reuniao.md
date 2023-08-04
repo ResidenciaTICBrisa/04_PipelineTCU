@@ -17,7 +17,7 @@ Este indivíduo tem como competência direcionar os estudos da equipe e garimpar
 Este indivíduo tem como competência organizar, planejar e estruturar a documentação afim de transparecer o andamento do projeto com stackholders. Sua função deve ser trabalhada próxima ao product manager.
 Cabe a ele organizar o GitPage do projeto
 [04-PipelineTCU](https://residenciaticbrisa.github.io/04_PipelineTCU/) 
-- Membro Responsável: Caio Victor [@caiozim112](https://github.com/caiozim112)
+- Membro Responsável: Caio Vitor [@caiozim112](https://github.com/caiozim112)
 ### Devops/Arquitetura/Automações
 Este indivíduo tem como competência lidar com as automações que o projeto terá, decidir e organizar a arquitetura utilizada no projeto e disponibilizar o projeto ao cliente(TCU), deploy, integração, etc. 
 - Membro Responsável: Victório Lázaro [@Victor-oss](https://github.com/Victor-oss)
