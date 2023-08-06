@@ -53,6 +53,7 @@ nav:
   - Cronograma: planejamento/cronograma.md
   - Análise:
     - Projetos Similares: analise/projetos_similares.md 
+    - PNE 2050: analise/pne_2050/pne_2050.md
   - Modelagem:
     - Requisitos: modelagem/requisitos.md
   - Fonte de dados: fonte_dados/fonte_dados.md  
