@@ -48,3 +48,14 @@ Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbri
 </p>
 
 <br>
+
+## **5. Balanço de Potência Por Cenário do Plano Nacional de Energia 2050**
+
+Realizado com Dados do [Sistema de Informações Energéticas - Ministério de Minas e Energia](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/).
+
+<center> <figcaption>Figura 5: Painel TCU</figcaption> </center>
+<p align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/627b2fad-2607-4888-9cb2-7ce1d05e1420)" width="1000">
+</p>
+
+<br>
