@@ -59,7 +59,7 @@ nav:
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
   - Fonte de dados: fonte_dados/fonte_dados.md  
-  - Gráficos : analise/dashboards.md
+  - Gráficos : dashboards/dashboards.md
   - Reuniões:
     - Reunião 1: 
       - Reunião de apresentação: reunioes/reuniao1/reuniao.md
