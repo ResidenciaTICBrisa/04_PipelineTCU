@@ -57,6 +57,7 @@ nav:
   - Modelagem:
     - Requisitos: modelagem/requisitos.md
     - Protótipo: modelagem/prototipo.md
+    - Arquitetura: modelagem/arquitetura.md
   - Fonte de dados: fonte_dados/fonte_dados.md  
   - Gráficos : analise/dashboards.md
   - Reuniões:
