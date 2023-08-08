@@ -56,7 +56,7 @@ Realizado com Dados do [Sistema de Informações Energéticas - Ministério de M
 
 <center> <figcaption>Figura 5: Painel TCU</figcaption> </center>
 <p align="center">
-    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/627b2fad-2607-4888-9cb2-7ce1d05e1420)" width="1000">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/627b2fad-2607-4888-9cb2-7ce1d05e1420" width="1000">
 </p>
 
 <br>
