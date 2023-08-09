@@ -96,8 +96,9 @@ Não se Aplica.
 
 |                  Tarefa                   |      Responsáveis       |
 | :---------------------------------------: | :--------------: |
-|              Comparação SIE x SIRENE       |  Victório Lázaro, Eduardo Gurgel e Caio Victor   |
+|              Comparação SIE x SIRENE       |  Victório Lázaro, Ugor Costa e Caio Victor   |
 |              Análise curvas MACC sinapse    |  Eduardo Gurgel e Pedro Braga   |
+|              Documentação sobre IRENA,IEA,NREl   |  Caio Vitor e Victório Lázaro  |
 
 ### Objetivos da Sprint
 Analisar a base de dados SIE, SINAPSE e SIRENE.
@@ -110,7 +111,7 @@ Não possui.
 
 ### Sprint Retrospective
 Não se Aplica.
- 
+
 # Histórico de versão
 
 | Versão |    Data    |                       Descrição                       |      Autor       |

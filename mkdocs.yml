@@ -50,10 +50,7 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Cronograma: 
-    - Cronograma Geral: planejamento/cronograma.md
-    - Etapa 1: planejamento/etapa1/etapa1.md
-    - Etapa 2: planejamento/etapa2/etapa2.md
+  - Cronograma Geral: cronograma/cronograma.md
   - Análise:
     - Projetos Similares: analise/projetos_similares.md 
     - PNE 2050: analise/pne_2050/pne_2050.md
@@ -63,22 +60,29 @@ nav:
     - Arquitetura: modelagem/arquitetura.md
   - Fonte de dados: fonte_dados/fonte_dados.md  
   - Gráficos : dashboards/dashboards.md
-  - Reuniões:
-    - Reunião 1: 
-      - Reunião de apresentação: reunioes/reuniao1/reuniao.md
-    - Reunião 2: 
-      - Reunião regras de negócio: reunioes/reuniao2/reuniao.md
-      - Acompanhamento projeto: reunioes/reuniao2/acompanhamento.md
-    - Reunião 3:
-      - Reunião: reunioes/reuniao3/reuniao.md
-    - Reunião 4:
-      - Reunião: reunioes/reuniao4/reuniao.md      
-    - Reunião 5:
-      - Reunião: reunioes/reuniao5/reuniao.md   
-    - Reunião 6:
-      - Reunião: reunioes/reuniao6/reuniao.md
-    - Reunião 7:
-      - Reunião: reunioes/reuniao7/reuniao.md
+  - Comunicação:
+    - Rituais da Equipe: comunicacao/documentacao_sprints/rituais_da_equipe.md
+    - Documentação das Sprints: 
+      - Etapa 1: comunicacao/documentacao_sprints/etapa1/etapa1.md
+      - Etapa 2: comunicacao/documentacao_sprints/etapa2/etapa2.md
+    - Relatorio de Reuniões:
+      - Reunião 1: 
+        - Reunião de apresentação: comunicacao/reunioes/reuniao1/reuniao.md
+      - Reunião 2: 
+        - Reunião regras de negócio: comunicacao/reunioes/reuniao2/reuniao.md
+        - Acompanhamento projeto: comunicacao/reunioes/reuniao2/acompanhamento.md
+      - Reunião 3:
+        - Reunião: comunicacao/reunioes/reuniao3/reuniao.md
+      - Reunião 4:
+        - Reunião: comunicacao/reunioes/reuniao4/reuniao.md      
+      - Reunião 5:
+        - Reunião: comunicacao/reunioes/reuniao5/reuniao.md   
+      - Reunião 6:
+        - Reunião: comunicacao/reunioes/reuniao6/reuniao.md
+      - Reunião 7:
+        - Reunião: comunicacao/reunioes/reuniao7/reuniao.md
+    
+
 
 plugins:
   - search
