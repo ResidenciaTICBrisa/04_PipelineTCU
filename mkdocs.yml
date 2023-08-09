@@ -50,7 +50,10 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Cronograma: planejamento/cronograma.md
+  - Cronograma: 
+    - Cronograma Geral: planejamento/cronograma.md
+    - Etapa 1: planejamento/etapa1/etapa1.md
+    - Etapa 2: planejamento/etapa2/etapa2.md
   - Análise:
     - Projetos Similares: analise/projetos_similares.md 
     - PNE 2050: analise/pne_2050/pne_2050.md
