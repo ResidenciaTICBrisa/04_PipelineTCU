@@ -60,3 +60,17 @@ Realizado com Dados do [Sistema de Informações Energéticas - Ministério de M
 </p>
 
 <br>
+
+## **6. Participação por setor na matriz energética brasileira e mundial**
+
+Realizados com Dados do [Energy Statistics Data Browser - IEA](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=BRAZIL&energy=Renewables%20%26%20waste&year=1990).
+
+<center> <figcaption>Figura 6: Participação por setor na matriz energética brasileira</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/5e3f3209-30ce-4b41-a75b-e761aa9e806e" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 7: Participação por setor na matriz energética mundial</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/4502bfa8-fd7a-4881-a88f-c39d9d1e7fe5" width="1000"/>
+</div>
