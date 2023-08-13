@@ -51,6 +51,7 @@ extra_css:
 nav:
   - Home: index.md
   - Cronograma Geral: cronograma/cronograma.md
+  - Roadmap: cronograma/roadmap.md
   - Análise:
     - Projetos Similares: analise/projetos_similares.md 
     - PNE 2050: analise/pne_2050/pne_2050.md
