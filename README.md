@@ -1,17 +1,14 @@
 # Pipeline de Dados
 Pipeline de dados e análises para modelagem de curvas de custo de marginal de abatimento do carbono das diversas alternativas do setor energético brasileiro para fins de suportar avaliação de custo-efetividade de políticas de transição energética do país.
 
-**Habilidades necessárias/preferenciais:** conhecimento em python
-
 **Mentores:** Aline, TCU
-
-**Tamanho do projeto:** Médio/Grande
-
-**Dificuldade:** Grande
 
 
 ## 1. Sobre o projeto
-OBS: o próprio MCTI tinha iniciado uma ação nesse sentido mas não sabemos a evolução ou se foi atualizada [https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/clima/opcoes_mitigacao/paginas/potenciais_custos_abatimento_setoriais.html](https://antigo.mctic.gov.br/mctic/opencms/ciencia/SEPED/clima/opcoes_mitigacao/paginas/potenciais_custos_abatimento_setoriais.html). Acredito que com o apoio dos professores dos laboratórios de software e energia poderíamos ter um resultado legal que nos apoiasse em nossas análises.
+O pipeline de dados é um projeto que tem o objetivo de reunir fontes de dados em um painel centralizado e eficiente, possibilitando a coleta, processamento e transformação de informações de diversas origens.
+No contexto da transição energética brasileira, o pipeline de dados desempenha um papel fundamental, à medida que o Brasil se compromete com a transformação de sua matriz energética até o ano de 2050, surge a necessidade de monitorar, analisar e tomar decisões informadas se torna ainda mais crucial.
+Esse projeto pode ser utilizado para modelar diferentes cenários de transição energética, levando em consideração variáveis como investimentos em infraestrutura, impactos ambientais e socioeconômicos. Essa análise abrangente auxilia na formulação de estratégias políticas e na definição de metas realistas para alcançar os objetivos da transição até 2050.
+
 
 ## 2. Resultados Esperados
 
