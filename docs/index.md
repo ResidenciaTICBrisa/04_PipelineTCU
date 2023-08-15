@@ -14,7 +14,11 @@ Esse projeto pode ser utilizado para modelar diferentes cenários de transição
 
 levantamento de dados públicos de fontes nacionais e internacionais, arquitetura, análises e propostas de curva de custo marginal de abatimento de carbono das diversas alternativas para transição energética brasileira, de forma a auxiliar a auditoria do processo, realizado pelo MCTI e MME, pelo TCU.
 
-## 3.Tecnologias
+## 3. Estrutura do Projeto
+
+- A documentação do Projeto foi contruido utilizando o Github Pages e estruturada para seguir o modelo de atas, que documentam o projeto em sua respectiva etapas.
+
+## 4. Tecnologias
 
 | | Ferramenta | Finalidade |
 | :------: | :----------: | :---------------------------------------------------: |
@@ -22,24 +26,39 @@ levantamento de dados públicos de fontes nacionais e internacionais, arquitetur
 | <img src="https://user-images.githubusercontent.com/49570180/152992930-c5d81a68-9079-4aa7-8ae0-5d396bb4f7b3.png" width="250" title="Teams">| Microsoft Teams | Reunião da equipe para gravar as apresentações |
 | <img src="https://user-images.githubusercontent.com/49933115/139837223-bf23d3a9-4638-4e17-994a-ac8678d5f517.png" width="100" title="Telegram">| Telegram | Utilização de grupo para comunicação entre os integrantes da equipe |
 |<img src="https://user-images.githubusercontent.com/71900095/189494621-28704ee5-61c6-45b5-87b1-bb5ffa2d7301.png" height= 70 width=70> | Excel| Aplicativo para disponibilização dos horários disponíveis de cada integrante. |
-|<img src="https://user-images.githubusercontent.com/54439337/178488789-69ddaafc-2d25-4d76-b780-3a90bda82ee6.png" height= 60 width=60> | MkDocs| Site para a documentação do projeto. |
-|<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/83dba75c-712f-4348-aff3-bf3142b5a895" height= 60 width=60> | PowerBI | Ferramenta para exibição de gráficos e tabelas |
-|<img src="https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma" height= 60 width=60> | Figma | Ferramenta para prototipagem, elaboração de roadmaps e backlog. |
+ <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/6eb51389-b2eb-45aa-99b2-0f32613e3739" width="100" title="Power Automate">| Power Automate | Automatização de tarefas 
+|<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/83dba75c-712f-4348-aff3-bf3142b5a895" height= 40 width=40> | PowerBI | Ferramenta para exibição de gráficos e tabelas |
+|<img src="https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma" height= 40 width=40s> | Figma | Ferramenta para prototipagem, elaboração de roadmaps e backlog. |
 |<img src="https://raw.githubusercontent.com/Interacao-Humano-Computador/2022.1-Millenium-Papelaria/15adf26be163cb9b95a5d6cbaee79fc034a506ab/docs/images/ferramentas/vscode.svg" height= 90 width=90> | Visual Studio Code | Edição dos artefatos |
-|<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/6106306c-ba04-4fc2-a5d6-9321911d0293" height= 90 width=90> | NumPy | Biblioteca para a linguagem Python, que suporta o processamento de grandes, multi-dimensionais arranjos e matrizes, juntamente com uma grande coleção de funções matemáticas de alto nível para operar sobre estas matrizes. |
-|<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/8578b855-13b8-4302-9aef-964b98dfaad4" height= 90 width=90> | Pandas | Biblioteca para a linguagem Python para manipulação e análise de dados |
 
 
-## 4.Contribuindo com o Projeto
+## 5. Visualização do PowerBi e Fontes de Dados
 
-## Clonando o Projeto
+Por Questões de Permissão disponíveis apenas para membros da organização "@unb.br"
+
+[Visualização](https://unbbr.sharepoint.com/sites/PipelineTCU)
+
+
+## 6. Rodando o Projeto
+
+### Clonando o Projeto
 
 ```bash
 $ git clone https://github.com/ResidenciaTICBrisa/04_PipelineTCU.git
 $ cd 04_PipelineTCU
 ```
 
-## 4. Colaboradores
+### Instalando o Python
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+### Rodando os scripts em Python
+```bash
+$ python3 "nome_do_arquivo".py
+```
+
+## 7. Colaboradores
 
 <table>
   <tr>
@@ -87,7 +106,7 @@ $ cd 04_PipelineTCU
 
 <br/> 
 
-## 6. Papéis
+## 8. Papéis
 | Membro | Papel |
 |--- |--- |
 | Caio Vitor | Community Manager |
