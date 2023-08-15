@@ -13,6 +13,8 @@
 |   3   |        Relatório/Apresentação Final         |                                              <p style="text-align: justify;">Criação do Relatório que será apresentado ao final do Projeto </p>                                              |  27/10  |    27/11     |
 <figcaption align="center">Tabela 1 - Cronograma geral da equipe.</figcaption>
 
+**OBS:** A Respectiva Etapas das sprints estão documentadas na ata de [Comunicação](https://residenciaticbrisa.github.io/04_PipelineTCU/comunicacao/documentacao_sprints/etapa1/etapa1/)
+
 ## Histórico de versão
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
