@@ -21,7 +21,7 @@ O perfil do usuário ajuda a equipe de desenvolvimento a compreender quem são o
 <div align="center">
 
 <figcaption align='center'>
-    <b>Figura 1: João Oliveira (persona-primária).</b>
+    <b>Figura 1: João Oliveira (persona primária).</b>
     <br><small>Fonte: <a href='https://this-person-does-not-exist.com/en'>Thispersondoesnotexist</a> </small>
 </figcaption>
 </div>
@@ -31,9 +31,62 @@ O perfil do usuário ajuda a equipe de desenvolvimento a compreender quem são o
 |        Informação       |  Persona   |
 | :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nome**            | João Oliveira.    |
-| **Idade**            |          29 Anos.     | 
+| **Idade**            |          35 Anos.     | 
 | **Gênero**       | Masculino.      |
 | **Localidade**            |        Brasília, DF, Brasil.       |   
-| **Profissão**       | Analista de TI     |
-| **Característica**            |      Solteiro, interessado em tecnologia e inovação        |    
-| **Necessidades**            |        Busca por ferramentas e aplicativos que facilitem a gestão de projetos e a colaboração com a equipe, gosta de recursos que otimizem o fluxo de trabalho e possibilitem o trabalho remoto.        |    
+| **Profissão**       | Pesquisador em Energias Renováveis     |
+| **Característica**            |      Mestrado em Engenharia Elétrica, trabalha em instituição de pesquisa   |    
+| **Necessidades**            |        Acesso a dados detalhados e atualizados sobre a transição energética, busca por gráficos, estatísticas e análises aprofundadas para suas pesquisas e relatórios acadêmicos.       |    
+
+### Maria Silva (Persona Secundária)
+
+<div align="center">
+<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/17206780-46e0-411a-b462-b53b411464ee" width="300" height="300">
+</div>
+
+<div align="center">
+
+<figcaption align='center'>
+    <b>Figura 1: Maria Silva (persona secundária).</b>
+    <br><small>Fonte: <a href='https://this-person-does-not-exist.com/en'>Thispersondoesnotexist</a> </small>
+</figcaption>
+</div>
+
+<br>
+
+|        Informação       |  Persona   |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nome**            | Maria Silva    |
+| **Idade**            |          28 Anos.     | 
+| **Gênero**       | Feminino.      |
+| **Localidade**            |        São Paulo, SP, Brasil.       |   
+| **Profissão**       | Jornalista Especializada em Meio Ambiente     |
+| **Característica**            |      Escreve para revistas e portais de notícias        |    
+| **Necessidades**            |        Acesso a dados confiáveis e atualizados sobre a transição energética para embasar suas matérias, busca por informações que possam ser comunicadas de forma clara ao público.        |    
+
+### Carlos Souza (Antipersona)
+
+<div align="center">
+<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/9aaa42ee-f40f-4bb3-a873-a38fe19e53e9" width="300" height="300">
+</div>
+
+<div align="center">
+
+<figcaption align='center'>
+    <b>Figura 1: Carlos Souza (Antipersona).</b>
+    <br><small>Fonte: <a href='https://this-person-does-not-exist.com/en'>Thispersondoesnotexist</a> </small>
+</figcaption>
+</div>
+
+<br>
+
+|        Informação       |  Persona   |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nome**            | Carlos Souza    |
+| **Idade**            |          50 Anos.     | 
+| **Gênero**       | Masculino.      |
+| **Localidade**            |        Rio de Janeiro, RJ, Brasil.       |   
+| **Profissão**       | Empresário do Setor de Combustíveis Fósseis     |
+| **Característica**            |      Cético em relação às energias renováveis        |    
+| **Motivação**            |        Não acredita nos benefícios da transição energética, não tem interesse em informações que promovam energias alternativas.       |    
+
