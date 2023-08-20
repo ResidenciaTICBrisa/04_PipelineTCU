@@ -22,7 +22,6 @@ levantamento de dados públicos de fontes nacionais e internacionais, arquitetur
 
 | | Ferramenta | Finalidade |
 | :------: | :----------: | :---------------------------------------------------: |
-| <img src="https://user-images.githubusercontent.com/49570180/152992872-979c7996-a495-410e-bdc9-71509b246191.png" width="250" title="Github">| GitHub | Hospedagem do repositório para o projeto |
 | <img src="https://user-images.githubusercontent.com/49570180/152992930-c5d81a68-9079-4aa7-8ae0-5d396bb4f7b3.png" width="250" title="Teams">| Microsoft Teams | Reunião da equipe para gravar as apresentações |
 | <img src="https://user-images.githubusercontent.com/49933115/139837223-bf23d3a9-4638-4e17-994a-ac8678d5f517.png" width="100" title="Telegram">| Telegram | Utilização de grupo para comunicação entre os integrantes da equipe |
 |<img src="https://user-images.githubusercontent.com/71900095/189494621-28704ee5-61c6-45b5-87b1-bb5ffa2d7301.png" height= 70 width=70> | Excel| Aplicativo para disponibilização dos horários disponíveis de cada integrante. |
