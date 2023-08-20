@@ -57,6 +57,8 @@ nav:
     - PNE 2050: analise/pne_2050/pne_2050.md
     - IRENA, IEA e NREL: analise/IRENA_IEA_NREL/irena_iea_nrel.md
   - Modelagem:
+    - Modelagem Ágil:
+      - Backlog do Produto: modelagem/agil/backlog.md
     - Requisitos: modelagem/requisitos.md
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
