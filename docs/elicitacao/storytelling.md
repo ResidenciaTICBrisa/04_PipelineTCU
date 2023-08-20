@@ -30,7 +30,7 @@ Com base nas histórias criadas usando a técnica de storytelling, foi possível
 | ST03   |  O usuário deveria poder visualizar a fonte de dados de cada gráfico                                           | RF            |
 | ST04   |  A dashboard deveria ser compatível com dispositivos móveis                                                           | RNF            |
 | ST05   |  O sistema deve ser simples e intuitivo | RNF           |
-| ST06   |  O usúario deve poder visualizar os dados de Consumo de Gás Natural do Brasil                                | RF            |
+| ST06   |  O usuário deve poder visualizar os dados de Consumo de Gás Natural do Brasil                                | RF            |
 | ST07   | Ser capaz de funcionar sem internet                                          | RNF           |
 <center>
 <p align="center"> Tabela 1: Requisitos elicitados </p>
