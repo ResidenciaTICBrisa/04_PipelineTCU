@@ -41,3 +41,31 @@ Foi utilizada a metodologia 5W2H (Tabela 1) é uma técnica de gerenciamento e p
 | Where(Onde):  | 5. Você pretende usar apenas no local de trabalho para visualizar os dados, ou também em outro local, em casa?                                                                       |
 | When(Quando): | 6. Quando você pretende usar a dashboard? Somente no horário de trabalho ou outro horário?                                                                 |
 | How(Como):    | 7. A partir do protótipo apresentado, como a dashboardo poderia ser melhorada? Você tem alguma sugestão de aprimoramento? |
+
+## Requisitos elicitados
+
+### Legenda
+
+- ENT: Entrevista
+- RF: Requisito funcional
+- RNF: Requisito não funcional
+
+| Identificador | Requisito                                                                                                                                                                | Tipo |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| ENT01         | Visualizar os dados de Potência Acumulada do Brasil e do Mundo                                                                                 | RF  |
+| ENT02         | Visualizar os dados de Geração Período Médio do Brasil                                                                            | RF   |
+| ENT03         | Visualizar os dados de Custo de Operação do Brasil e do Mundo                                                                                  | RF   |
+| ENT04         | Visualizar a fonte de dados de cada gráfico                                                                      | RF   |
+| ENT05         | Filtrar os dados atualizados de empregabilidade por fonte/tecnologia                                                             | RF   |
+| ENT06         | Filtrar os dados atualizados da matriz energética do Brasil                                                                      | RF  |
+| ENT07         | Filtrar uma matriz energética e verificar seu nível de emissões                                                         | RF  |
+| ENT08         | Filtrar a fonte de dados de cada gráfico                                                                            | RF  |
+| ENT09         | Simular diferentes cenários de demanda, para avaliar seu impacto nas projeções de emissão | RF  |
+| ENT10         | Comparar dados de Emissões Equivalentes de CO2 do Brasil e do mundo | RF  |
+| ENT11         | Comparar dados de Custo de Operação do Brasil e do Mundo | RF  |
+| ENT12         | Comparar dados de Consumo de Gás Natural do Brasil e do Mundo | RF  |
+| ENT13         | Comparar dados atualizados de empregabilidade | RF  |
+
+
+
+
