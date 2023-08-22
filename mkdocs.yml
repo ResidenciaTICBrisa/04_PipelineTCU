@@ -62,6 +62,7 @@ nav:
       - Entrevista: elicitacao/entrevista.md
       - Personas: elicitacao/personas.md
       - Storytelling: elicitacao/storytelling.md
+      - lexico: elicitacao/lexico.md
     - Priorização: 
       - MoScoW: elicitacao/priorizacao/MoScoW.md
   - Modelagem:
