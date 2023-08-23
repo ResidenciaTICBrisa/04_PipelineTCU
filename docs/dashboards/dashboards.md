@@ -1,7 +1,7 @@
 # Dashboard
 
 ## Introdução
-Neste documento, apresentaremos as Dashboards criadas com a utilização das nossas [fontes de dados](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/).
+Neste documento, apresentaremos as Dashboards criadas com a utilização das nossas [fontes de dados](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/). Também é disponibilizado o [Repositorio](https://unbbr.sharepoint.com/sites/PipelineTCU), nele é possível vê as planilhas na qual extraimos os dados e o arquivo do PowerBi, mas o acesso é permitido somente a usuários que tenham o e-mail **@aluno.unb.br**.
 
 ## **Painel**
 Este é o modelo do painel que será usado para manipular os indicadores.
@@ -22,9 +22,6 @@ Realizado com Dados do [Renewable Energy and Jobs](https://residenciaticbrisa.gi
     <summary>Empregabilidade - Irena</summary>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTgU2WuDuOo-rk41N39lqMxxgxVZTR-K4bKt0vWdxrlaSH-jxhORXMJ_iQlUwOSIQ/pubhtml?widget=true&amp;headers=false" width="100%" height="1000" frameborder="1" scrolling="no"></iframe>
 </details>
-
-
-PowerBi Disponivel em: [Drive](https://drive.google.com/file/d/1jDSFuuBJZqCEM3SryLED5jtH9mQ9QWjY/view?usp=drive_link)
 
 <center> <figcaption>Figura 2: Apresentação da Dash de Empregabilidade  </figcaption> </center>
 <p align="center">
