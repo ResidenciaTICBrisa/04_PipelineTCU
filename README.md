@@ -3,42 +3,91 @@ Pipeline de dados e análises para modelagem de curvas de custo de marginal de a
 
 **Mentores:** Aline, TCU
 
+## Painel
 
-## 1. Sobre o projeto
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
+
+https://github.com/EduardoGurgel/data_structure/assets/51385738/847df4b2-c59b-4ba2-a411-abce5dd62d5a
+
+## Sobre o projeto
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
 O pipeline de dados é um projeto que tem o objetivo de reunir fontes de dados em um painel centralizado e eficiente, possibilitando a coleta, processamento e transformação de informações de diversas origens.
 No contexto da transição energética brasileira, o pipeline de dados desempenha um papel fundamental, à medida que o Brasil se compromete com a transformação de sua matriz energética até o ano de 2050, surge a necessidade de monitorar, analisar e tomar decisões informadas se torna ainda mais crucial.
 Esse projeto pode ser utilizado para modelar diferentes cenários de transição energética, levando em consideração variáveis como investimentos em infraestrutura, impactos ambientais e socioeconômicos. Essa análise abrangente auxilia na formulação de estratégias políticas e na definição de metas realistas para alcançar os objetivos da transição até 2050.
 
+- [Elicitação](https://residenciaticbrisa.github.io/04_PipelineTCU/elicitacao/brainstorming/)
+- [Fonte de dados](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/)
+- [Planejamento](https://residenciaticbrisa.github.io/04_PipelineTCU/comunicacao/documentacao_sprints/rituais_da_equipe/)
+- [Backlog](https://residenciaticbrisa.github.io/04_PipelineTCU/modelagem/agil/backlog/)
+- [Roadmap](https://github.com/orgs/ResidenciaTICBrisa/projects/5/views/1?layout=roadmap)
 
-## 2. Resultados Esperados
+
+## Resultados Esperados
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
 
 levantamento de dados públicos de fontes nacionais e internacionais, arquitetura, análises e propostas de curva de custo marginal de abatimento de carbono das diversas alternativas para transição energética brasileira, de forma a auxiliar a auditoria do processo, realizado pelo MCTI e MME, pelo TCU.
 
-## 3. Estrutura do Projeto
+## BRISA 
 
-- A documentação do Projeto foi contruido utilizando o Github Pages e estruturada para seguir o modelo de atas, que documentam o projeto em sua respectiva etapas.
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
-## 4. Tecnologias
+A [BRISA](https://residenciaticbrisa.github.io/landing_page/) Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.
 
-| | Ferramenta | Finalidade |
-| :------: | :----------: | :---------------------------------------------------: |
-| <img src="https://user-images.githubusercontent.com/49570180/152992930-c5d81a68-9079-4aa7-8ae0-5d396bb4f7b3.png" width="250" title="Teams">| Microsoft Teams | Reunião da equipe para gravar as apresentações |
-| <img src="https://user-images.githubusercontent.com/49933115/139837223-bf23d3a9-4638-4e17-994a-ac8678d5f517.png" width="100" title="Telegram">| Telegram | Utilização de grupo para comunicação entre os integrantes da equipe |
-|<img src="https://user-images.githubusercontent.com/71900095/189494621-28704ee5-61c6-45b5-87b1-bb5ffa2d7301.png" height= 70 width=70> | Excel| Aplicativo para disponibilização dos horários disponíveis de cada integrante. |
- <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/6eb51389-b2eb-45aa-99b2-0f32613e3739" width="100" title="Power Automate">| Power Automate | Automatização de tarefas 
-|<img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/83dba75c-712f-4348-aff3-bf3142b5a895" height= 40 width=40> | PowerBI | Ferramenta para exibição de gráficos e tabelas |
-|<img src="https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma" height= 40 width=40s> | Figma | Ferramenta para prototipagem, elaboração de roadmaps e backlog. |
-|<img src="https://raw.githubusercontent.com/Interacao-Humano-Computador/2022.1-Millenium-Papelaria/15adf26be163cb9b95a5d6cbaee79fc034a506ab/docs/images/ferramentas/vscode.svg" height= 90 width=90> | Visual Studio Code | Edição dos artefatos |
+## Tecnologias
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
+<table border="0">
+  <tr>
+      <td>
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/c2897c0d-54fe-428c-a2dd-a2ee7c3e9671" title="Power Automate" height= 80 width=80 style="max-height:80px; width:auto; display:block;">
+      </a>
+    </td>
+    <td>
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/981504c2-dfaf-4d75-ad48-bedcb0f772ee" height= 60 width=60 style="max-height: 80px; width:auto; display:block;">
+      </a>
+    </td>
+    <td>
+       <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/326b2a14-099d-4e6a-a59f-21a5a5c3422c" title="SQL Server" height= 80 width=100 style="max-height:60px; width:auto; display:block;">
+      </a>
+    </td>
+    <td>
+        <img src="https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma" height= 70 width=70 style="max-height:80px; width:auto; display:block;">
+      </a>
+    </td>
+
+    
+  </tr>
+  <tr>
+    <td>Power Automate</td>
+    <td>Power Bi</td>
+    <td>SQL Server</td>
+    <td>Figma</td>
 
 
-## 5. Visualização do PowerBi e Fontes de Dados
+  </tr>
+</table>
+
+
+## Visualização do PowerBi e Fontes de Dados
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 Por Questões de Permissão disponíveis apenas para membros da organização "@unb.br"
 
-[Visualização](https://unbbr.sharepoint.com/sites/PipelineTCU)
+[Página no Share Point](https://unbbr.sharepoint.com/sites/PipelineTCU)
+
+[Clique aqui para acessar o painel](https://drive.google.com/file/d/1GkT2vzb7Aa4fCflqmGPYc0y59eIjPEYT/view?usp=sharing)
 
 
-## 6. Rodando o Projeto
+## Rodando o Projeto
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 ### Clonando o Projeto
 
@@ -49,15 +98,17 @@ $ cd 04_PipelineTCU
 
 ### Instalando o Python
 
-[https://git-scm.com/downloads](https://git-scm.com/downloads)
+[Python Download](https://www.python.org/downloads/)
 
 
 ### Rodando os scripts em Python
 ```bash
-$ python3 "nome_do_arquivo".py
+$ python3 dashboard.py
 ```
 
-## 7. Colaboradores
+## Colaboradores
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 <table>
   <tr>
@@ -105,11 +156,8 @@ $ python3 "nome_do_arquivo".py
 
 <br/> 
 
-## 8. Papéis
-| Membro | Papel |
-|--- |--- |
-| Caio Vitor | Community Manager |
-| Eduardo Gurgel | Product Manager |
-| Pedro Braga | Scrum master |
-| Ugor Costa | Líder Técnico |
-| Victório Lázaro | Devops/Arquitetura |  
+## Licença
+
+<img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
+
+[MIT](./LICENSE)
