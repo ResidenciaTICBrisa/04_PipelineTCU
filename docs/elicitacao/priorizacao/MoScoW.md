@@ -23,13 +23,13 @@ O método de priorização de MoSCoW é uma técnica utilizada em gerenciamento 
 
 | Tipo  |                         Requisito                          |  Elicitação  |
 | :---: | :--------------------------------------------------------: | :----------: |
-| RF01  |            O usúario deve poder visualizar dados de Potência Acumulada do Brasil              | [Questionário](../questionario.md) |
-| RF02  |            O usúario deve poder visualizar os dados de Balanço de Potência do Brasil            | [Brainstorming](../../elicitacao/brainstorming.md) |
+| RF01  |            O usúario deve poder visualizar dados de Potência Acumulada do Brasil              | [Entrevista](../entrevista.md) |
+| RF02  |            O usúario deve poder visualizar os dados de Balanço de Potência do Brasil            | [Entrevista](../entrevista.md) |
 | RF03  |          O usúario deve poder visualizar os dados de Emissões Equivalentes de CO2 do Brasil          | [Storytelling](../../elicitacao/storytelling.md)|
-| RF04  |           O usúario deve poder visualizar os dados de Consumo de Gás Natural do Brasil            | [Brainstorming](../../elicitacao/brainstorming.md)|
-| RF05  |             O usúario deve poder visualizar os dados de Custo de Operação do Brasil             | [Questionário](../questionario.md) |
-| RF06  |    O usúario deve poder filtrar os dados atualizados de empregabilidade por fonte/tecnologia    | [Questionário](../questionario.md) |
-| RNF07 |           O sistema deve ser simples e intuitivo           | [Questionário](../questionario.md) |
+| RF04  |           O usúario deve poder visualizar os dados de Consumo de Gás Natural do Brasil            | [Entrevista](../entrevista.md)|
+| RF05  |             O usúario deve poder visualizar os dados de Custo de Operação do Brasil             | [Entrevista](../entrevista.md) |
+| RF06  |    O usúario deve poder filtrar os dados atualizados de empregabilidade por fonte/tecnologia    | [Storytelling](../../elicitacao/storytelling.md) |
+| RNF07 |           O sistema deve ser simples e intuitivo           | [Storytelling](../../elicitacao/storytelling.md) |
 | RF08  |           O usuário deve poder sincronizar dados          |  [Entrevista](../entrevista.md) |
 | RF09  |     O usuário deve poder filtrar os dados atualizados da matriz energética do Brasil     |  [Entrevista](../entrevista.md) |
 
@@ -40,7 +40,7 @@ O método de priorização de MoSCoW é uma técnica utilizada em gerenciamento 
 | RF12  |      O usuário deveria poder visualizar a fonte de dados de cada gráfico      |  [Entrevista](../entrevista.md) |
 | RNF13 |         O sistema deveria exportar a dashboard em excel         | [Storytelling](../../elicitacao/storytelling.md)|
 | RNF14 |       O usuário deveria poder acessar a dashboard sem internet       | [Entrevista](../../elicitacao/entrevista.md)|
-| RF15  |     O usuário deveria poder pesquisar pelos seus gráficos      | [Questionário](../questionario.md) |
+| RF15  |     O usuário deveria poder pesquisar pelos seus gráficos      | [Entrevista](../entrevista.md) |
 | RNF16 |  A dashboard deveria ser compatível com dispositivos móveis  |  [Entrevista](../entrevista.md) |
 | RF18  |     O usuário deveria poder definir cores para suas dashboards      |  [Entrevista](../entrevista.md) |
 

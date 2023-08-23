@@ -7,7 +7,8 @@ Pipeline de dados e análises para modelagem de curvas de custo de marginal de a
 
 <img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
-<video src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/0aab5529-966e-4360-b42b-a8e1828e5334" autoplay> </video>
+
+https://github.com/EduardoGurgel/data_structure/assets/51385738/847df4b2-c59b-4ba2-a411-abce5dd62d5a
 
 ## Sobre o projeto
 
@@ -44,15 +45,15 @@ A [BRISA](https://residenciaticbrisa.github.io/landing_page/) Sociedade para o D
 <table border="0">
   <tr>
       <td>
-        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/c2897c0d-54fe-428c-a2dd-a2ee7c3e9671" title="Power Automate" style="max-height:80px; width:auto; display:block;">
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/c2897c0d-54fe-428c-a2dd-a2ee7c3e9671" title="Power Automate" height= 80 width=80 style="max-height:80px; width:auto; display:block;">
       </a>
     </td>
     <td>
-        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/981504c2-dfaf-4d75-ad48-bedcb0f772ee" height= 40 width=40 style="max-height: 80px; width:auto; display:block;">
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/981504c2-dfaf-4d75-ad48-bedcb0f772ee" height= 60 width=60 style="max-height: 80px; width:auto; display:block;">
       </a>
     </td>
     <td>
-       <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/326b2a14-099d-4e6a-a59f-21a5a5c3422c" title="Teams" style="max-height:60px; width:auto; display:block;">
+       <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/326b2a14-099d-4e6a-a59f-21a5a5c3422c" title="SQL Server" height= 80 width=100 style="max-height:60px; width:auto; display:block;">
       </a>
     </td>
     <td>
