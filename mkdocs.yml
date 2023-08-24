@@ -52,7 +52,8 @@ nav:
   - Home: index.md
   - Cronograma Geral: cronograma/cronograma.md
   - Roadmap: cronograma/roadmap.md
-  - Análise:
+  - Pré-rastreabilidade:
+    - Rich Picture: analise/rich_picture.md
     - Projetos Similares: analise/projetos_similares.md 
     - PNE 2050: analise/pne_2050/pne_2050.md
     - IRENA, IEA e NREL: analise/IRENA_IEA_NREL/irena_iea_nrel.md
@@ -83,6 +84,7 @@ nav:
       - Sprint 6: comunicacao/documentacao_sprints/sprint6.md
       - Sprint 7: comunicacao/documentacao_sprints/sprint7.md
       - Sprint 8: comunicacao/documentacao_sprints/sprint8.md
+      - Sprint 9: comunicacao/documentacao_sprints/sprint9.md
 
     - Relatorio de Reuniões:
       - Reunião 1: 
