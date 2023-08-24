@@ -22,14 +22,12 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 
 |Cenário|Descrição|
 |:---|:---|
-|Título|Visualizar Balanço Energético|
-|Objetivo|Permitir que os usuários Visualizar Balanço Energético.|
-|Contexto|Local: Entrar a primeira vez no aplicativo. <br/> Pré-condição: Ter o app instalado, ter tirado o título de eleitor físico. <br/> Pós-condição: Usuário realiza a inscrição.|
-|Atores|Usuário votante que deseja utilizar o aplicativo.|
-|Recursos|Conexão de internet, aplicativo instalado, informações do título de eleitor físico.|
-|Episódios|Usuário entra pela primeira vez no aplicativo. <br/> Usuário informa o nome completo, a data de nascimento, o número de inscrição do título de eleitor, o nome do pai e da mãe.|
-|Exceção|Internet cair. <br/> Número de inscrição do título de eleitor inválido. <br/> Não possuir Título de Eleitor. |
-
+|Título| Visualizar Balanço Energético|
+|Objetivo|Permitir que os usuários visualizem o Balanço Energético|
+|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário consulta fontes e tecnologias.|
+|Recursos|Conexão de internet, aplicativo instalado|
+|Episódios|Usuário entra no aplicativo <br/> Usuário visualiza o Balanço Energético <br/> Usuário visualiza os cénarios do balanço energético|
+|Exceção| Dados inexistente |
 <figcaption>Tabela 1 - Descrição das características do Cenário 01</figcaption>
 
 </center>
@@ -42,11 +40,10 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |:---|:---|
 |Título|Consultar Fontes e Tecnologias|
 |Objetivo|Permitir que os usuários consultem Fontes e Tecnologias.|
-|Contexto|Local: Entrar a primeira vez no aplicativo. <br/> Pré-condição: Ter o app instalado, ter tirado o título de eleitor físico. <br/> Pós-condição: Usuário realiza a inscrição.|
-|Atores|Usuário votante que deseja utilizar o aplicativo.|
-|Recursos|Conexão de internet, aplicativo instalado, informações do título de eleitor físico.|
-|Episódios|Usuário entra pela primeira vez no aplicativo. <br/> Usuário informa o nome completo, a data de nascimento, o número de inscrição do título de eleitor, o nome do pai e da mãe.|
-|Exceção|Internet cair. <br/> Número de inscrição do título de eleitor inválido. <br/> Não possuir Título de Eleitor. |
+|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário consulta fontes e tecnologias.|
+|Recursos|Conexão de internet, aplicativo instalado|
+|Episódios|Usuário entra no aplicativo <br/> Usuário seleciona as fontes e tecnologias <br/> Usuário visualiza a fonte de determinada tecnologia|
+|Exceção| Dados inexistente |
 
 <figcaption>Tabela 2 - Descrição das características do Cenário 02</figcaption>
 
@@ -60,10 +57,11 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |:---|:---|
 |Título|Inserir possível valor de investimento por tecnologia|
 |Objetivo|Permitir que os usuários inseriram possível valor de investimento por tecnologia|
-|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando <br/>a<br/> Pós-condição: Usuário visualiza as emissões de determinadas .|
+|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário visualiza o valor da produção e emissão |
 |Atores|Usuário do TCU.|
 |Recursos|Conexão de internet, aplicativo instalado|
-|Episódios|Usuário entra no aplicativo <br/> Usuário informa seleciona os criterios da tecnologias que deseja vê as emissões|
+|Episódios|Usuário entra no aplicativo <br/> Usuário insere os valores de investimento para determinada tecnologia <br/> Usuário visualiza a produção e a emissão|
+|Exceção| Dados inexistente |
 
 
 <figcaption>Tabela 3 - Descrição das características do Cenário 03</figcaption>
@@ -78,11 +76,11 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |:---|:---|
 |Título|Simular emissões|
 |Objetivo|Permitir que os usuários simulem emissões.|
-|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando <br/> Pós-condição: Usuário visualiza as emissões de determinadas .|
+|Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando <br/> Pós-condição: Usuário visualiza as emissões de determinada tecnologia .|
 |Atores|Usuário do TCU.|
 |Recursos|Conexão de internet, aplicativo instalado|
-|Episódios|Usuário entra no aplicativo <br/> Usuário informa seleciona os criterios da tecnologias que deseja vê as emissões|
-
+|Episódios|Usuário entra no aplicativo <br/> Usuário seleciona os criterios da tecnologias que deseja vê as emissões|
+|Exceção| Dados inexistente |
 <figcaption>Tabela 4 - Descrição das características do Cenário 04</figcaption>
 
 </center>
