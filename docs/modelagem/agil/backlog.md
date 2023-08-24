@@ -10,9 +10,14 @@ Essa lista é organizada em ordem de prioridade, com os itens mais importantes o
 
 A metodologia do backlog do produto é uma abordagem estruturada e colaborativa para gerenciar as demandas e requisitos de um produto ou projeto de forma ágil. Ela é parte fundamental da metodologia Scrum e outras metodologias ágeis, onde o desenvolvimento é orientado por ciclos curtos de trabalho chamados sprints.
 
+### Etapa de Pré-rastreabilidade
+
+- [Rich Picture](../../analise/rich_picture.md)
+- [Projetos Similares](../../analise/projetos_similares.md)
+
 ### Etapa de elicitação
 
-- [Brainstorming](../../elicitacao/brainstorming.md)
+- [Brainstorming](../../elicitacao/brainstorming.md) [Em progresso]
 - [Entrevista](../../elicitacao/entrevista.md)
 - [Personas](../../elicitacao/personas.md)
 - [Storytelling](../../elicitacao/storytelling.md)
@@ -35,8 +40,8 @@ Serão apresentados todos os requisitos funcionais elicitados durante o processo
 |     RFN02      |                                O usuário deveria poder Visualizar a fonte de dados de cada gráfico                                 |      [ST03](../../elicitacao/storytelling.md#elicitacao-de-requisitos)       |
 |     RFN03      |                                              A dashboard deveria ser compatível com dispositivos móveis                                               |      [ST04](../../elicitacao/storytelling.md#elicitacao-de-requisitos)       |
 |     RF02      |                                 O sistema deve ser simples e intuitivo                                 |      [ST06](../../elicitacao/storytelling.md#elicitacao-de-requisitos)       |
-|     RF03      |                                       O usúario deve poder visualizar os dados de Consumo de Gás Natural do Brasil                                      | [ST07](../../elicitacao/Introspec%C3%A7%C3%A3o.md#elicitacao-de-requisitos) |
-|     RF04      |                                       Ser capaz de funcionar sem internet                                         | [ST08](../../elicitacao/Introspec%C3%A7%C3%A3o.md#elicitacao-de-requisitos) |
+|     RF03      |                                       O usúario deve poder visualizar os dados de Consumo de Gás Natural do Brasil                                      | [ST07](../../elicitacao/storytelling.md#elicitacao-de-requisitos) |
+|     RF04      |                                       Ser capaz de funcionar sem internet                                         | [ST08](../../elicitacao/storytelling.md#elicitacao-de-requisitos) |
 |     RF05      |                                       Visualizar os dados de Potência Acumulada do Brasil e do Mundo                                         | [ENT01](../../elicitacao/entrevista.md#elicitacao-de-requisitos) |
 |     RF06      |                                       Visualizar os dados de Geração Período Médio do Brasil                                         | [ENT02](../../elicitacao/entrevista.md#elicitacao-de-requisitos) |
 |     RF7      |                                       Visualizar os dados de Custo de Operação do Brasil e do Mundo                                         | [ENT03](../../elicitacao/entrevista.md#elicitacao-de-requisitos) |
