@@ -26,7 +26,7 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |Objetivo|Permitir que os usuários visualizem o Balanço Energético|
 |Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário consulta fontes e tecnologias.|
 |Recursos|Conexão de internet, aplicativo instalado|
-|Episódios|Usuário entra no aplicativo <br/> Usuário visualiza o Balanço Energético <br/> Usuário visualiza os cénarios do balanço energético|
+|Episódios|Usuário entra no aplicativo <br/> Usuário visualiza o Balanço Energético <br/> Usuário visualiza as tabelas relacionadas as tecnologias como produção,importação e exportação|
 |Exceção| Dados inexistente |
 <figcaption>Tabela 1 - Descrição das características do Cenário 01</figcaption>
 
@@ -42,7 +42,7 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |Objetivo|Permitir que os usuários consultem Fontes e Tecnologias.|
 |Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário consulta fontes e tecnologias.|
 |Recursos|Conexão de internet, aplicativo instalado|
-|Episódios|Usuário entra no aplicativo <br/> Usuário seleciona as fontes e tecnologias <br/> Usuário visualiza a fonte de determinada tecnologia|
+|Episódios|Usuário entra no aplicativo <br/> Usuário seleciona as fontes e tecnologias <br/> Usuário visualiza a fonte de determinada tecnologia e sua respectiva geração planejada entre 2015,2030,2040 e 2050|
 |Exceção| Dados inexistente |
 
 <figcaption>Tabela 2 - Descrição das características do Cenário 02</figcaption>
@@ -60,7 +60,7 @@ O objetivo da adoção da técnica neste projeto é tentar prever possíveis cen
 |Contexto|Local: No PowerBi <br/> Pré-condição: ter o software rodando e inserir o valor que deseja investir em determinada tecnologia<br/> Pós-condição: Usuário visualiza o valor da produção e emissão |
 |Atores|Usuário do TCU.|
 |Recursos|Conexão de internet, aplicativo instalado|
-|Episódios|Usuário entra no aplicativo <br/> Usuário insere os valores de investimento para determinada tecnologia <br/> Usuário visualiza a produção e a emissão|
+|Episódios|Usuário entra no aplicativo <br/> Usuário insere os valores de investimento para determinada tecnologia <br/> Usuário visualiza projeção até 2050, relacionado as emissões dessa tecnologia, e os impactos positivos e negativos|
 |Exceção| Dados inexistente |
 
 
