@@ -99,7 +99,25 @@ if __name__ == '__main__' :
         drop_ano_referencia = findElementByCss('div[class="tabComboBoxNameContainer tab-ctrl-formatted-fixedsize"]', ano_referencia)
         drop_ano_referencia.click()
         time.sleep(8)
+    file_path = './constants/Capacidade_Instalada_Matriz_Eletrica_BR_ONS.csv'
+
+    # Preencher valores ausentes na coluna de 2022 com 0
+    df_final['MW'] = df_final['MW'].fillna(0)
+
+    # Arredondar todos os valores para inteiros
+    #df['MW'] = df['MW'].round(0).astype(int)
+
+    # Criar uma tabela dinâmica usando pivot_table
+    pivot_df = df_final.pivot_table(index='Ano_referencia', columns='Fonte', values='MW', aggfunc='sum')
+
+    # Reorganizar as colunas para ter o cabeçalho desejado
+    desired_order = ['Eólica', 'Térmica', 'Hidráulica', 'Nuclear', 'Solar', 'MMGD']
+    pivot_df = pivot_df[desired_order]
+
+    # Resetar o índice para trazer a coluna 'Ano_referencia' de volta para os dados
+    pivot_df = pivot_df.reset_index()
+
     path = str(Path(__file__).parent.resolve()) 
     path += "/constants/" 
-    df_final.to_csv(path + "Capacidade_Instalada_Matriz_Eletrica_BR_ONS.csv", index=None)  
+    pivot_df.to_csv(path + "Capacidade_Instalada_Matriz_Eletrica_BR_ONS.csv", index=None)  
     driver.close()
