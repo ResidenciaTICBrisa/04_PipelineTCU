@@ -1,25 +1,49 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
 import pandas as pd
 import os
 import pytest
 import pathlib
-
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome()
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
+import time
 
+
+driver = webdriver.Chrome()
 def findElementByXpath(xpath, d):
-    return d.find_element(By.XPATH, value=xpath)
+    try:
+        element = WebDriverWait(d, 15).until(EC.element_to_be_clickable\
+                                             ((By.XPATH, xpath)))
+
+    finally:
+        return element
 
 def findElementByClass(cl, d):
-    return d.find_element(By.CLASS_NAME, value=cl)
+    try:
+        element = WebDriverWait(d, 15).until(EC.element_to_be_clickable\
+                                             ((By.CLASS_NAME, cl)))
+
+    finally:
+        return element
 
 def findElementsByClass(cl, d):
-    return d.find_elements(By.CLASS_NAME, value=cl)
+    try:
+        element = WebDriverWait(d, 15).until(
+                lambda x: x.find_elements(By.CLASS_NAME,cl)
+                )
+        time.sleep(1)
+    finally:
+        return element
+
 
 def findElementByCss(css, d):
-    return d.find_element(By.CSS_SELECTOR, value=css)
+    try:
+        element = WebDriverWait(d, 15).until(
+            lambda x: x.find_element(By.CSS_SELECTOR,css))
+    finally:
+            return element
 
 def getHTML(elem):
     return elem.get_attribute('innerHTML')
@@ -33,38 +57,38 @@ def searchElementList(list, str):
             return item
     return None
 
-def downloadCSV():
-    time.sleep(5)
+
+def downloadCSV(driver):
     botao_baixar = findElementByCss('div[aria-label="Download"]', driver)
+    time.sleep(3)
     botao_baixar.click()
-    time.sleep(5)
     botao_crosstab = findElementByCss('button[data-tb-test-id="DownloadCrosstab-Button"]', driver)
     driver.execute_script("arguments[0].click();", botao_crosstab)
-    time.sleep(5)
     imgs = findElementsByClass('f1hykqr2', driver)
     for img in imgs:
         if compHTMLStr(img,'Simples Geração de Energia Dia') != -1:
             break
+    time.sleep(3)
     img.click()
-    time.sleep(5)
     opcoes = findElementsByClass('f1u2kjnq', driver)
     opcao_csv = searchElementList(opcoes, 'CSV')
+    time.sleep(3)
     opcao_csv.click()
-    time.sleep(5)
     botao_tab = findElementByCss('button[data-tb-test-id="export-crosstab-export-Button"]', driver)
     driver.execute_script("arguments[0].click();", botao_tab)
-    time.sleep(8)
+    time.sleep(3)
 
 if __name__ == '__main__' :  
-    driver.implicitly_wait(40)
     #Acessando URL
     driver.get('https://tableau.ons.org.br/t/ONS_Publico/views/GeraodeEnergia/HistricoGeraodeEnergia?%3Aembed=y&%3AshowAppBanner=false&%3AshowShareOptions=true&%3Adisplay_count=no&%3AshowVizHome=no')
     #Encontrando dropdown responsável pela escolha da escala de tempo da tabela e mudando para ano 
     pathEscala = '//*[@id="tableau_base_widget_ParameterControl_1"]/div/div[2]/span/div[1]'
     caixa_selecao_escala = findElementByXpath(pathEscala, driver)
+    time.sleep(3)
     caixa_selecao_escala.click()
     lista_escala = findElementsByClass('tabMenuItem', driver)
     escala_ano = searchElementList(lista_escala, 'Ano')
+    time.sleep(3)
     escala_ano.click()
     #Encontrando dropdowns responsáveis pelo escopo, tipo de fonte/tecnologia e combustível 
     caixas_selecao = findElementsByClass('CategoricalFilterBox',driver)
@@ -81,22 +105,19 @@ if __name__ == '__main__' :
             count+=1
         if count >= 3:
             break
-    time.sleep(15)
-
     #Mudando o escopo para "(All)"
+    time.sleep(1)
     caixa_escopo.click()
     lista_escopo = findElementsByClass('FIItem', driver)
-    time.sleep(5)
     escopo_all = searchElementList(lista_escopo, '(All)')
     escopo_all.click()
-    time.sleep(10)
     #Mudando periodo de tempo de 1998 até 2030
     XpathPeriodo1998 = '//*[@id="typein_[Parameters].[Início Primeiro Período GE Comp 3 (cópia)]"]/span[1]/input'
     inputPeriodo1998=findElementByXpath(XpathPeriodo1998,driver)
+    time.sleep(3)
     inputPeriodo1998.click()
     inputPeriodo1998.send_keys('01/01/1999')
     inputPeriodo1998.send_keys(Keys.RETURN)
-    time.sleep(10)
     XpathPeriodo2030 = '//*[@id="typein_[Parameters].[Fim Primeiro Período GE Comp 3 (cópia)]"]/span[1]/input'
     inputPeriodo2030=findElementByXpath(XpathPeriodo2030,driver)
     inputPeriodo2030.click()
@@ -107,14 +128,14 @@ if __name__ == '__main__' :
     #Pegando Eólica, Hidrelétrica, Nuclear, Solar
     fontes = ['Eólica', 'Hidrelétrica', 'Nuclear', 'Solar']
     for fonte in fontes:
+        time.sleep(8)
         caixa_tipo_usina.click()
-        time.sleep(5)
         lista_tipo_usina = findElementsByClass('FIItem', driver)
         time.sleep(5)
         elFonte = searchElementList(lista_tipo_usina, fonte)
         elFonte.click()
-        time.sleep(10)
-        downloadCSV()
+        time.sleep(3)
+        downloadCSV(driver)
         arquivo = 'Simples Geração de Energia Barra Semana.csv'
         download_folder = os.path.join(os.path.expanduser("~"), "Downloads/", arquivo)        
         df_planilha = pd.read_csv(download_folder,encoding='utf-16', delimiter='\t', header=None)
@@ -143,36 +164,30 @@ if __name__ == '__main__' :
         with open(path, 'w') as f:
             separeted_line.to_csv(f, index=False)
         os.remove(download_folder)
-    fontes = ['Biomassa','Carvão','Gás','Gás Natural','Óleo Combustível','Oléo Diesel','Outras Multi-Combustível','Resíduos Industriais']
+    fontes = ['Biomassa','Carvão','Gás','Gás Natural','Óleo Combustível']
     caixa_tipo_usina.click()
-    time.sleep(5)
     lista_tipo_usina = findElementsByClass('FIItem', driver)
-    time.sleep(5)
     elFonte = searchElementList(lista_tipo_usina, 'Térmica')
     elFonte.click()
-    time.sleep(5)
     fonte_anterior = 'All'
     for fonte in fontes:
+        time.sleep(3)
         caixa_combustivel.click()
-        time.sleep(5)
         listaCheck = findElementsByClass('facetOverflow', driver)
         checkAll = searchElementList(listaCheck, fonte_anterior)
         checkAll = findElementByCss('input[class="FICheckRadio"]', checkAll)       
         checkAll.click()
         fonte_anterior=fonte
-        time.sleep(5)
         checkFonte = searchElementList(listaCheck, fonte)
         checkFonte = findElementByCss('input[class="FICheckRadio"]',checkFonte)
         checkFonte.click()
-        time.sleep(5)
         botaoApply = findElementByCss('button[title="Apply"]', driver)
         botaoApply.click()
-        time.sleep(10)
         tela = findElementByClass('tab-glass', driver)
+        time.sleep(3)
         tela.click()
-        time.sleep(5)
         fonte_anterior=fonte
-        downloadCSV()
+        downloadCSV(driver)
         arquivo = 'Simples Geração de Energia Barra Semana.csv'
         download_folder = os.path.join(os.path.expanduser("~"), "Downloads/", arquivo)        
         df_planilha = pd.read_csv(download_folder,encoding='utf-16', delimiter='\t', header=None)
