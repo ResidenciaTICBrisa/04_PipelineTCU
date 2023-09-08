@@ -1,6 +1,11 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
+import pytest
+def converter_float_para_inteiro(df):
+    pytest.set_trace()
+    df.iloc[1:,1:-1]=df.iloc[1:,1:-1].astype('int')  
+    return df
 
 if __name__ == '__main__' : 
     arquivo = "BEN.xlsx" 
@@ -67,4 +72,5 @@ if __name__ == '__main__' :
             df.drop(index=df.iloc[0].name, inplace=True)
         cont = True
         df_total = pd.concat([df_total,df])
+    df_total=converter_float_para_inteiro(df_total)
     df_total.to_csv(path + "BEN_total.csv", index=False, header=False) 
