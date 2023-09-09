@@ -1,6 +1,5 @@
 from pathlib import Path
 import pandas as pd
-
 def converter_float_para_inteiro(df):
     df.iloc[1:,1:-1]=df.iloc[1:,1:-1].astype('int')  
     return df
@@ -77,5 +76,6 @@ if __name__ == '__main__' :
         df = drop_row_by_text(df,'ENERGIA PRIMÁRIA TOTAL ')
         df = drop_row_by_text(df,'TOTAL ')
         df_total = pd.concat([df_total,df])
+    df_total.drop(57,axis=1,inplace=True) 
     df_total=converter_float_para_inteiro(df_total)
     df_total.to_csv(path + "BEN_total.csv", index=False, header=False) 
