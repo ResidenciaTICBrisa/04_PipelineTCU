@@ -101,3 +101,18 @@ Realizados com Dados do [Energy Statistics Data Browser - IEA](https://www.iea.o
 <div align="center">
     <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/4502bfa8-fd7a-4881-a88f-c39d9d1e7fe5" width="1000"/>
 </div>
+
+## **6. Variáveis estudadas no Balanço Energético Nacional**
+
+Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/BEN-Series-Historicas-Completas).
+
+
+<details>
+    <summary>Empresa de Pesquisa Energética - EPE</summary>
+<iframe src="https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-145/topico-515/Matrizes Consolidadas (em tep) 1970 - 2022.xls" width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+
+<center> <figcaption>Figura 7: Visualização de todas as variáveis do Balanço Energético Nacional</figcaption> </center>
+<div align="center">
+    <img src="../assets/GraficoBEN.jpeg" width="1000"/>
+</div>
