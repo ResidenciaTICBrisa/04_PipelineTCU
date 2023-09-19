@@ -25,8 +25,34 @@ Abaixo estão listadas algumas legendas que serão utilizadas nas tabelas dos re
 As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
 
 <details>
-  <summary> Balanço Energético Nacional 2023</summary>
+  <summary>Anuário Estatístico de Energia Elétrica</summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Anexos</th>
+        <th>Referência</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Referência dos dados</td>
+        <td><a href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica">Empresa de Pesquisa Energética</a></td>
+      </tr>
+      <tr>
+        <td>Relatório Síntese</td>
+        <td><a href="https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-160/topico-168/Fact%20Sheet%202023%20-%20Anu%C3%A1rio%20Estat%C3%ADstico%20de%20Energia%20El%C3%A9trica.pdf">Relatório Síntese.pdf</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Tipo de dados</td>
+        <td>.xlsx</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
 
+<details>
+  <summary> Balanço Energético Nacional 2023</summary>
   <table>
     <thead>
       <tr>
@@ -366,7 +392,6 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
 <details>
   <summary> Sistema de Informações Energéticas - Ministério de Minas e Energia
  </summary>
-
   <table>
     <thead>
       <tr>
@@ -392,6 +417,32 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
   </table>
 </details>
 
+<details>
+  <summary></summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Anexos</th>
+        <th>Referência</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Referência dos dados</td>
+        <td><a href="https://www.mme.gov.br/SIEBRASIL/">Sistema de Informações Energéticas - Ministério de Minas e Energia</a></td>
+      </tr>
+      <tr>
+        <td>Matriz de Balanço energético Nacional</td>
+        <td><a href="https://www.mme.gov.br/SIEBRASIL/consultas/visor_reportes_be.aspx?or=520&ss=2&v=1">Sistema de Informações Energéticas - Ministério de Minas e Energia</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Tipo de dados</td>
+        <td>.xlsx</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
 
   </table>
 

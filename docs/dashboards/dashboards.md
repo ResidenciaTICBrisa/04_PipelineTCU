@@ -116,3 +116,33 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 <div align="center">
     <img src="../assets/GraficoBEN.jpeg" width="1000"/>
 </div>
+
+## **7. Variáveis estudadas no Anuário Estatístico de Energia Elétrica**
+
+Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica).
+
+
+<details>
+    <summary>Empresa de Pesquisa Energética - EPE</summary>
+<iframe src="https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-160/topico-168/Anuário Estatístico de Energia Elétrica 2023 - Workbook.xlsx" width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+
+<center> <figcaption>Figura 8: Capacidade Instalada de Geração Elétrica para os 10 Países com Maior Capacidade Instalada por Fonte do Último Ano</figcaption> </center>
+<div align="center">
+    <img src="../assets/CompCapInstaladaPaises.jpeg" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 9: Geração Elétrica para os 10 Países com Maior Geração Elétrica por Fonte do Último Ano</figcaption> </center>
+<div align="center">
+    <img src="../assets/CompGerPaises.jpeg" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 10: Capacidade Instalada de Geração Elétrica e Geração Elétrica por Fonte no Brasil</figcaption> </center>
+<div align="center">
+    <img src="../assets/CapInstGerFonteBrasil.jpeg" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 11: Emissões Provenientes da Geração Elétrica do SIN, Sistema Isolado e Autoprodução</figcaption> </center>
+<div align="center">
+    <img src="../assets/Emissoes.jpeg" width="1000"/>
+</div>
