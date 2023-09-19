@@ -1,0 +1,408 @@
+{
+	"name": "XLSX_TABLE",
+	"properties": {
+		"activities": [
+			{
+				"name": "MATRIZ_TABLE",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "container1//Matriz ab2022.xlsx"
+					},
+					{
+						"name": "Destination",
+						"value": "Tabela1_teste"
+					}
+				],
+				"typeProperties": {
+					"source": {
+						"type": "ExcelSource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						}
+					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false,
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "CONTA",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CONTA",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " PETRÓLEO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PETRÓLEO",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " GÁS NATURAL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "GÁS NATURAL",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " CARVÃO VAPOR ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CARVÃO VAPOR ",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " CARVÃO METALÚRGICO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CARVÃO METALÚRGICO ",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " URÂNIO U3O8 ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "URÂNIO U3O8",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ENERGIA HIDRÁULICA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ENERGIA HIDRÁULICA",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " LENHA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LENHA",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " PRODUTOS DA CANA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PRODUTOS DA CANA",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " OUTRAS FONTES PRIMÁRIAS ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OUTRAS FONTES PRIMÁRIAS",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ENERGIA PRIMÁRIA TOTAL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_10",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " BIODIESEL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_11",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ÓLEO DIESEL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_12",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ÓLEO COMBUSTÍVEL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_13",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " GASOLINA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_14",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " GLP ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_15",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " NAFTA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_16",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " QUEROSENE ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_17",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " GÁS DE CIDADE E DE COQUERIA ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_18",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " COQUE DE CARVÃO MINERAL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_19",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " URÂNIO CONTIDO NO UO2",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_20",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ELETRICIDADE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_21",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " CARVÃO VEGETAL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_22",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ÁLCOOL ETÍLICO ANIDRO E HIDRATADO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_23",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " OUTRAS SECUNDÁRIAS DE PETRÓLEO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_24",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " PRODUTOS NÃO ENERGÉTICOS DE PETRÓLEO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_25",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ALCATRÃO ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_26",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " ENERGIA SECUNDÁRIA TOTAL ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_27",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": " TOTAL  ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_28",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "Matriz_xlsx",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "matriz_azure_1",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": []
+	}
+}
