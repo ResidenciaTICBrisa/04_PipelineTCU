@@ -1,0 +1,277 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ConexaoSQL",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "TCU"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CONTA",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PETRÓLEO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "GÁS_NATURAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CARVÃO_VAPOR",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CARVÃO_METALÚRGICO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "URÂNIO_U3O8",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ENERGIA_HIDRÁULICA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "LENHA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PRODUTOS_DA_CANA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "OUTRAS_FONTES_PRIMÁRIAS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ENERGIA_PRIMÁRIA_TOTAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BIODIESEL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ÓLEO_DIESEL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ÓLEO_COMBUSTÍVEL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "GASOLINA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "GLP",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "NAFTA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "QUEROSENE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "GÁS_DE_CIDADE_E_DE_COQUERIA",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "COQUE_DE_CARVÃO_MINERAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "URÂNIO_CONTIDO_NO_UO2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ELETRICIDADE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CARVÃO_VEGETAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ÁLCOOL_ETÍLICO_ANIDRO_E_HIDRATADO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "OUTRAS_SECUNDÁRIAS_DE_PETRÓLEO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PRODUTOS_NÃO_ENERGÉTICOS_DE_PETRÓLEO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ALCATRÃO",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "ENERGIA_SECUNDÁRIA_TOTAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "TOTAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "column30",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column31",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column32",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column33",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column34",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column35",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column36",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column37",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column38",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column39",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column40",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column41",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column42",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column43",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column44",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column45",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column46",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column47",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column48",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column49",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column50",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column51",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column52",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column53",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column54",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column55",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column56",
+				"type": "nvarchar"
+			},
+			{
+				"name": "column57",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Matriz"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
