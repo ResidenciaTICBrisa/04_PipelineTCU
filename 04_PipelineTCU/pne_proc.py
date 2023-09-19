@@ -9,40 +9,70 @@ if __name__ == '__main__':
     cont = 0
     lista = [a[2] for a in os.walk(diretorio)]
     cenarios = ctes + "Cenarios_PNE/"
-    cols1 = ["Fonte/Tecnologia", "Ano 2015","Ano 2030","Ano 2040","Ano 2050"]
-    cols2 = ["Fonte/Tecnologia", "Intervalo 2015","Intervalo 2015-2030","Intervalo 2031-2040","Intervalo 2041-2050"]
-    cols3 = ["Período", "Ano 2015","Ano 2030","Ano 2040","Ano 2050"]
-    cols4 = ["Tipo Expansão", "Ano 2015"]
+    cols1 = ["Fonte/Tecnologia", "Ano 2015","Ano 2030","Ano 2040","Ano 2050", "Cenário"]
+    cols2 = ["Período", "Ano 2015","Ano 2030","Ano 2040","Ano 2050", "Cenário"]
+    cols3 = ["Tipo Expansão", "Ano 2012", "Ano 2015", "Cenário"]
+    df_pot_acum = pd.DataFrame()
+    df_ger_per_med = pd.DataFrame()
+    df_atend_ponta = pd.DataFrame()
+    df_em_totais = pd.DataFrame()
+    df_custo_total = pd.DataFrame()
+    df_cons_gas_nat = pd.DataFrame()
     for arquivo in lista[0]:
-        for sheet_name, df in pd.read_excel(diretorio + '/' + arquivo, sheet_name=None).items():
+        for sheet_name, df in pd.read_excel(diretorio + '/' + arquivo, sheet_name=None, header=None).items():
             if sheet_name == "ResumoDécadas_comGD" :
                 arquivo = arquivo.split(".xlsm")[0]
-                loc = cenarios + arquivo + ".xlsx"
-                writer = pd.ExcelWriter(loc, engine="openpyxl")
-                df.drop('Unnamed: 0', axis=1, inplace=True)
+                df.drop(df.columns[0:1], axis=1, inplace=True)
                 colunas_mantidas = df.columns[:5]
                 df = df[colunas_mantidas]
-                df_pot_acumulada = df.iloc[32:43]        
-                linhas_ant = range(32,43)
-                df_pot_acumulada.iloc[:, 1:] = df_pot_acumulada.iloc[:, 1:].applymap(lambda x : int(x))
-                df_pot_acumulada.to_excel(writer,sheet_name="Potencia Acumulada - SIN (MW)", header=cols1, index=False)
-                df_geracao_per_medio = df.iloc[120 : 131]
-                df_geracao_per_medio.iloc[:, 1:] = df_geracao_per_medio.iloc[:, 1:].applymap(lambda x : int(x))
-                df_geracao_per_medio.to_excel(writer,sheet_name="Geracao Periodo Medio (MWMed)", header=cols1, index=False)
-                df_atendimento_a_ponta = df.iloc[154 : 165]
-                df_atendimento_a_ponta.iloc[:, 1:] = df_atendimento_a_ponta.iloc[:, 1:].applymap(lambda x : int(x))
-                df_atendimento_a_ponta.to_excel(writer,sheet_name="Atendimento a Ponta(MW)",header=cols1, index=False)
-                df_pot_incremental= df.iloc[76:87]
-                df_pot_incremental.iloc[:, 1:] = df_pot_incremental.iloc[:, 1:].applymap(lambda x : int(x))
-                df_pot_incremental.to_excel(writer,sheet_name="Potencia Incremental - SIN(MW)", header=cols2, index=False)
-                df_emissoes_totais = df.iloc[169 : 171]
-                df_emissoes_totais.iloc[:, 1:] = df_emissoes_totais.iloc[:, 1:].applymap(lambda x : int(x))
-                df_emissoes_totais.to_excel(writer,sheet_name="Emissoes Totais (MtCO2eq)",  header=cols3, index=False)
-                df_custo_total = df[184:186]
-                df_custo_total.drop(df.columns[2:], axis=1, inplace=True)
-                df_custo_total.iloc[:, 1:] = df_custo_total.iloc[:, 1:].applymap(lambda x : int(x))
-                df_custo_total.iloc[0, 0] = "Expansão Centralizada"
-                df_custo_total.iloc[1, 0] = "Expansão por GD"
-                df_custo_total.to_excel(writer,sheet_name="Custo Total (bilhões de R$)", index=False, header=cols4)
-                writer.close()
-                break 
+                df_aux = df.iloc[33:44]
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].astype(int)
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_pot_acum = pd.concat([df_pot_acum, df_aux])
+                df_aux = df.iloc[121 : 132]
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].applymap(lambda x : int(x))
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_ger_per_med = pd.concat([df_ger_per_med, df_aux])
+                df_aux = df.iloc[155 : 166]
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].applymap(lambda x : int(x))
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_atend_ponta = pd.concat([df_atend_ponta, df_aux])
+                df_aux = df.iloc[170 : 172]
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].applymap(lambda x : int(x))
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_em_totais = pd.concat([df_em_totais, df_aux])
+                df_aux = df.iloc[176:178]
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].applymap(lambda x : int(x))
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_cons_gas_nat = pd.concat([df_cons_gas_nat, df_aux])
+                df_aux = df.iloc[185:187]
+                df_aux.drop(df.columns[3:], axis=1, inplace=True)
+                df_aux.iloc[:, 1:] = df_aux.iloc[:, 1:].applymap(lambda x : int(x))
+                num_rows = len(df_aux)
+                df_aux.iloc[0, 0] = "Expansão Centralizada"
+                df_aux.iloc[1, 0] = "Expansão por GD"
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                df_custo_total = pd.concat([df_custo_total, df_aux])
+                num_rows = len(df_aux)
+                new_column_data = [arquivo] * num_rows
+                df_aux['Cenário'] = new_column_data
+                break
+    if not os.path.exists(cenarios):
+        os.makedirs(cenarios)
+    df_pot_acum.to_csv(cenarios + 'PotAcumPNE.csv', header=cols1, index=False)
+    df_ger_per_med.to_csv(cenarios + 'GerPerMedPNE.csv', header=cols1, index=False)
+    df_atend_ponta.to_csv(cenarios + 'AtendPontaPNE.csv', header=cols1, index=False)
+    df_em_totais.to_csv(cenarios + 'EmTotPNE.csv', header=cols2, index=False)
+    df_custo_total.to_csv(cenarios + 'CustoTotPNE.csv', header=cols3, index=False)
+    df_cons_gas_nat.to_csv(cenarios + 'ConsGasNatPNE.csv', header=cols2, index=False)
