@@ -1,0 +1,9 @@
+{
+	"name": "sql-tcu-carga",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b1f0d4a-7ba6-4d35-8b22-9dd8453e813b",
+		"tenantId": "ec359ba1-630b-4d2b-b833-c8e6d48f8059"
+	}
+}
