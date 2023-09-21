@@ -114,7 +114,7 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 
 <center> <figcaption>Figura 7: Visualização de todas as variáveis do Balanço Energético Nacional</figcaption> </center>
 <div align="center">
-    <img src="../assets/GraficoBEN.jpeg" width="1000"/>
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/GraficoBEN.jpeg?raw=true" width="1000"/>
 </div>
 
 ## **7. Variáveis estudadas no Anuário Estatístico de Energia Elétrica**
@@ -129,20 +129,40 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 
 <center> <figcaption>Figura 8: Capacidade Instalada de Geração Elétrica para os 10 Países com Maior Capacidade Instalada por Fonte do Último Ano</figcaption> </center>
 <div align="center">
-    <img src="../assets/CompCapInstaladaPaises.jpeg" width="1000"/>
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/CompCapInstaladaPaises.jpeg?raw=true" width="1000"/>
 </div>
 
 <center> <figcaption>Figura 9: Geração Elétrica para os 10 Países com Maior Geração Elétrica por Fonte do Último Ano</figcaption> </center>
 <div align="center">
-    <img src="../assets/CompGerPaises.jpeg" width="1000"/>
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/CompGerPaises.jpeg?raw=true" width="1000"/>
 </div>
 
 <center> <figcaption>Figura 10: Capacidade Instalada de Geração Elétrica e Geração Elétrica por Fonte no Brasil</figcaption> </center>
 <div align="center">
-    <img src="../assets/CapInstGerFonteBrasil.jpeg" width="1000"/>
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/CapInstGerFonteBrasil.jpeg?raw=true" width="1000"/>
 </div>
 
 <center> <figcaption>Figura 11: Emissões Provenientes da Geração Elétrica do SIN, Sistema Isolado e Autoprodução</figcaption> </center>
 <div align="center">
-    <img src="../assets/Emissoes.jpeg" width="1000"/>
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/Emissoes.jpeg?raw=true" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 12: Consumo Médio Total de Energia Elétrica por Subsistema e por Região (kWh/mês)</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/ConsMedSubReg.jpeg?raw=true" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 12: Consumo Médio Total de Energia Elétrica por Subsistema e por Região (kWh/mês)</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/ConsMedSubReg.jpeg?raw=true" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 13: Consumo Médio Residencial de Energia Elétrica por Subsistema e por Região (kWh/mês)</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/ConsResSubReg.jpeg?raw=true" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 14: Consumo Médio Anual de Energia Elétrica Per Capita por Subsistema e por Região (kWh/hab)</figcaption> </center>
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/ConsMedAnReg.jpeg?raw=true" width="1000"/>
 </div>
