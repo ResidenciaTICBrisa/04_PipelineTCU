@@ -1,129 +1,129 @@
 Período,Ano 2015,Ano 2030,Ano 2040,Ano 2050,Cenário
-P.Médio,28.0,21,28,41,26. Carv╞o financiado com reduç╞o de 20 por cento no CAPEX
-P.Crítico,34.0,37,47,65,26. Carv╞o financiado com reduç╞o de 20 por cento no CAPEX
-P.Médio,28.0,21,29,44,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-P.Crítico,35.0,38,51,69,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-P.Médio,28.0,17,13,13,38. Matriz Elétrica com expans╞o a partir de tecnologias n╞o emissoras de GEE
-P.Crítico,34.0,28,30,31,38. Matriz Elétrica com expans╞o a partir de tecnologias n╞o emissoras de GEE
-P.Médio,29.0,18,25,39,23. Reduç╞o de 50 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Crítico,34.0,32,44,63,23. Reduç╞o de 50 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Médio,28.0,23,146,239,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Médio,29.0,21,28,42,26. Carvão financiado com redução de 20% no CAPEX
+P.Crítico,35.0,37,48,66,26. Carvão financiado com redução de 20% no CAPEX
+P.Médio,29.0,22,30,44,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+P.Crítico,35.0,39,52,69,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+P.Médio,29.0,17,14,13,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+P.Crítico,35.0,28,31,32,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+P.Médio,29.0,19,26,40,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+P.Crítico,35.0,32,44,63,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+P.Médio,29.0,23,147,239,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
 P.Crítico,35.0,40,171,263,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Médio,28.0,23,19,21,29. GN Pré-Sal ao preço de US$ 6MMBtu
-P.Crítico,34.0,40,37,41,29. GN Pré-Sal ao preço de US$ 6MMBtu
-P.Médio,28.0,27,34,73,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-P.Crítico,35.0,44,52,100,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-P.Médio,34.0,22,28,46,05. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica)
-P.Crítico,41.0,88,98,118,05. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica)
-P.Médio,29.0,21,28,41,08. Repotenciaç╞o de UHE
-P.Crítico,34.0,38,51,67,08. Repotenciaç╞o de UHE
-P.Médio,29.0,19,28,41,22. Reduç╞o de 45 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Crítico,34.0,33,48,65,22. Reduç╞o de 45 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Médio,34.0,12,12,4,41. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica) sem emissΣes
-P.Crítico,41.0,54,52,38,41. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica) sem emissΣes
-P.Médio,28.0,20,22,39,61. Carv╞o financiado com reduç╞o de 20 por cento no CAPEX
-P.Crítico,35.0,35,39,60,61. Carv╞o financiado com reduç╞o de 20 por cento no CAPEX
-P.Médio,28.0,20,20,40,43. Repotenciaç╞o de UHE
-P.Crítico,35.0,39,40,63,43. Repotenciaç╞o de UHE
-P.Médio,29.0,20,24,44,55. Reduç╞o de 45 por cento no CAPEX de Usina Nuclear
-P.Crítico,35.0,38,42,66,55. Reduç╞o de 45 por cento no CAPEX de Usina Nuclear
-P.Médio,28.0,21,24,57,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-P.Crítico,35.0,37,42,81,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-P.Médio,29.0,20,24,44,56. Reduç╞o de 50 por cento no CAPEX de Usina Nuclear
-P.Crítico,35.0,38,42,66,56. Reduç╞o de 50 por cento no CAPEX de Usina Nuclear
-P.Médio,28.0,27,40,72,11. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento menor
-P.Crítico,35.0,46,66,107,11. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento menor
-P.Médio,28.0,21,21,46,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Crítico,35.0,37,40,68,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Médio,29.0,19,20,37,46. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento menor
-P.Crítico,35.0,38,39,59,46. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento menor
-P.Médio,28.0,20,25,44,42. Sobrecusto de 100 por cento no CAPEX de PCH
-P.Crítico,35.0,39,43,66,42. Sobrecusto de 100 por cento no CAPEX de PCH
-P.Médio,28.0,21,28,44,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-P.Crítico,35.0,37,48,68,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-P.Médio,29.0,10,7,4,36. Estagnaç╞o
-P.Crítico,35.0,11,10,7,36. Estagnaç╞o
-P.Médio,28.0,16,22,35,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Crítico,35.0,23,40,56,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Médio,29.0,21,29,40,24. Expans╞o de 8.000 MW de Usinas Nucleares
-P.Crítico,34.0,38,50,64,24. Expans╞o de 8.000 MW de Usinas Nucleares
-P.Médio,29.0,17,12,3,03. Matriz Elétrica com expans╞o a partir de tecnologias n╞o emissoras de GEE
-P.Crítico,34.0,31,27,19,03. Matriz Elétrica com expans╞o a partir de tecnologias n╞o emissoras de GEE
-P.Médio,28.0,21,21,42,62. Capacidade Instalada de GD alcança 75 GW em 2050
-P.Crítico,35.0,36,39,63,62. Capacidade Instalada de GD alcança 75 GW em 2050
-P.Médio,28.0,21,29,44,32. UHEs em áreas de interferência com CAPEX dobrado
-P.Crítico,35.0,38,51,68,32. UHEs em áreas de interferência com CAPEX dobrado
-P.Médio,28.0,25,46,88,10. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por centomaior
-P.Crítico,35.0,43,74,122,10. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por centomaior
-P.Médio,28.0,21,28,46,27. Capacidade Instalada de GD alcança 75 GW em 2050
-P.Crítico,34.0,37,49,70,27. Capacidade Instalada de GD alcança 75 GW em 2050
-P.Médio,29.0,12,3,0,02. Matriz Elétrica com expans╞o 100 por cento renovável
-P.Crítico,34.0,16,4,0,02. Matriz Elétrica com expans╞o 100 por cento renovável
-P.Médio,29.0,21,28,41,25. Expans╞o de 10.000 MW de Usinas Nucleares
-P.Crítico,34.0,38,49,65,25. Expans╞o de 10.000 MW de Usinas Nucleares
-P.Médio,29.0,10,7,4,01. Estagnaç╞o
-P.Crítico,35.0,11,10,7,01. Estagnaç╞o
-P.Médio,28.0,20,24,41,39.TodoTI Potencial Hidrelétrico Inventariado sem áreas de interferência
-P.Crítico,35.0,38,42,63,39.TodoTI Potencial Hidrelétrico Inventariado sem áreas de interferência
-P.Médio,34.0,12,12,5,06. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica) sem emissΣes
-P.Crítico,41.0,53,53,39,06. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica) sem emissΣes
-P.Médio,29.0,19,22,39,45. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento maior
-P.Crítico,35.0,37,41,61,45. Integraç╞o Elétrica com países da América do Sul com custo do sistema de transmiss╞o 50 por cento maior
-P.Médio,29.0,21,31,45,20. Reduç╞o de 45 por cento no CAPEX de Usina Nuclear
-P.Crítico,34.0,38,53,69,20. Reduç╞o de 45 por cento no CAPEX de Usina Nuclear
-P.Médio,28.0,21,29,44,34. UHEs em áreas de interferência com Unidades de Conservaç╞o (UC) com CAPEX dobrado
-P.Crítico,35.0,38,50,69,34. UHEs em áreas de interferência com Unidades de Conservaç╞o (UC) com CAPEX dobrado
-P.Médio,29.0,16,20,35,19. Repotenciaç╞o e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Crítico,34.0,26,39,59,19. Repotenciaç╞o e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Médio,29.0,19,24,43,57. Reduç╞o de 45 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Crítico,35.0,36,42,65,57. Reduç╞o de 45 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Médio,28.0,17,19,36,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50 por cento maior na entressafra
-P.Crítico,34.0,27,37,60,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50 por cento maior na entressafra
-P.Médio,28.0,22,27,44,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-P.Crítico,34.0,39,47,67,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-P.Médio,29.0,19,20,41,58. Reduç╞o de 50 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Crítico,35.0,32,38,61,58. Reduç╞o de 50 por cento no CAPEX e no OPEX de Usina Nuclear
-P.Médio,28.0,21,25,47,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservaç╞o (UC)
-P.Crítico,35.0,37,43,67,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservaç╞o (UC)
-P.Médio,28.0,21,25,44,50. Eólica Offshore com 20 por cento de reduç╞o de CAPEX
-P.Crítico,35.0,38,43,64,50. Eólica Offshore com 20 por cento de reduç╞o de CAPEX
-P.Médio,28.0,16,23,31,54. Repotenciaç╞o e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Crítico,35.0,25,43,53,54. Repotenciaç╞o e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Médio,28.0,19,22,35,09. Integraç╞o Elétrica com países da América do Sul
-P.Crítico,35.0,39,42,59,09. Integraç╞o Elétrica com países da América do Sul
-P.Médio,28.0,22,28,42,15. Eólica Offshore com 20 por cento de reduç╞o de CAPEX
-P.Crítico,34.0,39,48,66,15. Eólica Offshore com 20 por cento de reduç╞o de CAPEX
-P.Médio,28.0,20,28,42,35. UHEs com interferência após 2040
-P.Crítico,35.0,37,48,62,35. UHEs com interferência após 2040
-P.Médio,34.0,22,28,47,40. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica)
-P.Crítico,41.0,87,98,120,40. Efeitos das Mudanças Climáticas (reduç╞o de disponibilidade hídrica)
-P.Médio,29.0,19,20,37,47. Frota de veículos leves integralmente elétrica em 2050
-P.Crítico,35.0,38,39,59,47. Frota de veículos leves integralmente elétrica em 2050
-P.Médio,28.0,21,29,45,04. Exceto UC e TI Potencial Hidrelétrico Inventariado sem áreas de interferência
-P.Crítico,34.0,38,50,69,04. Exceto UC e TI Potencial Hidrelétrico Inventariado sem áreas de interferência
-P.Médio,28.0,23,81,172,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Crítico,35.0,39,104,196,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Médio,28.0,22,28,44,07. Sobrecusto de 100 por cento no CAPEX de PCH
-P.Crítico,34.0,40,48,68,07. Sobrecusto de 100 por cento no CAPEX de PCH
-P.Médio,28.0,16,22,38,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50 por cento maior na entressafra
-P.Crítico,35.0,24,40,59,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50 por cento maior na entressafra
-P.Médio,28.0,22,17,25,64. GN Pré-Sal ao preço de US$ 6MMBtu
-P.Crítico,35.0,40,36,48,64. GN Pré-Sal ao preço de US$ 6MMBtu
-P.Médio,28.0,20,21,42,60. Expans╞o de 10.000 MW de Usinas Nucleares
-P.Crítico,35.0,38,40,63,60. Expans╞o de 10.000 MW de Usinas Nucleares
-P.Médio,28.0,21,28,47,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Crítico,34.0,38,48,71,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-P.Médio,28.0,20,21,42,59. Expans╞o de 8.000 MW de Usinas Nucleares
-P.Crítico,35.0,38,40,63,59. Expans╞o de 8.000 MW de Usinas Nucleares
-P.Médio,28.0,24,36,85,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-P.Crítico,34.0,40,55,110,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-P.Médio,29.0,21,29,44,21. Reduç╞o de 50 por cento no CAPEX de Usina Nuclear
-P.Crítico,34.0,36,50,68,21. Reduç╞o de 50 por cento no CAPEX de Usina Nuclear
-P.Médio,29.0,19,22,38,44. Integraç╞o Elétrica com países da América do Sul
-P.Crítico,35.0,37,41,60,44. Integraç╞o Elétrica com países da América do Sul
-P.Médio,28.0,16,20,37,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Crítico,34.0,24,38,61,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-P.Médio,28.0,21,32,50,12. Frota de veículos leves integralmente elétrica em 2050
-P.Crítico,35.0,39,55,73,12. Frota de veículos leves integralmente elétrica em 2050
-P.Médio,29.0,12,3,0,37. Matriz Elétrica com expans╞o 100 por cento renovável
-P.Crítico,35.0,16,4,0,37. Matriz Elétrica com expans╞o 100 por cento renovável
+P.Médio,29.0,23,19,21,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+P.Crítico,35.0,40,37,42,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+P.Médio,29.0,27,34,74,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+P.Crítico,35.0,45,53,100,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+P.Médio,34.0,22,29,47,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+P.Crítico,42.0,88,98,119,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+P.Médio,29.0,21,29,42,8. Repotenciação de UHE
+P.Crítico,35.0,38,51,67,8. Repotenciação de UHE
+P.Médio,29.0,19,28,41,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+P.Crítico,35.0,34,49,66,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+P.Médio,34.0,13,12,5,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+P.Crítico,42.0,54,53,38,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+P.Médio,29.0,20,22,40,61. Carvão financiado com redução de 20% no CAPEX
+P.Crítico,35.0,36,39,61,61. Carvão financiado com redução de 20% no CAPEX
+P.Médio,29.0,20,21,41,43. Repotenciação de UHE
+P.Crítico,35.0,39,41,63,43. Repotenciação de UHE
+P.Médio,29.0,20,24,45,55. Redução de 45% no CAPEX de Usina Nuclear
+P.Crítico,35.0,39,43,67,55. Redução de 45% no CAPEX de Usina Nuclear
+P.Médio,29.0,22,25,57,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+P.Crítico,35.0,37,43,81,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+P.Médio,29.0,20,24,45,56. Redução de 50% no CAPEX de Usina Nuclear
+P.Crítico,35.0,38,43,67,56. Redução de 50% no CAPEX de Usina Nuclear
+P.Médio,29.0,28,41,72,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+P.Crítico,35.0,46,66,107,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+P.Médio,29.0,21,22,47,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Crítico,35.0,37,40,69,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Médio,29.0,20,20,37,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+P.Crítico,35.0,38,40,59,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+P.Médio,29.0,21,25,45,42. Sobrecusto de 100% no CAPEX de PCH
+P.Crítico,35.0,39,44,67,42. Sobrecusto de 100% no CAPEX de PCH
+P.Médio,29.0,21,29,45,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+P.Crítico,35.0,37,48,69,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+P.Médio,30.0,10,7,4,36. Estagnação
+P.Crítico,36.0,12,11,7,36. Estagnação
+P.Médio,29.0,16,22,36,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Crítico,35.0,24,40,56,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Médio,29.0,22,29,41,24. Expansão de 8.000 MW de Usinas Nucleares
+P.Crítico,35.0,39,50,65,24. Expansão de 8.000 MW de Usinas Nucleares
+P.Médio,29.0,17,12,3,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+P.Crítico,35.0,31,28,19,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+P.Médio,29.0,21,21,43,62. Capacidade Instalada de GD alcança 75 GW em 2050
+P.Crítico,35.0,36,39,64,62. Capacidade Instalada de GD alcança 75 GW em 2050
+P.Médio,29.0,22,30,44,32. UHEs em áreas de interferência com CAPEX dobrado
+P.Crítico,35.0,39,52,69,32. UHEs em áreas de interferência com CAPEX dobrado
+P.Médio,29.0,25,46,89,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+P.Crítico,35.0,43,74,123,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+P.Médio,29.0,22,29,47,27. Capacidade Instalada de GD alcança 75 GW em 2050
+P.Crítico,35.0,38,49,71,27. Capacidade Instalada de GD alcança 75 GW em 2050
+P.Médio,29.0,13,4,0,2. Matriz Elétrica com expansão 100% renovável
+P.Crítico,35.0,17,4,0,2. Matriz Elétrica com expansão 100% renovável
+P.Médio,29.0,22,29,41,25. Expansão de 10.000 MW de Usinas Nucleares
+P.Crítico,35.0,38,49,65,25. Expansão de 10.000 MW de Usinas Nucleares
+P.Médio,30.0,10,8,5,1. Estagnação
+P.Crítico,36.0,11,11,7,1. Estagnação
+P.Médio,29.0,20,24,42,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+P.Crítico,35.0,39,43,63,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+P.Médio,34.0,13,13,6,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+P.Crítico,42.0,54,54,39,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+P.Médio,29.0,20,23,40,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+P.Crítico,35.0,37,42,62,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+P.Médio,29.0,22,31,45,20. Redução de 45% no CAPEX de Usina Nuclear
+P.Crítico,35.0,38,53,69,20. Redução de 45% no CAPEX de Usina Nuclear
+P.Médio,29.0,22,30,45,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+P.Crítico,35.0,39,51,69,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+P.Médio,29.0,17,20,35,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Crítico,35.0,26,40,59,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Médio,29.0,20,24,44,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+P.Crítico,35.0,37,42,66,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+P.Médio,29.0,17,20,36,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+P.Crítico,35.0,27,38,60,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+P.Médio,29.0,22,28,44,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+P.Crítico,35.0,40,48,67,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+P.Médio,29.0,19,21,41,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+P.Crítico,35.0,32,39,61,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+P.Médio,29.0,21,25,48,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+P.Crítico,35.0,38,43,68,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+P.Médio,29.0,21,25,45,50. Eólica Offshore com 20% de redução de CAPEX
+P.Crítico,35.0,39,43,65,50. Eólica Offshore com 20% de redução de CAPEX
+P.Médio,29.0,16,23,32,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Crítico,35.0,25,43,54,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Médio,29.0,20,22,35,9. Integração Elétrica com países da América do Sul
+P.Crítico,35.0,39,42,59,9. Integração Elétrica com países da América do Sul
+P.Médio,29.0,22,28,42,15. Eólica Offshore com 20% de redução de CAPEX
+P.Crítico,35.0,40,49,67,15. Eólica Offshore com 20% de redução de CAPEX
+P.Médio,29.0,21,29,42,35. UHEs com interferência após 2040
+P.Crítico,35.0,37,49,63,35. UHEs com interferência após 2040
+P.Médio,34.0,22,29,47,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+P.Crítico,42.0,87,99,120,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+P.Médio,29.0,20,20,37,47. Frota de veículos leves integralmente elétrica em 2050
+P.Crítico,35.0,38,40,59,47. Frota de veículos leves integralmente elétrica em 2050
+P.Médio,29.0,22,29,45,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+P.Crítico,35.0,39,50,69,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+P.Médio,29.0,23,81,173,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Crítico,35.0,40,104,196,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Médio,29.0,22,28,45,7. Sobrecusto de 100% no CAPEX de PCH
+P.Crítico,35.0,41,48,69,7. Sobrecusto de 100% no CAPEX de PCH
+P.Médio,29.0,16,23,38,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+P.Crítico,35.0,24,41,59,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+P.Médio,29.0,22,18,26,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+P.Crítico,35.0,40,37,48,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+P.Médio,29.0,20,22,43,60. Expansão de 10.000 MW de Usinas Nucleares
+P.Crítico,35.0,38,40,64,60. Expansão de 10.000 MW de Usinas Nucleares
+P.Médio,29.0,22,28,47,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Crítico,35.0,38,49,71,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+P.Médio,29.0,20,22,43,59. Expansão de 8.000 MW de Usinas Nucleares
+P.Crítico,35.0,38,40,64,59. Expansão de 8.000 MW de Usinas Nucleares
+P.Médio,29.0,25,36,85,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+P.Crítico,35.0,41,56,110,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+P.Médio,29.0,21,29,44,21. Redução de 50% no CAPEX de Usina Nuclear
+P.Crítico,35.0,36,50,68,21. Redução de 50% no CAPEX de Usina Nuclear
+P.Médio,29.0,20,22,38,44. Integração Elétrica com países da América do Sul
+P.Crítico,35.0,37,41,60,44. Integração Elétrica com países da América do Sul
+P.Médio,29.0,16,21,37,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Crítico,35.0,25,39,61,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+P.Médio,29.0,22,33,51,12. Frota de veículos leves integralmente elétrica em 2050
+P.Crítico,35.0,39,55,74,12. Frota de veículos leves integralmente elétrica em 2050
+P.Médio,29.0,13,4,0,37. Matriz Elétrica com expansão 100% renovável
+P.Crítico,35.0,17,4,0,37. Matriz Elétrica com expansão 100% renovável
