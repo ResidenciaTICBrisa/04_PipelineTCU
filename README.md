@@ -50,11 +50,11 @@ A [BRISA](https://residenciaticbrisa.github.io/landing_page/) Sociedade para o D
 <table border="0">
   <tr>
       <td>
-        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/c2897c0d-54fe-428c-a2dd-a2ee7c3e9671" title="Power Automate" height= 80 width=80 style="max-height:80px; width:auto; display:block;">
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/539377cc-bfce-4128-bb34-f3e5b59f6c28" title="Azure" height= 80 width=80 style="max-height:80px; width:auto; display:block;">
       </a>
     </td>
-    <td>
-        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/981504c2-dfaf-4d75-ad48-bedcb0f772ee" height= 60 width=60 style="max-height: 80px; width:auto; display:block;">
+        <td>
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/92be004a-998d-4313-832d-175629c70e82" height= 70 width=70 style="max-height:80px; width:auto; display:block;">
       </a>
     </td>
     <td>
@@ -62,17 +62,18 @@ A [BRISA](https://residenciaticbrisa.github.io/landing_page/) Sociedade para o D
       </a>
     </td>
     <td>
-        <img src="https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma" height= 70 width=70 style="max-height:80px; width:auto; display:block;">
+        <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/981504c2-dfaf-4d75-ad48-bedcb0f772ee" height= 60 width=60 style="max-height: 80px; width:auto; display:block;">
       </a>
     </td>
+
 
     
   </tr>
   <tr>
-    <td>Power Automate</td>
-    <td>Power Bi</td>
+    <td>Microsoft Azure</td>
+    <td>Data Factory</td>
     <td>SQL Server</td>
-    <td>Figma</td>
+    <td>Power Bi</td>
 
 
   </tr>
