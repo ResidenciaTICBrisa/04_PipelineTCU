@@ -72,7 +72,8 @@ nav:
     - Requisitos: modelagem/requisitos.md
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
-  - Fonte de dados: fonte_dados/fonte_dados.md  
+  - Fonte de dados: fonte_dados/fonte_dados.md
+  - Pipeline: pipeline/pipeline.md
   - Gráficos : dashboards/dashboards.md
   - Comunicação:
     - Rituais da Equipe: comunicacao/documentacao_sprints/rituais_da_equipe.md
