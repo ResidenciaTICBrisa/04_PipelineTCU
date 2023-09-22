@@ -60,6 +60,7 @@ nav:
   - Elicitação:
     - Técnicas:
       - Entrevista: elicitacao/entrevista.md
+      - Cenários: elicitacao/cenarios.md
       - Personas: elicitacao/personas.md
       - Storytelling: elicitacao/storytelling.md
       - Lexico: elicitacao/lexico.md
