@@ -22,6 +22,7 @@ O pipeline de dados é um projeto que tem o objetivo de reunir fontes de dados e
 No contexto da transição energética brasileira, o pipeline de dados desempenha um papel fundamental, à medida que o Brasil se compromete com a transformação de sua matriz energética até o ano de 2050, surge a necessidade de monitorar, analisar e tomar decisões informadas se torna ainda mais crucial.
 Esse projeto pode ser utilizado para modelar diferentes cenários de transição energética, levando em consideração variáveis como investimentos em infraestrutura, impactos ambientais e socioeconômicos. Essa análise abrangente auxilia na formulação de estratégias políticas e na definição de metas realistas para alcançar os objetivos da transição até 2050.
 
+- [Pipeline](https://residenciaticbrisa.github.io/04_PipelineTCU/pipeline/)
 - [Elicitação](https://residenciaticbrisa.github.io/04_PipelineTCU/elicitacao/entrevista/)
 - [Fonte de dados](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/)
 - [Planejamento](https://residenciaticbrisa.github.io/04_PipelineTCU/comunicacao/documentacao_sprints/rituais_da_equipe/)
