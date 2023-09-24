@@ -5,6 +5,12 @@ import math
 import numpy
 warnings.filterwarnings("ignore")
 
+def transfColInt(df):
+    for c in df.columns:
+        if df[c].dtype ==  'float64':
+            df[c] = df[c].astype('int64') 
+    return df
+
 dic_sim = {
     1 : "1. Estagnação",
     2 : "2. Matriz Elétrica com expansão 100% renovável",
@@ -143,9 +149,15 @@ if __name__ == '__main__':
                 break
     if not os.path.exists(cenarios):
         os.makedirs(cenarios)
-    df_pot_acum.to_csv(cenarios + 'PotAcumPNE.csv', header=cols1, index=False)
+    df_pot_acum = transfColInt(df_pot_acum)
+    df_pot_acum.to_csv(cenarios + 'PotAcumPNE.csv', header=cols1, index=False) 
+    df_ger_per_med = transfColInt(df_ger_per_med)
     df_ger_per_med.to_csv(cenarios + 'GerPerMedPNE.csv', header=cols1, index=False)
+    df_atend_ponta = transfColInt(df_atend_ponta)
     df_atend_ponta.to_csv(cenarios + 'AtendPontaPNE.csv', header=cols1, index=False)
+    df_em_totais = transfColInt(df_em_totais)
     df_em_totais.to_csv(cenarios + 'EmTotPNE.csv', header=cols2, index=False)
+    df_custo_total = transfColInt(df_custo_total)
     df_custo_total.to_csv(cenarios + 'CustoTotPNE.csv', header=cols3, index=False)
+    df_cons_gas_nat = transfColInt(df_cons_gas_nat)
     df_cons_gas_nat.to_csv(cenarios + 'ConsGasNatPNE.csv', header=cols2, index=False)
