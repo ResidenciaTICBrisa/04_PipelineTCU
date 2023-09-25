@@ -217,3 +217,20 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRIHsLR1ydVSv1YYdqi_08-WuQDjDdabpAAXhU6qaXAFIsRyZToTzXOUP4ojigq3w/pubhtml?widget=true&amp;headers=false"width="100%" height="400" frameborder="1" scrolling="no"></iframe>
 </details>
 
+## **9. Evolução das fontes de Tecnologia**
+
+Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica). Todas as visualizações abaixo foram geradas a partir dos dados acima.
+
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/8c8ce1ad-c973-4654-baed-5b52c281755b" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 18: Evolução das fontes de tecnologia</figcaption> </center>
+
+
+
+<details>
+    <summary>Empresa de Pesquisa Energética - EPE</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRIHsLR1ydVSv1YYdqi_08-WuQDjDdabpAAXhU6qaXAFIsRyZToTzXOUP4ojigq3w/pubhtml?widget=true&amp;headers=false"width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+
