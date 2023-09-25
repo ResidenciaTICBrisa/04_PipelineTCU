@@ -199,3 +199,21 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 </div>
 
 <center> <figcaption>Figura 16: Consumo Médio Anual de Energia Elétrica Per Capita por Subsistema e por Região (kWh/hab)</figcaption> </center>
+
+## **8. Emissões de GEE Brasil**
+
+Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica). Todas as visualizações abaixo foram geradas a partir dos dados acima.
+
+<div align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/22ae9369-bcbf-423a-a6ca-8790eea3dcb0" width="1000"/>
+</div>
+
+<center> <figcaption>Figura 16: Emissões de GEE Brasil</figcaption> </center>
+
+
+
+<details>
+    <summary>Empresa de Pesquisa Energética - EPE</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRIHsLR1ydVSv1YYdqi_08-WuQDjDdabpAAXhU6qaXAFIsRyZToTzXOUP4ojigq3w/pubhtml?widget=true&amp;headers=false"width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+
