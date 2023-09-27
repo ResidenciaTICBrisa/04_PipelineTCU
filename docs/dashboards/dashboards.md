@@ -97,7 +97,20 @@ Realizado com Dados do [Renewable Energy and Jobs](https://residenciaticbrisa.gi
 <center> <figcaption>Figura 2: Apresentação da Dash de Empregabilidade  </figcaption> </center>
 <br>
 
-## **6. Consumo Total EPE**
+## **6. Geração de energia por Tecnologia Brasil**
+
+Realizado com Dados do [Operador Nacional do Sistema Elétrico - Geração Energia](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) 
+
+<details>
+    <summary>Geração Energia - ONS</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/1CCAILFa_MqnYE0YeAeKQt8M80TF9iKp9/edit?usp=sharing&ouid=102439144160104252969&rtpof=true&sd=true" width="100%" height="1000" frameborder="1" scrolling="no"></iframe>
+</details>
+
+<p align="center">
+    <img src=https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/7aceaf99dee21dc5827a205fdc490fb07dc7a0a9/docs/assets/Geracao_energia.png width="1000">
+</p>
+
+## **7. Consumo Total EPE**
 
 Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/Documents/CONSUMO%20MENSAL%20DE%20ENERGIA%20EL%C3%89TRICA%20POR%20CLASSE.xls).
 
@@ -110,7 +123,7 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
     <img src="https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/60e4b330edc411b4c9d31d37ab8768817c62565f/docs/assets/consumo_total_epe.png" width="1000"/>
 </div>
 
-## **7. Variáveis estudadas no Balanço Energético Nacional**
+## **8. Variáveis estudadas no Balanço Energético Nacional**
 
 Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/BEN-Series-Historicas-Completas).
 
