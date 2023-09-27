@@ -13,23 +13,7 @@ Este é o modelo do painel que será usado para manipular os indicadores.
 <center> <figcaption>Figura 1: Painel TCU</figcaption> </center>
 <br>
 
-
-## **1. Empregabilidade ao longos dos anos e Empregabilidade das tecnologias ao longos dos anos**
-
-Realizado com Dados do [Renewable Energy and Jobs](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) de 2022 à 2013
-<details>
-    <summary>Empregabilidade - Irena</summary>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTgU2WuDuOo-rk41N39lqMxxgxVZTR-K4bKt0vWdxrlaSH-jxhORXMJ_iQlUwOSIQ/pubhtml?widget=true&amp;headers=false" width="100%" height="1000" frameborder="1" scrolling="no"></iframe>
-</details>
-
-
-<p align="center">
-    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/fb877e99-1e23-42bb-ba7d-0ff996eb1609" width="1000">
-</p>
-<center> <figcaption>Figura 2: Apresentação da Dash de Empregabilidade  </figcaption> </center>
-<br>
-
-## **2. Potência Acumulada Por Cenário do Plano Nacional de Energia 2050**
+## **1. Potência Acumulada Por Cenário do Plano Nacional de Energia 2050**
 
 Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) de 2050 à 2015. 
 
@@ -47,7 +31,7 @@ Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbri
 
 
 
-## **3. Geração Período Médio Por Cenário do Plano Nacional de Energia 2050**
+## **2. Geração Período Médio Por Cenário do Plano Nacional de Energia 2050**
 
 
 Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) de 2050 à 2015. 
@@ -64,7 +48,7 @@ Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbri
 <center> <figcaption>Figura 4: Geração Período Médio (MW Médios)</figcaption> </center>
 <br>
 
-## **4. Balanço de Potência Por Cenário do Plano Nacional de Energia 2050**
+## **3. Balanço de Potência Por Cenário do Plano Nacional de Energia 2050**
 
 Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) de 2050 à 2015. 
 
@@ -81,7 +65,7 @@ Realizado com Dados do [Plano Nacional de Energia 2050](https://residenciaticbri
 <br>
 
 
-## **5. Participação por setor na matriz energética brasileira e mundial**
+## **4. Participação por setor na matriz energética brasileira e mundial**
 
 Realizados com Dados do [Energy Statistics Data Browser - IEA](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=BRAZIL&energy=Renewables%20%26%20waste&year=1990).
 
@@ -93,19 +77,40 @@ Realizados com Dados do [Energy Statistics Data Browser - IEA](https://www.iea.o
 
 
 <div align="center">
-    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/5e3f3209-30ce-4b41-a75b-e761aa9e806e" width="1000"/>
+    <img src="https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/11bd6d7997ae1eeda7f765bc497f7f35260740d3/docs/assets/matriz_energetica.png" width="1000"/>
 </div>
 
 <center> <figcaption>Figura 6: Participação por setor na matriz energética brasileira</figcaption> </center>
 
+## **5. Empregabilidade ao longos dos anos e Empregabilidade das tecnologias ao longos dos anos**
+
+Realizado com Dados do [Renewable Energy and Jobs](https://residenciaticbrisa.github.io/04_PipelineTCU/fonte_dados/fonte_dados/) de 2022 à 2013
+<details>
+    <summary>Empregabilidade - Irena</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTgU2WuDuOo-rk41N39lqMxxgxVZTR-K4bKt0vWdxrlaSH-jxhORXMJ_iQlUwOSIQ/pubhtml?widget=true&amp;headers=false" width="100%" height="1000" frameborder="1" scrolling="no"></iframe>
+</details>
+
+
+<p align="center">
+    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/51385738/fb877e99-1e23-42bb-ba7d-0ff996eb1609" width="1000">
+</p>
+<center> <figcaption>Figura 2: Apresentação da Dash de Empregabilidade  </figcaption> </center>
+<br>
+
+## **6. Consumo Total EPE**
+
+Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/Documents/CONSUMO%20MENSAL%20DE%20ENERGIA%20EL%C3%89TRICA%20POR%20CLASSE.xls).
+
+<details>
+    <summary>Empresa de Pesquisa Energética - EPE</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/15a9KnrMIhpIr116do6bX1ogdiaxdj_NY/edit?usp=sharing&ouid=102439144160104252969&rtpof=true&sd=true&amp;headers=false"width="100%" height="400" frameborder="1" scrolling="no"> </iframe>
+</details>
 
 <div align="center">
-    <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/assets/98167728/4502bfa8-fd7a-4881-a88f-c39d9d1e7fe5" width="1000"/>
+    <img src="https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/60e4b330edc411b4c9d31d37ab8768817c62565f/docs/assets/consumo_total_epe.png" width="1000"/>
 </div>
 
-<center> <figcaption>Figura 7: Participação por setor na matriz energética mundial</figcaption> </center>
-
-## **6. Variáveis estudadas no Balanço Energético Nacional**
+## **7. Variáveis estudadas no Balanço Energético Nacional**
 
 Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/BEN-Series-Historicas-Completas).
 
@@ -124,7 +129,7 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 
 <center> <figcaption>Figura 8: Visualização de todas as variáveis do Balanço Energético Nacional</figcaption> </center>
 
-## **7. Variáveis estudadas no Anuário Estatístico de Energia Elétrica**
+## **8. Variáveis estudadas no Anuário Estatístico de Energia Elétrica**
 
 Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica). Todas as visualizações abaixo foram geradas a partir dos dados acima.
 
@@ -198,7 +203,7 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
     <img src="https://github.com/ResidenciaTICBrisa/04_PipelineTCU/blob/main/docs/assets/ConsMedAnReg.jpeg?raw=true" width="1000"/>
 </div>
 
-<center> <figcaption>Figura 16: Consumo Médio Anual de Energia Elétrica Per Capita por Subsistema e por Região (kWh/hab)</figcaption> </center>
+<center> <figcaption>Figura 16: Consumo Médio Anual de Energia Elétrica Per Capita por Subsistema e por Região (kWh/hab)</figcaption> </center>200073249
 
 ## **8. Emissões de GEE Brasil**
 
