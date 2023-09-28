@@ -17,7 +17,7 @@ A metodologia do backlog do produto é uma abordagem estruturada e colaborativa 
 
 ### Etapa de elicitação
 
-- [Brainstorming](../../elicitacao/brainstorming.md) [Em progresso]
+- Brainstorming
 - [Entrevista](../../elicitacao/entrevista.md)
 - [Personas](../../elicitacao/personas.md)
 - [Storytelling](../../elicitacao/storytelling.md)

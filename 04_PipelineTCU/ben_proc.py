@@ -1,7 +1,13 @@
 from pathlib import Path
 import pandas as pd
-import numpy as np
+def converter_float_para_inteiro(df):
+    df.iloc[1:,1:-1]=df.iloc[1:,1:-1].astype('int')  
+    return df
 
+def drop_row_by_text(df, text):
+    index_to_drop = df[df.iloc[:, 0].str.contains(text)].index
+    df.drop(index=index_to_drop, inplace=True)
+    return df
 if __name__ == '__main__' : 
     arquivo = "BEN.xlsx" 
     path = str(Path(__file__).parent.resolve()) 
@@ -66,5 +72,10 @@ if __name__ == '__main__' :
         if cont:
             df.drop(index=df.iloc[0].name, inplace=True)
         cont = True
+        df = drop_row_by_text(df, 'ENERGIA SECUNDÁRIA TOTAL ')
+        df = drop_row_by_text(df,'ENERGIA PRIMÁRIA TOTAL ')
+        df = drop_row_by_text(df,'TOTAL ')
         df_total = pd.concat([df_total,df])
+    df_total.drop(57,axis=1,inplace=True) 
+    df_total=converter_float_para_inteiro(df_total)
     df_total.to_csv(path + "BEN_total.csv", index=False, header=False) 
