@@ -5,6 +5,8 @@ Pipeline de dados e análises para modelagem de curvas de custo de marginal de a
 
 ## Painel
 
+📊 [Acesse o painel](https://app.powerbi.com/view?r=eyJrIjoiNjcwYmEyNWUtMTQwMC00M2U5LTkzOWUtNjRiMmFjNzcwMzA5IiwidCI6IjZkMDg4NjkwLTM0NjgtNDMwYy1iNjg2LWY5NGM0NzI5YWU0YiJ9)
+
 <img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
 
