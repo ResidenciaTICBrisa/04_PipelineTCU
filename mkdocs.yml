@@ -50,6 +50,7 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Painel: painel/painel.md
   - Cronograma Geral: cronograma/cronograma.md
   - Roadmap: cronograma/roadmap.md
   - Pré-rastreabilidade:
