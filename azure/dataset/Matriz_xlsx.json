@@ -1,0 +1,139 @@
+{
+	"name": "Matriz_xlsx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLTCUBLOB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Consolidada",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Matriz ab2022.xlsx",
+				"container": "container1"
+			},
+			"range": "B13:AD60",
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "CONTA",
+				"type": "String"
+			},
+			{
+				"name": " PETRÓLEO ",
+				"type": "String"
+			},
+			{
+				"name": " GÁS NATURAL ",
+				"type": "String"
+			},
+			{
+				"name": " CARVÃO VAPOR ",
+				"type": "String"
+			},
+			{
+				"name": " CARVÃO METALÚRGICO ",
+				"type": "String"
+			},
+			{
+				"name": " URÂNIO U3O8 ",
+				"type": "String"
+			},
+			{
+				"name": " ENERGIA HIDRÁULICA ",
+				"type": "String"
+			},
+			{
+				"name": " LENHA ",
+				"type": "String"
+			},
+			{
+				"name": " PRODUTOS DA CANA ",
+				"type": "String"
+			},
+			{
+				"name": " OUTRAS FONTES PRIMÁRIAS ",
+				"type": "String"
+			},
+			{
+				"name": " ENERGIA PRIMÁRIA TOTAL ",
+				"type": "String"
+			},
+			{
+				"name": " BIODIESEL ",
+				"type": "String"
+			},
+			{
+				"name": " ÓLEO DIESEL ",
+				"type": "String"
+			},
+			{
+				"name": " ÓLEO COMBUSTÍVEL ",
+				"type": "String"
+			},
+			{
+				"name": " GASOLINA ",
+				"type": "String"
+			},
+			{
+				"name": " GLP ",
+				"type": "String"
+			},
+			{
+				"name": " NAFTA ",
+				"type": "String"
+			},
+			{
+				"name": " QUEROSENE ",
+				"type": "String"
+			},
+			{
+				"name": " GÁS DE CIDADE E DE COQUERIA ",
+				"type": "String"
+			},
+			{
+				"name": " COQUE DE CARVÃO MINERAL ",
+				"type": "String"
+			},
+			{
+				"name": " URÂNIO CONTIDO NO UO2",
+				"type": "String"
+			},
+			{
+				"name": " ELETRICIDADE",
+				"type": "String"
+			},
+			{
+				"name": " CARVÃO VEGETAL ",
+				"type": "String"
+			},
+			{
+				"name": " ÁLCOOL ETÍLICO ANIDRO E HIDRATADO ",
+				"type": "String"
+			},
+			{
+				"name": " OUTRAS SECUNDÁRIAS DE PETRÓLEO ",
+				"type": "String"
+			},
+			{
+				"name": " PRODUTOS NÃO ENERGÉTICOS DE PETRÓLEO ",
+				"type": "String"
+			},
+			{
+				"name": " ALCATRÃO ",
+				"type": "String"
+			},
+			{
+				"name": " ENERGIA SECUNDÁRIA TOTAL ",
+				"type": "String"
+			},
+			{
+				"name": " TOTAL  ",
+				"type": "String"
+			}
+		]
+	}
+}
