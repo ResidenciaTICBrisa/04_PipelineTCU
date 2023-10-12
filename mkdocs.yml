@@ -76,6 +76,7 @@ nav:
   - Fonte de dados: fonte_dados/fonte_dados.md
   - Pipeline: pipeline/pipeline.md
   - Gráficos : dashboards/dashboards.md
+  - Dicionário de Dados : dicionario/dicionario.md
   - Comunicação:
     - Rituais da Equipe: comunicacao/documentacao_sprints/rituais_da_equipe.md
     - Documentação das Sprints: 
