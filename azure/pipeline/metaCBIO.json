@@ -29,6 +29,7 @@
 					"sink": {
 						"type": "AzureSqlSink",
 						"writeBatchSize": 100,
+						"preCopyScript": "DELETE FROM meta_cbio;",
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false,
 						"tableOption": "autoCreate",
