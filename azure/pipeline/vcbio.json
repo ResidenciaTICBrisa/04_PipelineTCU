@@ -29,6 +29,7 @@
 					"sink": {
 						"type": "AzureSqlSink",
 						"writeBatchSize": 100,
+						"preCopyScript": "DELETE FROM VCBIO;",
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false,
 						"tableOption": "autoCreate",
