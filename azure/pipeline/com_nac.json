@@ -1,6 +1,7 @@
 {
-	"name": "pipeline2",
+	"name": "com_nac",
 	"properties": {
+		"description": "Pipeline para extrair os dados da tabelas Comunicacao.csv correspondente aos dados da Comunicação do Brasil a ONU sobre Emissões de GEE",
 		"activities": [
 			{
 				"name": "com_nac",
