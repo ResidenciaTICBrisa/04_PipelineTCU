@@ -11,24 +11,24 @@ Nesse documento, adicionamos o dicionário relacionado as tabelas presentes no b
 |       DADO       |    NOME DO CAMPO    |  TIPO DO DADO |            DESCRIÇÃO           | RESTRIÇÃO |
 |:----------------:|:-------------------:|:-------------:|:------------------------------:|:---------:|
 | Fonte_Tecnologia | Fonte ou Tecnologia | NVARCHAR(50)  | Fonte ou Tecnologia da análise | NÃO NULO  |
-| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015      | NÃO NULO  |
-| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030      | NÃO NULO  |
-| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040      | NÃO NULO  |
-| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050      | NÃO NULO  |
+| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015 (MW) | NÃO NULO  |
+| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030(MW)  | NÃO NULO  |
+| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040(MW)  | NÃO NULO  |
+| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050(MW)  | NÃO NULO  |
 | Cenário          | Cenário do PNE      | NVARCHAR(150) | Cenário do PNE de análise      | NÃO NULO  |
 
 ## **Página de Geração Período Médio**
 
 #### **Tabela: GerPerMedPNE**
 
-|       DADO       |    NOME DO CAMPO    |  TIPO DO DADO |            DESCRIÇÃO           | RESTRIÇÃO |
-|:----------------:|:-------------------:|:-------------:|:------------------------------:|:---------:|
-| Fonte_Tecnologia | Fonte ou Tecnologia | NVARCHAR(50)  | Fonte ou Tecnologia da análise | NÃO NULO  |
-| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015      | NÃO NULO  |
-| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030      | NÃO NULO  |
-| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040      | NÃO NULO  |
-| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050      | NÃO NULO  |
-| Cenário          | Cenário do PNE      | NVARCHAR(150) | Cenário do PNE de análise      | NÃO NULO  |
+|       DADO       |    NOME DO CAMPO    |  TIPO DO DADO |               DESCRIÇÃO               | RESTRIÇÃO |
+|:----------------:|:-------------------:|:-------------:|:-------------------------------------:|:---------:|
+| Fonte_Tecnologia | Fonte ou Tecnologia | NVARCHAR(50)  | Fonte ou Tecnologia da análise        | NÃO NULO  |
+| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015 (MW Médios) | NÃO NULO  |
+| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030 (MW Médios) | NÃO NULO  |
+| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040 (MW Médios) | NÃO NULO  |
+| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050 (MW Médios) | NÃO NULO  |
+| Cenário          | Cenário do PNE      | NVARCHAR(150) | Cenário do PNE de análise (MW Médios) | NÃO NULO  |
 
 ## **Página de Balanço de Potência**
 
@@ -36,10 +36,10 @@ Nesse documento, adicionamos o dicionário relacionado as tabelas presentes no b
 |       DADO       |    NOME DO CAMPO    |  TIPO DO DADO |            DESCRIÇÃO           | RESTRIÇÃO |
 |:----------------:|:-------------------:|:-------------:|:------------------------------:|:---------:|
 | Fonte_Tecnologia | Fonte ou Tecnologia | NVARCHAR(50)  | Fonte ou Tecnologia da análise | NÃO NULO  |
-| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015      | NÃO NULO  |
-| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030      | NÃO NULO  |
-| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040      | NÃO NULO  |
-| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050      | NÃO NULO  |
+| Ano_2015         | Ano de 2015         | FLOAT         | Quantidade no ano de 2015 (MW) | NÃO NULO  |
+| Ano_2030         | Ano de 2030         | INT           | Quantidade no ano de 2030 (MW) | NÃO NULO  |
+| Ano_2040         | Ano de 2040         | INT           | Quantidade no ano de 2040 (MW) | NÃO NULO  |
+| Ano_2050         | Ano de 2050         | INT           | Quantidade no ano de 2050 (MW) | NÃO NULO  |
 | Cenário          | Cenário do PNE      | NVARCHAR(150) | Cenário do PNE de análise      | NÃO NULO  |
 
 #### **Tabela: DemMax(MW)**
