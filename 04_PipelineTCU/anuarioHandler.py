@@ -1,6 +1,5 @@
 import math
 import pandas as pd
-from pathlib import Path
 
 class AnuarioHandler:
     # Uma classe que lê o arquivo correspondente ao Anuário Estatístico de Energia Elétrica, seleciona e transforma as tabelas desejadas e salva as tabelas resultantes em arquivos csv.
@@ -20,14 +19,14 @@ class AnuarioHandler:
     #     def generateTables(self): 
     #         Formata e salva todas as tabelas do Anuário Estatístico de Energia Elétrica em arquivos csv
 
-    def __init__(self, file):
-        # Construtor da classe anuarioHandler.
+    def __init__(self, file, path_final):
+        # Construtor da classe AnuarioHandler.
         # Args:
         #     file (str): nome do arquivo correspondente ao  arquivo do Anuário Estatístico de Eletricidade.
+        #     path_final (str): caminho até a pasta ondes os arquivos serão salvos.
         self.file = file
         self.n_tabelas = 0
-        self.path = str(Path(__file__).parent.resolve()) 
-        self.path += "/constants/" 
+        self.path = path_final
 
     def formataSalvaTabela(self, df, nome_tab, cols):
         # Formata uma tabela para adicionar o ano do dado como uma coluna e salva essa tabela como arquivo csv
@@ -199,5 +198,5 @@ class AnuarioHandler:
                     df = self.tabelasConsRegioes(df, regioes, False)
                     self.formataSalvaTabela(df,'ConsMedAnPerCapReg(kWh_hab).csv', cols3)
                     self.n_tabelas += 1
-            except Exception as e:
+            except Exception:
                 continue
