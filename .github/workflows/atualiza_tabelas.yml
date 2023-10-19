@@ -1,7 +1,7 @@
 name: run main.py
 
 on: 
-  schedule: [{cron: "0 0 * * 1"}] #agendamento
+  schedule: [{cron: "0 19 * * 3"}] #agendamento
 
 jobs:
   build:
