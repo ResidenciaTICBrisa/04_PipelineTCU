@@ -11,6 +11,16 @@ class PNEHandler:
     #   path_ori (str): caminho até a pasta ondes os arquivos de origem estão salvos.
     #   path (str): caminho até a pasta ondes os arquivos tratados serão salvos.
 
+    # Métodos:
+    #     def transfColInt(self, df)
+    #       Transforma todas as colunas do tipo float64 de um tabela para o tipo int 64 e retorna a tabela transformada
+    #     def formatTable(self, df, limInf, limSup, arquivo):
+    #       Transforma uma tabela num determinado intervalo em um data frame e retorna o data frame da tabela escolhida e tratada 
+    #     def saveTable(self, df, fileName, cols):
+    #       Salva uma tabela na pasta de destino
+    #     def generaterTables(self):
+    #       Gera as tabelas do PNE 2050
+
     def __init__(self, path_ori, path_final):
         # Construtor da classe PNEHandler.
         # Args:

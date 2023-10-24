@@ -14,7 +14,6 @@ class BenHandler:
     #   def generateTable(self):   
     #       Gera a tabela com os dados das matrizes consolidadas do BEN de 1970 até o ano mais atual
 
-
     def __init__(self, file, path_final):
         # Construtor da classe BenHandler.
         # Args:
@@ -28,6 +27,7 @@ class BenHandler:
         # Args:
         #     df (DataFrame): Data Frame que armazena a linha que se deseja apagar
         #     text (str): texto que a linha a ser excluída contém
+        # Retorna: DataFrame
         index_to_drop = df[df.iloc[:, 0].str.contains(text)].index
         df.drop(index=index_to_drop, inplace=True)
         return df
