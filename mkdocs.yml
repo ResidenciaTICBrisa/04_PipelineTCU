@@ -74,9 +74,9 @@ nav:
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
   - Fonte de dados: fonte_dados/fonte_dados.md
+  - Dicionário de Dados: fonte_dados/dicionario.md
   - Pipeline: pipeline/pipeline.md
   - Gráficos : dashboards/dashboards.md
-  - Dicionário de Dados : dicionario/dicionario.md
   - Tutoriais: tutoriais/tutoriais.md
   - Comunicação:
     - Rituais da Equipe: comunicacao/documentacao_sprints/rituais_da_equipe.md
@@ -111,8 +111,5 @@ nav:
         - Reunião: comunicacao/reunioes/reuniao6/reuniao.md
       - Reunião 7:
         - Reunião: comunicacao/reunioes/reuniao7/reuniao.md
-    
-
-
 plugins:
   - search
