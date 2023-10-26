@@ -1,13 +1,7 @@
-from anuarioHandler import AnuarioHandler
-from benHandler import BenHandler
-from comunicacaoHandler import ComunicacaoHandler
 from datetime import datetime
-from excelScrapper import ExcelScrapper
-from excelScrapperByHref import ExcelScrapperByHref
+from Scrappers.excelScrapperByHref import ExcelScrapperByHref
 import pathlib
-from pcbioHandler import PCBIOHandler
-from pneHandler import PNEHandler
-from zipScrapper import ZipScrapper
+from Handlers.pcbioHandler import PCBIOHandler
 
 if __name__ == '__main__':
     year_atual = datetime.now().year
