@@ -1,0 +1,12 @@
+{
+	"name": "Capacidade_Instalada_Matriz_Eletrica_BR_ONS",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/ResidenciaTICBrisa/04_PipelineTCU/raw/main/04_PipelineTCU/constants/Capacidade_Instalada_Matriz_Eletrica_BR_ONS.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

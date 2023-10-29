@@ -1,0 +1,21 @@
+{
+	"name": "Capacidade_Instalada_Matriz_Eletrica_BR_ONS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Capacidade_Instalada_Matriz_Eletrica_BR_ONS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

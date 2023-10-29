@@ -1,0 +1,37 @@
+{
+	"name": "CapInstBioPaisesOUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLTCUBLOB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CapInstBioPaises.csv",
+				"folderPath": "raw-data",
+				"container": "energy-tcu"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Pais",
+				"type": "String"
+			},
+			{
+				"name": "Ano",
+				"type": "String"
+			},
+			{
+				"name": "Cap_Inst",
+				"type": "String"
+			}
+		]
+	}
+}

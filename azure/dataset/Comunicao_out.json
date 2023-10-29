@@ -1,0 +1,24 @@
+{
+	"name": "Comunicao_out",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLTCUBLOB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Comunicao.csv",
+				"folderPath": "raw-data",
+				"container": "energy-tcu"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
