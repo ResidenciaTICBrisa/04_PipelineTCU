@@ -6,7 +6,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Melhorias                          |
 | ----------- | ------------------------------------ |
 | Caio        |[- Utilização de scripts de extração de dados utilizando Python Ex: Selenium <br/> - Inserção de dados dentro de um banco de dados <br/> - Consulta de dados dentro de um banco de dados <br/> - Criação de dashboards interativas no PowerBi <br/> - Utilização de ferramentas de extração de dados usando Python <br/>- Criação de modelos de pipeline dados no Azure](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues?q=+is%3Aissue+assignee%3Acaiozim112+)|
-|Eduardo|[- Elaboração de pipelines <br/> - Extração de dados com python usando beautifulsoup <br/> - Orquestração de scripts com gitactions  <br/> - Manipulação de instâncias em nuvem <br/> - Tratamento de dados com SQL <br/> - Implementação de um Data Wharehouse <br/> - Visualização de dados com Power BI e Linguagem DAX <br/> - Criação de protótipo com o figma <br/> - Elicitação de requisitos com o cliente real <br/> - Repassar o conhecimento através de tutoriais](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues?q=is%3Aissue+assignee%3AEduardoGurgel+is%3Aclosed)      |
+|Eduardo|[- Elaboração de pipelines <br/> - Extração de dados com python usando Beautiful Soup <br/> - Orquestração de scripts com gitactions  <br/> - Manipulação de instâncias em nuvem <br/> - Tratamento de dados com SQL <br/> - Implementação de um Data Wharehouse <br/> - Visualização de dados com Power BI e Linguagem DAX <br/> - Criação de protótipo com o figma <br/> - Elicitação de requisitos com o cliente real <br/> - Repassar o conhecimento através de tutoriais](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues?q=is%3Aissue+assignee%3AEduardoGurgel+is%3Aclosed)      |
 |Pedro|      |
 |Victorio|      |
 |Ugor|      |
@@ -15,7 +15,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Contribuições|
 | ----------- | ------------------------------------ |
 |Caio |- Criação de Requisitos <br/>- Mediação das reuniões com o TCU<br/>- Procurar fontes de relevância para o projeto<br/>- Documentação no Github Pages de atas Ex: Elicitação,Fonte de Dados<br/>- Extração de Dados EX: Irena,ONS<br/>- Criações e refatorações da Dashboard do Projeto|
-|Eduardo| - Deploy da dashboard     |
+|Eduardo| - [Exportação do banco de dados](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/199) <br/> - [Tutoriais Azure, SQL e Banco de dados](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/197) <br/> - [Scripts de extração e carga](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/pull/177) <br/> - [Publicação da Dashboard](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/174) <br/> - [Pipeline Datafactory](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/171) <br/> - [Carga de dados SQL](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/146) <br/> - [Protótpio Dashbard](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/39) <br/> - [Implementar e evoluir a Dashboard](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/131) <br/> - [Modelagem e elicitação de requisitos](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/7) <br/> - [Mapeamento dos dados](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/4) <br/> - [Orquestração dos dados](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/191) <br/> - [MVP do projeto](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/139) <br/> - [Diagrama de fluxo](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues/18)  |
 |Pedro|      |
 |Victorio|      |
 |Ugor|      |
@@ -24,7 +24,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Melhorias                          |
 | ----------- | ------------------------------------ |
 | Caio        | - Entender melhor o problema do cliente <br/>- Conversar melhor com outros membros sobre solução de problemas<br/>- Focar em issues de maior impacto dentro do projeto<br/>- Pegar uma maior quantidade de issues <br/>|
-|Eduardo|      |
+|Eduardo      | - Poderia comparecer mais nas daylies <br/> - Conciliar melhor o projeto com trabalho e faculdade <br/> - Poderia ter escolhido uma opção Open Source <br/> - Distribuir melhor as demandas com os outros membros <br/> - Orientar/comunicar melhor com os outros membros. <br/> - Optar por fazer tutoriais ao vivo ao invés de vídeo.    |
 |Pedro|      |
 |Victorio|      |
 |Ugor|      |
@@ -33,7 +33,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Fraquezas                          |Aprimoramento|
 | ----------- | ------------------------------------ |---------------------|
 | Caio        |  **Procrastinação**: Adiar tarefas importantes.<br/>**Gestão do Tempo**: Má administração do tempo, resultando em atrasos.<br/>**Impaciência**: Dificuldade em lidar com situações que exigem paciência.|**Procrastinação**: Estabelecer metas claras, criar um cronograma, e dividir grandes tarefas em partes menores.<br/>**Gestão do Tempo**: Utilizar técnicas de gerenciamento de tempo, como a técnica Pomodoro, estabelecer prioridades claras<br/>**Impaciência:** Praticar a paciência em situações cotidianas, visualizar objetivos a longo prazo e entender que o progresso leva tempo.|
-|Eduardo|      |      |
+|Eduardo| **Gestão de tempo** Conciliar o projeto com trabalho/faculdade/estágio <br/> **Comunicação**: Comunicar com o grupo atividades que estou fazendo/repassar atividades   | **Gestão de tempo**: Poderia ter produzido mais <br/> **Comunicação**: Repassar mais tarefas que acabei fazendo.    |
 |Pedro|      |      |
 |Victorio|      |      |
 |Ugor|      |      |
@@ -50,7 +50,14 @@ Essa jornada não apenas me proporcionou um aprendizado valioso em uma nova áre
 
 Com o aprendizado do projeto, consegui uma vaga de estágio na Agência de Aviação Civil (ANAC), atuando como analista de dados e utilizando ferramentas semelhantes às que usamos durante o desenvolvimento do projeto.
 
-## Relato de Experiência - Eduardo 
+## Relato de Experiência - Eduardo
+O projeto foi fundamental para o meu aprendizado, consegui desenvolver habilidades variadas, enfrentar desafios da rotina e colocar em prática todo conhecimento teórico que adquiri durante o curso de Engenharia de Software.
+
+Aprendi a configurar serviços, gerenciar instancias virtuais e utilizar o azure para armazenar e processar dados. Também aprendi a projetar e otimizar bancos de dados, executar consultas e manter a integridade dos dados. Todo esse conhecimento adquirido foi muito importante para mim, pois antes de começar o projeto eu não tinha ideia do que se tratava um (ETL), então foi um desafio que acabei superando,e repassando meu conhecimento para os outros integrantes do grupo através de tutoriais.
+
+Como Product Owner, meu progresso ao longo do projeto foi marcada por uma evolução contínua e desafiadora. Principalmente para entender o que o cliente desejava, esse foi um desafio que demandou um tempo considerável e um esforço significativo da equipe. No entanto, nós acabamos definindo o MVP e estabelecendo melhorias para o produto, o que foi fundamental para uma melhor divisão de tarefas e finalização do projeto.
+
+No geral, o projeto desempenhou um papel fundamental em minha trajetória de desenvolvimento profissional, espero muito que seja uma ferramenta útil no contexto da transição energética brasileira, e sem dúvida será um destaque em meu portfólio. Além disso, muito dos conceitos que eu vi durante o projeto foram fundamentais para que eu conseguisse receber algumas propostas de trabalho e também ser aprovado no concurso da Dataprev.
 
 
 ## Relato de Experiência - Pedro 
