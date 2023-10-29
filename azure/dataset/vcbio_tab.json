@@ -1,0 +1,16 @@
+{
+	"name": "vcbio_tab",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ConexaoSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "VCBIO"
+		}
+	}
+}
