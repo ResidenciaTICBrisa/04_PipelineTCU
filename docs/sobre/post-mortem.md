@@ -6,7 +6,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Melhorias                          |
 | ----------- | ------------------------------------ |
 | Caio        |[- Utilização de scripts de extração de dados utilizando Python Ex: Selenium <br/> - Inserção de dados dentro de um banco de dados <br/> - Consulta de dados dentro de um banco de dados <br/> - Criação de dashboards interativas no PowerBi <br/> - Utilização de ferramentas de extração de dados usando Python <br/>- Criação de modelos de pipeline dados no Azure](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues?q=+is%3Aissue+assignee%3Acaiozim112+)|
-|Eduardo|      |
+|Eduardo|[- Elaboração de pipelines <br/> - Extração de dados com python usando beautifulsoup <br/> - Orquestração de scripts com gitactions  <br/> - Manipulação de instâncias em nuvem <br/> - Tratamento de dados com SQL <br/> - Implementação de um Data Wharehouse <br/> - Visualização de dados com Power BI e Linguagem DAX <br/> - Criação de protótipo com o figma <br/> - Elicitação de requisitos com o cliente real <br/> - Repassar o conhecimento através de tutoriais](https://github.com/ResidenciaTICBrisa/04_PipelineTCU/issues?q=is%3Aissue+assignee%3AEduardoGurgel+is%3Aclosed)      |
 |Pedro|      |
 |Victorio|      |
 |Ugor|      |
@@ -15,7 +15,7 @@ Post Mortem é utilizada no contexto de projetos de software para se referir a u
 | Membro      | Contribuições|
 | ----------- | ------------------------------------ |
 |Caio |- Criação de Requisitos <br/>- Mediação das reuniões com o TCU<br/>- Procurar fontes de relevância para o projeto<br/>- Documentação no Github Pages de atas Ex: Elicitação,Fonte de Dados<br/>- Extração de Dados EX: Irena,ONS<br/>- Criações e refatorações da Dashboard do Projeto|
-|Eduardo|      |
+|Eduardo| - Deploy da dashboard     |
 |Pedro|      |
 |Victorio|      |
 |Ugor|      |
