@@ -19,6 +19,7 @@ jobs:
         pip install pandas==2.0.2
         pip install bs4==0.0.1
         pip install openpyxl==3.1.2
+        pip install requests_html==0.10.0
     - name: execute py script # run main.py
       run: python scripts/main.py
     - name: commit files
