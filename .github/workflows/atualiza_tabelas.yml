@@ -1,7 +1,7 @@
 name: run main.py
 
 on: 
-  schedule: [{cron: "0 19 * * 3"}] #agendamento
+  schedule: [{cron: "0 0 * * 3"}] #agendamento
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
         pip install bs4==0.0.1
         pip install openpyxl==3.1.2
     - name: execute py script # run main.py
-      run: python 04_PipelineTCU/main.py
+      run: python scripts/main.py
     - name: commit files
       run: |
         git config --local user.email "action@github.com"

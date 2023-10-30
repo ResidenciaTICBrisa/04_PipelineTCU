@@ -1,0 +1,2 @@
+[run]
+omit = scripts/tests/*,scripts/epe_matriz.py,*/__init__.py,scripts/main.py,

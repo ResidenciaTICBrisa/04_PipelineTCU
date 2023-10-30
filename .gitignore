@@ -1,3 +1,8 @@
 env*
 venv*
-04_PipelineTCU/__pycache__
+scripts/__pycache__
+scripts/scrappers/__pycache__
+scripts/handlers/__pycache__
+scripts/tests/__pycache__
+.coverage
+.pytest_cache

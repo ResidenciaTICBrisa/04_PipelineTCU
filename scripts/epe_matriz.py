@@ -1,8 +1,8 @@
+import os
 from github import Github
 import requests
-import os
 
-## Token de acesso
+# Token de acesso
 github_access_token = os.getenv("PASSWORD_KEY")
 
 if github_access_token:
@@ -24,7 +24,7 @@ if github_access_token:
             contents = repo.get_contents(file_name_in_repo)
             repo.update_file(file_name_in_repo, "Atualizando arquivo", file_content, contents.sha)
             print(f"Arquivo '{file_name_in_repo}' atualizado com sucesso no repositório '{repo_name}'.")
-        except Exception as e:
+        except Exception:
             repo.create_file(file_name_in_repo, "Criando arquivo", file_content)
             print(f"Arquivo '{file_name_in_repo}' criado com sucesso no repositório '{repo_name}'.")
     else:
