@@ -121,6 +121,6 @@ class BenHandler:
             df_total.iloc[1:, 1:-1] = df_total.iloc[1:, 1:-1].astype('int64')
             if len(df_total):
                 df_total.to_csv(self.path_final + "BEN_total.csv", index=False, header=False)
-            return len(df_total)
+            return True
         except Exception:
             return False
