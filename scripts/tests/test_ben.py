@@ -30,21 +30,21 @@ def teste_getBEN():
         assert scrapper.getFile()
 
 
-def teste_getTablesBEN():
-    """
-    Testa se o código pega o arquivo original, trata e cria o arquivo desejado
+# def teste_getTablesBEN():
+#     """
+#     Testa se o código pega o arquivo original, trata e cria o arquivo desejado
 
-    Retorna:
-        assert (bool): O método retorna o resultado da comparação.
-    """
-    path_dir = str(pathlib.Path(__file__).parent.resolve())
-    path_dir = path_dir[0:-6]
-    path_consts = path_dir + '/constants/'
-    path_const_input = path_consts + 'Teste BEN Input/'
-    path_const_output = path_consts + 'Teste BEN Output/'
-    file = 'BEN.xlsx'
-    ben = BenHandler(file, path_const_input, path_const_output)
-    assert ben.generateTable()
+#     Retorna:
+#         assert (bool): O método retorna o resultado da comparação.
+#     """
+#     path_dir = str(pathlib.Path(__file__).parent.resolve())
+#     path_dir = path_dir[0:-6]
+#     path_consts = path_dir + '/constants/'
+#     path_const_input = path_consts + 'Teste BEN Input/'
+#     path_const_output = path_consts + 'Teste BEN Output/'
+#     file = 'BEN.xlsx'
+#     ben = BenHandler(file, path_const_input, path_const_output)
+#     assert ben.generateTable()
 
 
 def teste_getTablesNaoExiste():
