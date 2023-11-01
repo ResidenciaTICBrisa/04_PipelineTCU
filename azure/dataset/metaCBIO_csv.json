@@ -1,0 +1,22 @@
+{
+	"name": "metaCBIO_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ConstantsGitHub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/ResidenciaTICBrisa/04_PipelineTCU/main/04_PipelineTCU/constants/meta%20CBIO.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

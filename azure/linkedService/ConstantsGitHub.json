@@ -1,0 +1,13 @@
+{
+	"name": "ConstantsGitHub",
+	"properties": {
+		"description": "URL até a pasta constants do repositório da equipe",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
