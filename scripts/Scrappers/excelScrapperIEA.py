@@ -11,18 +11,18 @@ class ExcelScrapperIEA:
         self.path_raiz = path_raiz
 
         self.download_link = None
-        self.diretorio = '/constants/IEA/'
+        self.diretorio = '/scripts/constants/IEA/'
         self.path_destino = None
-    def baixa_arquivo(self) -> bool:
+    def baixa_arquivo(self) -> str:
         response = requests.get(self.url)
         # Verifica se a requisição foi bem-sucedida (código 200)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             download_button = soup.find('a', attrs={'download': True, 'href': True})
             self.download_link = download_button['href']
-            print(self.download_link)
             self.nome_arquivo = re.search(r'[^/]+$', self.download_link).group(0)
-            print(self.nome_arquivo)
+        else:
+            raise ValueError(f"Não foi possivel acessar a url {self.url} \n")
 
         if self.download_link:
             download_response = requests.get(self.download_link)
@@ -31,6 +31,8 @@ class ExcelScrapperIEA:
                 self.path_destino.parent.mkdir(parents=True, exist_ok=True)
                 with open(str(self.path_destino), 'wb') as file:
                     file.write(download_response.content)
-            return True
+                return self.nome_arquivo
+            else:
+                raise ValueError(f"Não foi possivel baixar o arquivo {self.nome_arquivo} \n")
         else:
-            return False
+            raise ValueError(f"Não existe link para download \n")

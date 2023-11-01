@@ -74,7 +74,7 @@ class IeaHandler:
         # TODO: Será necessário fazer métodos que irão ler o arquivo xlsx e direcionar para a página certa da planilha
         # TODO: Será necessário fazer um método que, ao ler o arquivo xlsx, selecionará as linhas que possuem a coluna de flow igual a Total energy supply (PJ) e a coluna de country correspondente aos países citados na lista de paises
 
-    def formatar_xlsx_IEA(self):
+    def formatar_xlsx_IEA(self) -> None:
         """
         Função responsável por ler o arquivo excel, selecionar o sheet específico e salvar apenas as informações
         importantes em um novo arquivo do tipo csv.
