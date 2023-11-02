@@ -5,7 +5,7 @@ Pipeline de dados e análises para modelagem de curvas de custo de marginal de a
 
 ## Painel
 
-📊 [Acesse o painel](https://app.powerbi.com/view?r=eyJrIjoiNjcwYmEyNWUtMTQwMC00M2U5LTkzOWUtNjRiMmFjNzcwMzA5IiwidCI6IjZkMDg4NjkwLTM0NjgtNDMwYy1iNjg2LWY5NGM0NzI5YWU0YiJ9)
+📊 [Acesse o painel](https://app.powerbi.com/view?r=eyJrIjoiNjQzM2U4MGMtMWFlOC00ZWNiLWIyZjktNTUyZWY2MzYzNDVhIiwidCI6IjZkMDg4NjkwLTM0NjgtNDMwYy1iNjg2LWY5NGM0NzI5YWU0YiJ9)
 
 <img src="https://camo.githubusercontent.com/76109812f3127b0f86940373897b04ac8943cb3c0f057f90046444480f61bafd/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" title="Divisor" style="max-height:60px; width:auto; display:block;">
 
@@ -101,7 +101,7 @@ Por Questões de Permissão disponíveis apenas para membros da organização "@
 
 ```bash
 $ git clone https://github.com/ResidenciaTICBrisa/04_PipelineTCU.git
-$ cd 04_PipelineTCU
+$ cd scripts
 ```
 
 ### Instalando o Python
@@ -111,7 +111,7 @@ $ cd 04_PipelineTCU
 
 ### Rodando os scripts em Python
 ```bash
-$ python3 dashboard.py
+$ python main.py
 ```
 
 ## Colaboradores

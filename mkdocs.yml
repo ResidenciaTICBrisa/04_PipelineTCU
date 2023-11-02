@@ -52,30 +52,32 @@ nav:
   - Home: index.md
   - Painel: painel/painel.md
   - Cronograma Geral: cronograma/cronograma.md
-  - Roadmap: cronograma/roadmap.md
-  - Pré-rastreabilidade:
-    - Rich Picture: analise/rich_picture.md
-    - Projetos Similares: analise/projetos_similares.md 
-    - PNE 2050: analise/pne_2050/pne_2050.md
-    - IRENA, IEA e NREL: analise/IRENA_IEA_NREL/irena_iea_nrel.md
-  - Elicitação:
-    - Técnicas:
-      - Entrevista: elicitacao/entrevista.md
-      - Cenários: elicitacao/cenarios.md
-      - Personas: elicitacao/personas.md
-      - Storytelling: elicitacao/storytelling.md
-      - Lexico: elicitacao/lexico.md
-    - Priorização: 
-      - MoScoW: elicitacao/priorizacao/MoScoW.md
+  - Roadmap: https://github.com/orgs/ResidenciaTICBrisa/projects/5
   - Modelagem:
+    - Pré-rastreabilidade:
+      - Rich Picture: analise/rich_picture.md
+      - Projetos Similares: analise/projetos_similares.md 
+      - PNE 2050: analise/pne_2050/pne_2050.md
+      - IRENA, IEA e NREL: analise/IRENA_IEA_NREL/irena_iea_nrel.md
+    - Elicitação:
+      - Técnicas:
+        - Entrevista: elicitacao/entrevista.md
+        - Cenários: elicitacao/cenarios.md
+        - Personas: elicitacao/personas.md
+        - Storytelling: elicitacao/storytelling.md
+        - Lexico: elicitacao/lexico.md
+      - Priorização: 
+        - MoScoW: elicitacao/priorizacao/MoScoW.md
     - Modelagem Ágil:
       - Backlog do Produto: modelagem/agil/backlog.md
     - Requisitos: modelagem/requisitos.md
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
   - Fonte de dados: fonte_dados/fonte_dados.md
+  - Dicionário de Dados: fonte_dados/dicionario.md
   - Pipeline: pipeline/pipeline.md
   - Gráficos : dashboards/dashboards.md
+  - Tutoriais: tutoriais/tutoriais.md
   - Comunicação:
     - Rituais da Equipe: comunicacao/documentacao_sprints/rituais_da_equipe.md
     - Documentação das Sprints: 
@@ -111,8 +113,5 @@ nav:
         - Reunião: comunicacao/reunioes/reuniao7/reuniao.md
   - Post Mortem:
     - Inicio: sobre/post-mortem.md
-    
-
-
 plugins:
   - search

@@ -1,0 +1,12 @@
+{
+	"name": "Comunicao",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/main/04_PipelineTCU/constants/Comunicao.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
