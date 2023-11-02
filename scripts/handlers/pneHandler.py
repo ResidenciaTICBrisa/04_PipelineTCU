@@ -183,13 +183,32 @@ class PNEHandler:
                         df_custo_total = pd.concat([df_custo_total, df_aux])
                         break
             cols = ["Fonte/Tecnologia", "Ano 2015", "Ano 2030", "Ano 2040", "Ano 2050", "Cenário"]
+            for c in df_pot_acum.columns:
+                if df_pot_acum[c].dtype == 'float64':
+                    df_pot_acum[c] = df_pot_acum[c].astype('int64')
             self.saveTable(df_pot_acum, 'PotAcumPNE.csv', cols)
+            for c in df_ger_per_med.columns:
+                if df_ger_per_med[c].dtype == 'float64':
+                    df_ger_per_med[c] = df_ger_per_med[c].astype('int64')
             self.saveTable(df_ger_per_med, 'GerPerMedPNE.csv', cols)
+            print("Atend Ponta")
+            for c in df_atend_ponta.columns:
+                if df_atend_ponta[c].dtype == 'float64':
+                    df_atend_ponta[c] = df_atend_ponta[c].astype('int64')
             self.saveTable(df_atend_ponta, 'AtendPontaPNE.csv', cols)
             cols = ["Período", "Ano 2015", "Ano 2030", "Ano 2040", "Ano 2050", "Cenário"]
+            for c in df_em_totais.columns:
+                if df_em_totais[c].dtype == 'float64':
+                    df_em_totais[c] = df_em_totais[c].astype('int64')
             self.saveTable(df_em_totais, 'EmTotPNE.csv', cols)
+            for c in df_cons_gas_nat.columns:
+                if df_cons_gas_nat[c].dtype == 'float64':
+                    df_cons_gas_nat[c] = df_cons_gas_nat[c].astype('int64')
             self.saveTable(df_cons_gas_nat, 'ConsGasNatPNE.csv', cols)
             cols = ["Tipo Expansão", "Ano 2012", "Ano 2015", "Cenário"]
+            for c in df_custo_total.columns:
+                if df_custo_total[c].dtype == 'float64':
+                    df_custo_total[c] = df_custo_total[c].astype('int64')
             self.saveTable(df_custo_total, 'CustoTotPNE.csv', cols)
             return True
         except Exception:

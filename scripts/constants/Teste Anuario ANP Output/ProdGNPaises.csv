@@ -1,111 +1,111 @@
 pais,val_prod,ano
-Canadá,151.9,2013
-Canadá,159.0,2014
-Canadá,160.8,2015
-Canadá,165.0,2016
-Canadá,171.3,2017
-Canadá,176.8,2018
-Canadá,169.6,2019
-Canadá,165.6,2020
-Canadá,172.3,2021
-Canadá,185.0,2022
-Estados Unidos,655.7,2013
-Estados Unidos,704.7,2014
-Estados Unidos,740.3,2015
-Estados Unidos,727.4,2016
-Estados Unidos,746.2,2017
-Estados Unidos,840.9,2018
-Estados Unidos,928.1,2019
-Estados Unidos,916.1,2020
-Estados Unidos,944.1,2021
-Estados Unidos,979.0,2022
-Brasil,21.9,2013
-Brasil,23.3,2014
-Brasil,23.8,2015
-Brasil,24.1,2016
-Brasil,27.2,2017
-Brasil,25.2,2018
-Brasil,25.7,2019
-Brasil,24.2,2020
-Brasil,24.3,2021
-Brasil,23.0,2022
-Noruega,107.9,2013
-Noruega,107.5,2014
-Noruega,116.1,2015
-Noruega,115.9,2016
-Noruega,123.7,2017
-Noruega,121.3,2018
-Noruega,114.3,2019
-Noruega,111.5,2020
-Noruega,114.3,2021
-Noruega,123.0,2022
-Rússia,614.5,2013
-Rússia,591.2,2014
-Rússia,584.4,2015
-Rússia,589.3,2016
-Rússia,635.6,2017
-Rússia,669.1,2018
-Rússia,679.0,2019
-Rússia,638.4,2020
-Rússia,702.1,2021
-Rússia,618.0,2022
-Arábia Saudita,95.0,2013
-Arábia Saudita,97.3,2014
-Arábia Saudita,99.2,2015
-Arábia Saudita,105.3,2016
-Arábia Saudita,109.3,2017
-Arábia Saudita,112.1,2018
-Arábia Saudita,111.2,2019
-Arábia Saudita,113.1,2020
-Arábia Saudita,114.5,2021
-Arábia Saudita,120.0,2022
-Catar,167.9,2013
-Catar,169.4,2014
-Catar,175.9,2015
-Catar,174.8,2016
-Catar,170.5,2017
-Catar,175.2,2018
-Catar,177.2,2019
-Catar,174.9,2020
-Catar,177.0,2021
-Catar,178.0,2022
-Irã,157.5,2013
-Irã,175.5,2014
-Irã,183.5,2015
-Irã,199.3,2016
-Irã,213.9,2017
-Irã,224.9,2018
-Irã,232.9,2019
-Irã,249.5,2020
-Irã,256.7,2021
-Irã,259.0,2022
-Argélia,79.3,2013
-Argélia,80.2,2014
-Argélia,81.4,2015
-Argélia,91.4,2016
-Argélia,93.0,2017
-Argélia,93.8,2018
-Argélia,87.0,2019
-Argélia,81.4,2020
-Argélia,101.1,2021
-Argélia,98.0,2022
-Austrália,60.6,2013
-Austrália,65.3,2014
-Austrália,74.3,2015
-Austrália,94.1,2016
-Austrália,110.3,2017
-Austrália,127.4,2018
-Austrália,146.1,2019
-Austrália,145.9,2020
-Austrália,148.2,2021
-Austrália,153.0,2022
-China,121.8,2013
-China,131.2,2014
-China,135.7,2015
-China,137.9,2016
-China,149.2,2017
-China,161.4,2018
-China,176.7,2019
-China,194.0,2020
-China,209.2,2021
-China,222.0,2022
+Canadá,151900,2013
+Canadá,159000,2014
+Canadá,160800,2015
+Canadá,165000,2016
+Canadá,171300,2017
+Canadá,176800,2018
+Canadá,169600,2019
+Canadá,165600,2020
+Canadá,172300,2021
+Canadá,185000,2022
+Estados Unidos,655700,2013
+Estados Unidos,704700,2014
+Estados Unidos,740300,2015
+Estados Unidos,727400,2016
+Estados Unidos,746200,2017
+Estados Unidos,840900,2018
+Estados Unidos,928100,2019
+Estados Unidos,916100,2020
+Estados Unidos,944100,2021
+Estados Unidos,979000,2022
+Brasil,21900,2013
+Brasil,23300,2014
+Brasil,23800,2015
+Brasil,24100,2016
+Brasil,27200,2017
+Brasil,25200,2018
+Brasil,25700,2019
+Brasil,24200,2020
+Brasil,24300,2021
+Brasil,23000,2022
+Noruega,107900,2013
+Noruega,107500,2014
+Noruega,116100,2015
+Noruega,115900,2016
+Noruega,123700,2017
+Noruega,121300,2018
+Noruega,114300,2019
+Noruega,111500,2020
+Noruega,114300,2021
+Noruega,123000,2022
+Rússia,614500,2013
+Rússia,591200,2014
+Rússia,584400,2015
+Rússia,589300,2016
+Rússia,635600,2017
+Rússia,669100,2018
+Rússia,679000,2019
+Rússia,638400,2020
+Rússia,702100,2021
+Rússia,618000,2022
+Arábia Saudita,95000,2013
+Arábia Saudita,97300,2014
+Arábia Saudita,99200,2015
+Arábia Saudita,105300,2016
+Arábia Saudita,109300,2017
+Arábia Saudita,112100,2018
+Arábia Saudita,111200,2019
+Arábia Saudita,113100,2020
+Arábia Saudita,114500,2021
+Arábia Saudita,120000,2022
+Catar,167900,2013
+Catar,169400,2014
+Catar,175900,2015
+Catar,174800,2016
+Catar,170500,2017
+Catar,175200,2018
+Catar,177200,2019
+Catar,174900,2020
+Catar,177000,2021
+Catar,178000,2022
+Irã,157500,2013
+Irã,175500,2014
+Irã,183500,2015
+Irã,199300,2016
+Irã,213900,2017
+Irã,224900,2018
+Irã,232900,2019
+Irã,249500,2020
+Irã,256700,2021
+Irã,259000,2022
+Argélia,79300,2013
+Argélia,80200,2014
+Argélia,81400,2015
+Argélia,91400,2016
+Argélia,93000,2017
+Argélia,93800,2018
+Argélia,87000,2019
+Argélia,81400,2020
+Argélia,101100,2021
+Argélia,98000,2022
+Austrália,60600,2013
+Austrália,65300,2014
+Austrália,74300,2015
+Austrália,94100,2016
+Austrália,110300,2017
+Austrália,127400,2018
+Austrália,146100,2019
+Austrália,145900,2020
+Austrália,148200,2021
+Austrália,153000,2022
+China,121800,2013
+China,131200,2014
+China,135700,2015
+China,137900,2016
+China,149200,2017
+China,161400,2018
+China,176700,2019
+China,194000,2020
+China,209200,2021
+China,222000,2022

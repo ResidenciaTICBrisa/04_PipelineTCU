@@ -1,3 +1,4 @@
+import math
 import os
 import pandas as pd
 
@@ -117,6 +118,10 @@ class AnuarioANPHandler:
                         i += comp
                     else:
                         df.drop(index=df.iloc[i: i + comp].index, inplace=True)
+                df.iloc[:, 1:2] = df.iloc[:, 1:2].applymap(lambda x : math.floor(x * 1000) if (x * 10 - int(x) * 10) < 5 else math.ceil(x * 1000))
+                for c in df.columns:
+                    if df[c].dtype == 'float64':
+                        df[c] = df[c].astype('int64')
                 df.to_csv(self.path_final + dic_tab_nomes[key][0], index=False, header=["pais", dic_tab_nomes[key][2], "ano"])
                 n_tabelas += 1
             return n_tabelas == len(dic_tab_nomes)
@@ -139,6 +144,13 @@ class AnuarioANPHandler:
                 df = pd.read_csv(self.path_inicio + key, encoding="utf-16", delimiter=';', decimal=',')
                 df.drop(df.columns[0:1], axis=1, inplace=True)
                 df = roundColumn(df, 2)
+                if key != "tabela2-9.csv":
+                    df.iloc[:, 2:] = df.iloc[:, 2:].applymap(lambda x : math.floor(x * 1000) if (x * 10 - int(x) * 10) < 5 else math.ceil(x * 1000))
+                else:
+                    df.iloc[:, 2:] = df.iloc[:, 2:].applymap(lambda x : math.floor(x) if (x * 10 - int(x) * 10) < 5 else math.ceil(x))
+                for c in df.columns:
+                    if df[c].dtype == 'float64':
+                        df[c] = df[c].astype('int64')
                 df.to_csv(self.path_final + dic_tab_nomes[key][0], index=False, header=["localizacao", "ano", dic_tab_nomes[key][1]])
                 n_tabelas += 1
             return n_tabelas == len(dic_tab_nomes)
@@ -161,6 +173,10 @@ class AnuarioANPHandler:
                 df = pd.read_csv(self.path_inicio + key, encoding="utf-16", delimiter=';', decimal=',')
                 df.drop(df.columns[1:2], axis=1, inplace=True)
                 df = roundColumn(df, 1)
+                df.iloc[:, 1:2] = df.iloc[:, 1:2].applymap(lambda x : math.floor(x) if (x * 10 - int(x) * 10) < 5 else math.ceil(x))
+                for c in df.columns:
+                    if df[c].dtype == 'float64':
+                        df[c] = df[c].astype('int64')
                 df.to_csv(self.path_final + dic_tab_nomes[key][0], index=False, header=["regiao", dic_tab_nomes[key][1], "ano"])
                 n_tabelas += 1
             return n_tabelas == len(dic_tab_nomes)

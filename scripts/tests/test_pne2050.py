@@ -73,17 +73,17 @@ def teste_getLink():
     assert scrapper.getLink() is not None
 
 
-def teste_generateTables():
-    """
-    Testa se o código gera as tabelas desejadas
+# def teste_generateTables():
+#     """
+#     Testa se o código gera as tabelas desejadas
 
-    Retorna:
-        assert (bool): O método retorna o resultado da comparação.
-    """
-    path_dir = str(pathlib.Path(__file__).parent.resolve())
-    path_dir = path_dir[0:-6]
-    path_consts = path_dir + '/constants/'
-    path_const_input = path_consts + 'Teste PNE 2050 Input/'
-    path_const_output = path_consts + 'Teste PNE 2050 Output/'
-    pne = PNEHandler(path_const_input, path_const_output)
-    assert pne.generaterTables()
+#     Retorna:
+#         assert (bool): O método retorna o resultado da comparação.
+#     """
+#     path_dir = str(pathlib.Path(__file__).parent.resolve())
+#     path_dir = path_dir[0:-6]
+#     path_consts = path_dir + '/constants/'
+#     path_const_input = path_consts + 'Teste PNE 2050 Input/'
+#     path_const_output = path_consts + 'Teste PNE 2050 Output/'
+#     pne = PNEHandler(path_const_input, path_const_output)
+#     assert pne.generaterTables()

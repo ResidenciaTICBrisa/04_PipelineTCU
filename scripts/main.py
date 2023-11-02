@@ -48,7 +48,7 @@ if __name__ == '__main__':
         if scrapper.getLink() is not None:
             if scrapper.getFile():
                 ben = BenHandler(file, path_const_input, path_const_output)
-                print(ben.generateTable())
+                ben.generateTable()
                 break
         year -= 1
         cont += 1
@@ -119,23 +119,23 @@ if __name__ == '__main__':
                     "tabela1-7.csv": ["ProdGNPaises.csv", 2, "val_prod"],
                     "tabela1-8.csv": ["ConsGNPaises.csv", 1, "val_cons"]
                 }
-                print(handler.generateTablesGN(dic_tab_nomes))
+                handler.generateTablesGN(dic_tab_nomes)
                 dic_tab_nomes = {
                     "tabela2-9.csv": ["ProdPetrUF.csv", "prod_pet"],
                     "tabela2-13.csv": ["ProdGNUF.csv", "prod_gn"],
                     "tabela2-16.csv": ["QueimaPerdaGNUF.csv", "queima_perda_pet"]
                 }
-                print(handler.generateTablesPetGNNac(dic_tab_nomes))
+                handler.generateTablesPetGNNac(dic_tab_nomes)
                 dic_tab_nomes = {
                     "tabela4-1.csv": ["ProdEtAniHidUF.csv", "prod_etanol_anidro_hidr"],
                     "tabela4-10.csv": ["ProdB100UF.csv", "prod_biodiesel"]
                 }
-                print(handler.generateTablesBioCombs(dic_tab_nomes))
+                handler.generateTablesBioCombs(dic_tab_nomes)
                 dic_tab_nomes = {
                     "tabela4-16.csv": ["EmCBIOBioComb.csv", "biocombustivel", "emissao_cbio"],
                     "tabela4-17.csv": ["ApCBIO.csv", "distribuidores_combustivel", "outros_agentes"]
                 }
-                print(handler.generateTablesCBIO(dic_tab_nomes, year - 1))
+                handler.generateTablesCBIO(dic_tab_nomes, year - 1)
                 break
         year -= 1
         cont += 1

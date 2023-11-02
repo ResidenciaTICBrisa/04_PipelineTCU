@@ -3,19 +3,17 @@ import os
 import pandas as pd
 
 
-def formatacaoComum(df, apaga_ultimo, e_inteiro, apaga_prim):
+def formatacaoComum(df, apaga_ultimo, apaga_prim, sheet_name):
     """
     Formata e retorna as tabelas com uma formatação comum a todas
 
     Args:
         df (DataFrame): DataFrame da tabela que será formatada
         apaga_ultimo (bool): variável que informa se é necessário apagar a última linha da tabela
-        e_inteiro (bool): variável que informa se é necessário converter as colunas para int64
         apaga_prim (bool): variável que informa se é necessário apagar a linha de índice 1
 
     Retorna: DataFrame
     """
-
     df.dropna(inplace=True)
     coluna = 1
     n_cols = df.columns.size
@@ -28,11 +26,12 @@ def formatacaoComum(df, apaga_ultimo, e_inteiro, apaga_prim):
         df.drop(index=df.iloc[-1].name, inplace=True)
     if apaga_prim:
         df.drop(index=df.iloc[1].name, inplace=True)
-    if e_inteiro:
-        df.iloc[:, 1:] = df.iloc[:, 1:].applymap(lambda x : math.floor(x) if (x * 10 - int(x) * 10) < 5 else math.ceil(x))
-        for c in df.columns:
-            if df[c].dtype == 'float64':
-                df[c] = df[c].astype('int64')
+    if sheet_name[0:5] == "EmGEE":
+        df.iloc[1:, 1:] = df.iloc[1:, 1:].applymap(lambda x : x * 1000)
+    df.iloc[:, 1:] = df.iloc[:, 1:].applymap(lambda x : math.floor(x) if (x * 10 - int(x) * 10) < 5 else math.ceil(x))
+    for c in df.columns:
+        if df[c].dtype == 'float64':
+            df[c] = df[c].astype('int64')
     return df
 
 
@@ -150,16 +149,19 @@ class AnuarioHandler:
             "Geração solar no mundo": "GerSolPaises(TWh).csv",
             "Geração biomassa no mundo": "GerBioPaises(TWh).csv"
         }
-        dictCapGerEm = {
-            "Capacidade instalada de geração elétrica no Brasil (MW)": [False, True, True, "CapInstFonte(MW).csv", ["Fonte", "Ano", "Cap_Inst"]],
-            "Geração elétrica por fonte no Brasil (GWh)": [False, True, True, "GelElFonte(GWh).csv", ["Fonte", "Ano", "Geracao"]],
-            "Emissões de GEE no SIN - MtCO2": [False, False, True, "EmGEESIN(MtCO2).csv", ["Fonte", "Ano", "Emissoes"]],
-            "Emissões de GEE no Sistema Isolado - MtCO2": [False, False, True, "EmGEESistIso(MtCO2).csv", ["Fonte", "Ano", "Emissoes"]],
-            "Emissões de GEE provenientes da Geração Elétrica no Brasil - MtCO2": [False, False, True, "EmGEEGerEl(MtCO2).csv", ["Subsistema", "Ano", "Emissoes"]]
+        dictCapGer = {
+            "Capacidade instalada de geração elétrica no Brasil (MW)": [False, True, "CapInstFonte(MW).csv", ["Fonte", "Ano", "Cap_Inst"]],
+            "Geração elétrica por fonte no Brasil (GWh)": [False, True, "GelElFonte(GWh).csv", ["Fonte", "Ano", "Geracao"]]
+        }
+        dictEm = {
+            "Emissões de GEE no SIN - MtCO2": [False, True, "EmGEESIN(MtCO2).csv", ["Fonte", "Ano", "Emissoes"]],
+            "Emissões de GEE no Sistema Isolado - MtCO2": [False, True, "EmGEESistIso(MtCO2).csv", ["Fonte", "Ano", "Emissoes"]],
+            "Emissões de GEE provenientes da Geração Elétrica no Brasil - MtCO2": [False, True, "EmGEEGerEl(MtCO2).csv", ["Subsistema", "Ano", "Emissoes"]]
         }
         keysCapInst = dictCapInst.keys()
         keysGer = dictGer.keys()
-        keysCapGerEm = dictCapGerEm.keys()
+        keysCapGer = dictCapGer.keys()
+        keysEm = dictEm.keys()
         for sheet_name, df in pd.read_excel(self.path_inicio + self.file, sheet_name=None).items():
             try:
                 if self.n_tabelas == 24:
@@ -168,7 +170,7 @@ class AnuarioHandler:
                 passou = False
                 for key in keysCapInst:
                     if df.iloc[5, 0].find(key) != -1:
-                        df = formatacaoComum(df, True, True, True)
+                        df = formatacaoComum(df, True, True, dictCapInst[key])
                         self.formataSalvaTabela(df, dictCapInst[key], cols1)
                         self.n_tabelas += 1
                         passou = True
@@ -178,7 +180,7 @@ class AnuarioHandler:
                 passou = False
                 for key in keysGer:
                     if df.iloc[5, 0].find(key) != -1:
-                        df = formatacaoComum(df, True, True, True)
+                        df = formatacaoComum(df, True, True, dictGer[key])
                         self.formataSalvaTabela(df, dictGer[key], cols2)
                         self.n_tabelas += 1
                         passou = True
@@ -186,10 +188,20 @@ class AnuarioHandler:
                 if passou:
                     continue
                 passou = False
-                for key in keysCapGerEm:
+                for key in keysCapGer:
                     if df.iloc[5, 0].find(key) != -1:
-                        df = formatacaoComum(df, dictCapGerEm[key][0], dictCapGerEm[key][1], dictCapGerEm[key][2])
-                        self.formataSalvaTabela(df, dictCapGerEm[key][3], dictCapGerEm[key][4])
+                        df = formatacaoComum(df, dictCapGer[key][0], dictCapGer[key][1], dictCapGer[key][2])
+                        self.formataSalvaTabela(df, dictCapGer[key][2], dictCapGer[key][3])
+                        self.n_tabelas += 1
+                        passou = True
+                        break
+                if passou:
+                    continue
+                passou = False
+                for key in keysEm:
+                    if df.iloc[5, 0].find(key) != -1:
+                        df = formatacaoComum(df, dictEm[key][0], dictEm[key][1], dictEm[key][2])
+                        self.formataSalvaTabela(df, dictEm[key][2], dictEm[key][3])
                         self.n_tabelas += 1
                         passou = True
                         break
@@ -198,7 +210,7 @@ class AnuarioHandler:
                 if df.iloc[5, 0].find("Consumo médio total por subsistema, região e UF") != -1:
                     regioes = ["Norte", "Nordeste", "Sudeste", "Sul", "Centro-Oeste", "Regiões geográficas"]
                     cols3 = ["Subsistema", "Ano", "Cons_Med_Tot"]
-                    df = formatacaoComum(df, False, False, True)
+                    df = formatacaoComum(df, False, True, 'ConsMedTotSubsis(kWh_mes).csv')
                     self.formataSalvaTabela(df.iloc[0:7, :], 'ConsMedTotSubsis(kWh_mes).csv', cols3)
                     df = tabelasConsRegioes(df, regioes, True)
                     cols3 = ["Regiao", "Ano", "Cons_Med_Tot"]
@@ -207,7 +219,7 @@ class AnuarioHandler:
                 elif df.iloc[5, 0].find("Consumo médio residencial por subsistema, região e UF") != -1:
                     regioes = ["Norte", "Nordeste", "Sudeste", "Sul", "Centro-Oeste", "Regiões geográficas"]
                     cols3 = ["Subsistema", "Ano", "Cons_Med_Res"]
-                    df = formatacaoComum(df, False, False, True)
+                    df = formatacaoComum(df, False, True, 'ConsMedResSubsis(kWh_mes).csv')
                     self.formataSalvaTabela(df.iloc[0:7, :], 'ConsMedResSubsis(kWh_mes).csv', cols3)
                     df = tabelasConsRegioes(df, regioes, True)
                     cols3 = ["Regiao", "Ano", "Cons_Med_Res"]
@@ -216,7 +228,7 @@ class AnuarioHandler:
                 elif df.iloc[5, 0].find("Consumo médio anual per capita por região e UF (kWh/hab)") != -1:
                     regioes = ["Norte", "Nordeste", "Sudeste", "Sul", "Centro-Oeste", "Brasil"]
                     cols3 = ["Regiao", "Ano", "Cons_Med_An_PC"]
-                    df = formatacaoComum(df, False, False, False)
+                    df = formatacaoComum(df, False, False, 'ConsMedAnPerCapReg(kWh_hab).csv')
                     df = tabelasConsRegioes(df, regioes, False)
                     self.formataSalvaTabela(df, 'ConsMedAnPerCapReg(kWh_hab).csv', cols3)
                     self.n_tabelas += 1
