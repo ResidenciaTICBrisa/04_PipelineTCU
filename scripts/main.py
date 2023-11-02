@@ -11,7 +11,7 @@ from scrappers.excelScrapper import ExcelScrapper
 from scrappers.excelScrapperByHref import ExcelScrapperByHref
 from scrappers.excelScrapperAnuarioANP import ExcelScrapperAnuarioANP
 from scrappers.zipScrapper import ZipScrapper
-from Scrappers.excelScrapperIEA import ExcelScrapperIEA
+from scripts.scrappers.excelScrapperIEA import ExcelScrapperIEA
 
 if __name__ == '__main__':
     year_atual = datetime.now().year
@@ -140,10 +140,7 @@ if __name__ == '__main__':
                 break
         year -= 1
         cont += 1
-        
-    '''
-    Extração arquivo IEA
-    '''
+
     url_site = "https://www.iea.org/data-and-statistics/data-product/world-energy-statistics-and-balances"
     scrapperIea = ExcelScrapperIEA(url_site, path_raiz)
     nome_arquivo = scrapperIea.baixa_arquivo()

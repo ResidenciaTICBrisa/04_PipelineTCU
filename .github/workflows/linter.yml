@@ -22,4 +22,4 @@ jobs:
       - name: Lint flake8
         run: |     
           flake8 scripts --ignore=E203,W291,W293 --max-line-length=240  --show-source --statistics
-          find . -type f -name "*.py" -exec pylint --disable=C0103,C0301,C0114,W0703,W0622,R0913,E1101,R0903,R0915,R0912,W0612,E0401,R0914 -j 0 --exit-zero {} \;
+          find . -type f -name "*.py" -exec pylint --disable=C0103,C0301,C0114,W0703,W0622,R0913,E1101,R0903,R0915,R0912,W0612,E0401,R0914,C0115,C0116,W0511 -j 0 --exit-zero {} \;

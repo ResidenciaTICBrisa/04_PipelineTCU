@@ -1,5 +1,5 @@
-import pandas as pd
 from pathlib import Path
+import pandas as pd
 
 
 class IeaHandler:
@@ -83,16 +83,15 @@ class IeaHandler:
         """
         excel_file = pd.ExcelFile(self.path + "/constants/IEA/" + self.file)
         df_iea_sheet_principal = pd.read_excel(excel_file, sheet_name=3)
-        lista_indices_linhas = df_iea_sheet_principal.index[df_iea_sheet_principal.iloc[:,2] == 'Total energy supply ' \
-                                                                                                '(PJ)'].tolist()
+        lista_indices_linhas = df_iea_sheet_principal.index[df_iea_sheet_principal.iloc[:, 2] == 'Total energy supply ' '(PJ)'].tolist()
         df_novo_csv = df_iea_sheet_principal.iloc[lista_indices_linhas]
-        nome_colunas_novas = ['PAIS','PRODUTO','DADO_TIPO']
+        nome_colunas_novas = ['PAIS', 'PRODUTO', 'DADO_TIPO']
         df_novo_csv.columns.values[:3] = nome_colunas_novas
 
         df_novo_csv = df_novo_csv.drop(df_novo_csv.columns[3:6], axis=1)
 
-        df_novo_csv.columns.values[3:] = df_iea_sheet_principal.iloc[0,6:]
+        df_novo_csv.columns.values[3:] = df_iea_sheet_principal.iloc[0, 6:]
 
-        df_novo_csv.replace('..', 0,inplace=True)
+        df_novo_csv.replace('..', 0, inplace=True)
 
         df_novo_csv.to_csv(self.path + "/constants/IEA/" + "tabelas_paises_TES.csv", index=False)

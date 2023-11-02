@@ -1,7 +1,7 @@
-import requests
 import re
-from bs4 import BeautifulSoup
 from pathlib import Path
+import requests
+from bs4 import BeautifulSoup
 
 
 class ExcelScrapperIEA:
@@ -13,6 +13,7 @@ class ExcelScrapperIEA:
         self.download_link = None
         self.diretorio = '/scripts/constants/IEA/'
         self.path_destino = None
+
     def baixa_arquivo(self) -> str:
         response = requests.get(self.url)
         # Verifica se a requisição foi bem-sucedida (código 200)
@@ -32,7 +33,5 @@ class ExcelScrapperIEA:
                 with open(str(self.path_destino), 'wb') as file:
                     file.write(download_response.content)
                 return self.nome_arquivo
-            else:
-                raise ValueError(f"Não foi possivel baixar o arquivo {self.nome_arquivo} \n")
-        else:
-            raise ValueError(f"Não existe link para download \n")
+            raise ValueError(f"Não foi possivel baixar o arquivo {self.nome_arquivo} \n")
+        raise ValueError("Não existe link para download \n")
