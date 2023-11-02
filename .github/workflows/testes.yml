@@ -1,0 +1,29 @@
+name: teste-unitario-automatizado
+
+on: # Quando o usuário realizar um push, será feito os testes
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install --upgrade pip
+        pip install requests==2.31.0
+        pip install pandas==2.0.2
+        pip install bs4==0.0.1
+        pip install openpyxl==3.1.2
+        pip install requests_html==0.10.0
+    - name: Test with pytest
+      run: | # Vai realizar os testes
+        pip install pytest
+        pip install pytest-cov
+        pytest --cov-config=.coveragerc --cov=scripts
