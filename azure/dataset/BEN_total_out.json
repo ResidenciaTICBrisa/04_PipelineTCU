@@ -1,0 +1,24 @@
+{
+	"name": "BEN_total_out",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLTCUBLOB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BEN_total.csv",
+				"folderPath": "raw-data",
+				"container": "energy-tcu"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

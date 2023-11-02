@@ -1,0 +1,103 @@
+{
+	"name": "com_nac",
+	"properties": {
+		"description": "Pipeline para extrair os dados da tabelas Comunicacao.csv correspondente aos dados da Comunicação do Brasil a ONU sobre Emissões de GEE",
+		"activities": [
+			{
+				"name": "com_nac",
+				"description": "Pipeline para extrair os dados da tabelas Comunicacao.csv correspondente aos dados da Comunicação do Brasil a ONU sobre Emissões de GEE",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBatchSize": 100,
+						"preCopyScript": "DELETE FROM Comunicacao;",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false,
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Setor",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Setor",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ano",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ano",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Emissoes",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Emissoes",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "comunicacao_csv",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "comunicacao_tab",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": []
+	}
+}
