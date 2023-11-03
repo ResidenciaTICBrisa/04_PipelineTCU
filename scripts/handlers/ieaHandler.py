@@ -69,7 +69,8 @@ class IeaHandler:
             "Türkiye",
             "Ukraine",
             "United Kingdom",
-            "United States"
+            "United States",
+            "World"
         ]
         # TODO: Será necessário fazer métodos que irão ler o arquivo xlsx e direcionar para a página certa da planilha
         # TODO: Será necessário fazer um método que, ao ler o arquivo xlsx, selecionará as linhas que possuem a coluna de flow igual a Total energy supply (PJ) e a coluna de country correspondente aos países citados na lista de paises
@@ -94,4 +95,6 @@ class IeaHandler:
 
         df_novo_csv.replace('..', 0, inplace=True)
 
-        df_novo_csv.to_csv(self.path + "/constants/IEA/" + "tabelas_paises_TES.csv", index=False)
+        df_novo_csv_paises_filtrados = df_novo_csv[df_novo_csv['PAIS'].isin(self.paises)]
+
+        df_novo_csv_paises_filtrados.to_csv(self.path + "/constants/IEA/" + "tabelas_paises_TES.csv", index=False)
