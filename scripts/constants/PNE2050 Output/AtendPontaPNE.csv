@@ -1,114 +1,4 @@
 Fonte/Tecnologia,Ano 2015,Ano 2030,Ano 2040,Ano 2050,Cenário
-Hidro,62140,92455,91485,87962,26. Carvão financiado com redução de 20% no CAPEX
-Gás Natural,10652,16214,23913,28028,26. Carvão financiado com redução de 20% no CAPEX
-Carvão,2107,3189,1755,1500,26. Carvão financiado com redução de 20% no CAPEX
-Nuclear,1652,2983,2983,2983,26. Carvão financiado com redução de 20% no CAPEX
-Óleos Comb,4507,0,0,0,26. Carvão financiado com redução de 20% no CAPEX
-Biomassa,4255,4945,4771,4554,26. Carvão financiado com redução de 20% no CAPEX
-Eólica,1499,14411,30427,43653,26. Carvão financiado com redução de 20% no CAPEX
-Solar,4,1271,6393,14984,26. Carvão financiado com redução de 20% no CAPEX
-Outros,452,452,452,452,26. Carvão financiado com redução de 20% no CAPEX
-Pot. Compl.,0,13271,38658,67189,26. Carvão financiado com redução de 20% no CAPEX
-GD,0,904,2005,3733,26. Carvão financiado com redução de 20% no CAPEX
-Hidro,63959,95535,107592,107428,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Gás Natural,10476,18469,27644,35650,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Carvão,2380,2635,1772,1772,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Nuclear,1652,2983,2983,2983,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Óleos Comb,3820,0,0,0,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Biomassa,3951,6645,8001,8377,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Eólica,574,11015,19780,37497,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Solar,4,1386,7518,7518,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Outros,452,452,452,452,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Pot. Compl.,0,10071,25095,49629,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-GD,0,904,2005,3733,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
-Hidro,65468,96125,106465,102960,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Gás Natural,9629,6559,1494,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Carvão,1566,1689,255,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Nuclear,1813,3144,3144,3144,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Óleos Comb,2478,0,0,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Biomassa,4265,14470,14297,13949,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Eólica,1593,14487,31346,44443,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Solar,4,434,944,9535,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Outros,452,452,0,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Pot. Compl.,0,11829,42891,77275,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-GD,0,904,2005,3733,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Hidro,65587,88969,90431,91885,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Gás Natural,9114,14620,23015,27410,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Carvão,2107,1689,255,0,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Nuclear,1652,11721,19586,19586,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Óleos Comb,3553,0,0,0,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Biomassa,4041,5116,4943,4726,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Eólica,761,12549,25664,38030,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Solar,2,434,2582,11174,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Outros,452,452,452,452,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Pot. Compl.,0,13640,33908,58043,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-GD,0,904,2005,3733,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Hidro,63243,93968,95022,97164,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Gás Natural,10172,17343,48201,71385,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Carvão,1840,1689,255,0,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Nuclear,1652,2983,2983,2983,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Óleos Comb,4382,0,0,0,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Biomassa,4221,8970,9736,9519,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Eólica,1301,9866,10276,14321,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Solar,4,2423,5588,9588,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Outros,452,452,452,452,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Pot. Compl.,0,11495,28323,45893,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-GD,0,904,2005,3733,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Hidro,62140,92532,92473,85811,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Gás Natural,10652,17936,19941,22533,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Carvão,2107,1689,255,0,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Nuclear,1652,2983,2983,2983,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Óleos Comb,4507,0,0,0,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Biomassa,4255,4945,4771,4554,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Eólica,1499,14913,32267,46448,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Solar,4,1271,7416,16008,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Outros,452,452,452,452,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Pot. Compl.,0,12470,40278,72516,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-GD,0,904,2005,3733,29. GN Pré-Sal ao preço de US$ 6/MMBtu
-Hidro,63353,95488,100914,96622,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Gás Natural,9971,20228,29537,30779,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Carvão,2380,1689,255,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Nuclear,1652,2983,2983,2983,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Óleos Comb,4082,0,0,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Biomassa,4040,8923,9574,3979,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Eólica,1334,9548,9215,14003,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Solar,4,434,15906,26392,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Outros,452,452,0,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Pot. Compl.,0,9444,32453,76548,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-GD,0,904,2005,3733,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Hidro,63959,95535,107592,107428,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Gás Natural,10476,18469,27644,35650,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Carvão,2380,2635,1772,1772,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Nuclear,1652,2983,2983,2983,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Óleos Comb,3820,0,0,0,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Biomassa,3951,6645,8001,8377,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Eólica,574,11015,19780,37497,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Solar,4,1386,7518,7518,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Outros,452,452,452,452,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Pot. Compl.,0,10071,25095,49629,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-GD,0,904,2005,3733,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Hidro,63293,96651,97730,95585,8. Repotenciação de UHE
-Gás Natural,10147,16580,24279,29325,8. Repotenciação de UHE
-Carvão,1638,1689,255,0,8. Repotenciação de UHE
-Nuclear,1652,2983,2983,2983,8. Repotenciação de UHE
-Óleos Comb,4472,0,0,0,8. Repotenciação de UHE
-Biomassa,4202,4966,4793,4576,8. Repotenciação de UHE
-Eólica,1408,14284,30812,43744,8. Repotenciação de UHE
-Solar,4,434,4601,13193,8. Repotenciação de UHE
-Outros,452,452,452,452,8. Repotenciação de UHE
-Pot. Compl.,0,11151,34931,61447,8. Repotenciação de UHE
-GD,0,904,2005,3733,8. Repotenciação de UHE
-Hidro,65587,92390,92210,89064,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Gás Natural,9114,15057,23633,27083,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Carvão,2107,1689,255,0,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Nuclear,1652,8830,8830,8830,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Óleos Comb,3553,0,0,0,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Biomassa,4041,5118,4944,4727,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Eólica,761,12789,28297,41633,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Solar,2,738,5942,14534,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Outros,452,452,452,452,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Pot. Compl.,0,12127,36273,64984,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-GD,0,904,2005,3733,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
 Hidro,65138,89764,90005,81490,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
 Gás Natural,9450,22502,25123,22978,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
 Carvão,2380,1689,255,0,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
@@ -120,556 +10,6 @@ Solar,4,1285,8435,17026,41. Efeitos das Mudanças Climáticas (redução de disp
 Outros,452,452,452,452,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
 Pot. Compl.,0,0,27667,61618,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
 GD,0,904,2005,3733,41. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Hidro,63353,93860,105044,105814,61. Carvão financiado com redução de 20% no CAPEX
-Gás Natural,9971,15124,22577,23181,61. Carvão financiado com redução de 20% no CAPEX
-Carvão,2380,3189,1755,1500,61. Carvão financiado com redução de 20% no CAPEX
-Nuclear,1652,2983,2983,2983,61. Carvão financiado com redução de 20% no CAPEX
-Óleos Comb,4082,0,0,0,61. Carvão financiado com redução de 20% no CAPEX
-Biomassa,4040,8574,8401,8184,61. Carvão financiado com redução de 20% no CAPEX
-Eólica,1334,12078,29187,40799,61. Carvão financiado com redução de 20% no CAPEX
-Solar,4,434,944,7605,61. Carvão financiado com redução de 20% no CAPEX
-Outros,452,452,452,452,61. Carvão financiado com redução de 20% no CAPEX
-Pot. Compl.,0,12496,29493,60789,61. Carvão financiado com redução de 20% no CAPEX
-GD,0,904,2005,3733,61. Carvão financiado com redução de 20% no CAPEX
-Hidro,64005,93445,111512,111636,43. Repotenciação de UHE
-Gás Natural,9818,16147,23159,23393,43. Repotenciação de UHE
-Carvão,2380,1689,255,0,43. Repotenciação de UHE
-Nuclear,1652,2983,2983,2983,43. Repotenciação de UHE
-Óleos Comb,3810,0,0,0,43. Repotenciação de UHE
-Biomassa,4094,8825,8652,8435,43. Repotenciação de UHE
-Eólica,1055,12268,27388,39418,43. Repotenciação de UHE
-Solar,2,434,944,7689,43. Repotenciação de UHE
-Outros,452,452,452,452,43. Repotenciação de UHE
-Pot. Compl.,0,12947,25492,57300,43. Repotenciação de UHE
-GD,0,904,2005,3733,43. Repotenciação de UHE
-Hidro,63306,93103,105244,105695,55. Redução de 45% no CAPEX de Usina Nuclear
-Gás Natural,10476,16147,24035,24639,55. Redução de 45% no CAPEX de Usina Nuclear
-Carvão,2380,1689,255,0,55. Redução de 45% no CAPEX de Usina Nuclear
-Nuclear,1813,3144,3144,3144,55. Redução de 45% no CAPEX de Usina Nuclear
-Óleos Comb,3624,0,0,0,55. Redução de 45% no CAPEX de Usina Nuclear
-Biomassa,4009,8668,8495,8278,55. Redução de 45% no CAPEX de Usina Nuclear
-Eólica,1204,12784,29452,40715,55. Redução de 45% no CAPEX de Usina Nuclear
-Solar,4,434,944,7841,55. Redução de 45% no CAPEX de Usina Nuclear
-Outros,452,452,452,452,55. Redução de 45% no CAPEX de Usina Nuclear
-Pot. Compl.,0,12769,28816,60542,55. Redução de 45% no CAPEX de Usina Nuclear
-GD,0,904,2005,3733,55. Redução de 45% no CAPEX de Usina Nuclear
-Hidro,63959,95535,107592,107428,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Gás Natural,10476,18469,27644,35650,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Carvão,2380,2635,1772,1772,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Nuclear,1652,2983,2983,2983,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Óleos Comb,3820,0,0,0,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Biomassa,3951,6645,8001,8377,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Eólica,574,11015,19780,37497,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Solar,4,1386,7518,7518,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Outros,452,452,452,452,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Pot. Compl.,0,10071,25095,49629,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-GD,0,452,1002,1867,63. Capacidade Instalada de GD limitada a 25 GW em 2050
-Hidro,63306,93103,105244,105875,56. Redução de 50% no CAPEX de Usina Nuclear
-Gás Natural,10476,16147,24035,24459,56. Redução de 50% no CAPEX de Usina Nuclear
-Carvão,2380,1689,255,0,56. Redução de 50% no CAPEX de Usina Nuclear
-Nuclear,1813,3144,3144,3144,56. Redução de 50% no CAPEX de Usina Nuclear
-Óleos Comb,3624,0,0,0,56. Redução de 50% no CAPEX de Usina Nuclear
-Biomassa,4009,8668,8495,8278,56. Redução de 50% no CAPEX de Usina Nuclear
-Eólica,1204,12784,29452,40715,56. Redução de 50% no CAPEX de Usina Nuclear
-Solar,4,434,944,7841,56. Redução de 50% no CAPEX de Usina Nuclear
-Outros,452,452,452,452,56. Redução de 50% no CAPEX de Usina Nuclear
-Pot. Compl.,0,12769,28816,60542,56. Redução de 50% no CAPEX de Usina Nuclear
-GD,0,904,2005,3733,56. Redução de 50% no CAPEX de Usina Nuclear
-Hidro,65331,93741,95867,95937,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Gás Natural,9805,18511,31171,39168,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Carvão,2107,2635,1551,1551,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Nuclear,1652,2983,2983,2983,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Óleos Comb,3340,0,0,0,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Biomassa,3985,6645,8001,9008,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Eólica,594,11507,21322,38024,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Solar,3,1386,8560,8560,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Outros,452,452,452,452,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Pot. Compl.,0,11330,30929,55623,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-GD,0,904,2005,3733,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Hidro,63353,95081,106590,107849,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Gás Natural,9971,15799,23338,25504,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Carvão,2380,1689,255,0,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Nuclear,1652,2983,2983,2983,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Óleos Comb,4082,0,0,0,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Biomassa,4040,7276,7103,6886,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Eólica,1334,13174,30439,43670,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Solar,4,434,931,4931,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Outros,452,452,452,452,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Pot. Compl.,0,12302,28746,59032,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-GD,0,904,2005,3733,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Hidro,63695,95449,93174,94710,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Gás Natural,10652,19184,33890,39178,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Carvão,2108,2635,1821,1551,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Nuclear,1652,2983,2983,2983,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Óleos Comb,4156,0,0,0,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Biomassa,4212,6645,7865,7648,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Eólica,338,8006,20917,37034,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Solar,3,1386,11431,17482,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Outros,452,452,452,452,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Pot. Compl.,0,12450,28303,50268,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-GD,0,904,2005,3733,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
-Hidro,63959,95535,107592,107428,42. Sobrecusto de 100% no CAPEX de PCH
-Gás Natural,10476,18469,27644,35650,42. Sobrecusto de 100% no CAPEX de PCH
-Carvão,2380,2635,1772,1772,42. Sobrecusto de 100% no CAPEX de PCH
-Nuclear,1652,2983,2983,2983,42. Sobrecusto de 100% no CAPEX de PCH
-Óleos Comb,3820,0,0,0,42. Sobrecusto de 100% no CAPEX de PCH
-Biomassa,3951,6645,8001,8377,42. Sobrecusto de 100% no CAPEX de PCH
-Eólica,574,11015,19780,37497,42. Sobrecusto de 100% no CAPEX de PCH
-Solar,4,1386,7518,7518,42. Sobrecusto de 100% no CAPEX de PCH
-Outros,452,452,452,452,42. Sobrecusto de 100% no CAPEX de PCH
-Pot. Compl.,0,10071,25095,49629,42. Sobrecusto de 100% no CAPEX de PCH
-GD,0,904,2005,3733,42. Sobrecusto de 100% no CAPEX de PCH
-Hidro,63959,95535,107592,107428,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Gás Natural,10476,18469,27644,35650,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Carvão,2380,2635,1772,1772,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Nuclear,1652,2983,2983,2983,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Óleos Comb,3820,0,0,0,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Biomassa,3951,6645,8001,8377,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Eólica,574,11015,19780,37497,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Solar,4,1386,7518,7518,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Outros,452,452,452,452,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Pot. Compl.,0,10071,25095,49629,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-GD,0,904,2005,3733,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
-Hidro,64463,82431,86841,87235,36. Estagnação
-Gás Natural,10147,6921,7372,7023,36. Estagnação
-Carvão,2107,1689,255,0,36. Estagnação
-Nuclear,1652,2983,2983,2983,36. Estagnação
-Óleos Comb,4365,0,0,0,36. Estagnação
-Biomassa,4015,4945,4771,4554,36. Estagnação
-Eólica,1272,4305,1437,1506,36. Estagnação
-Solar,4,434,0,0,36. Estagnação
-Outros,452,452,452,452,36. Estagnação
-Pot. Compl.,0,190,5039,5303,36. Estagnação
-GD,0,406,811,1248,36. Estagnação
-Hidro,63695,95449,93174,94710,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Gás Natural,10652,19184,33890,39178,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Carvão,2108,2635,1821,1551,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Nuclear,1652,2983,2983,2983,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Óleos Comb,4156,0,0,0,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Biomassa,4212,6645,7865,7648,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Eólica,338,8006,20917,37034,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Solar,3,1386,11431,17482,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Outros,452,452,452,452,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Pot. Compl.,0,12450,28303,50268,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-GD,0,904,2005,3733,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Hidro,62432,95797,93700,91331,24. Expansão de 8.000 MW de Usinas Nucleares
-Gás Natural,10652,19540,31481,38224,24. Expansão de 8.000 MW de Usinas Nucleares
-Carvão,2380,2635,1821,1821,24. Expansão de 8.000 MW de Usinas Nucleares
-Nuclear,1652,2983,6304,9624,24. Expansão de 8.000 MW de Usinas Nucleares
-Óleos Comb,4244,0,0,0,24. Expansão de 8.000 MW de Usinas Nucleares
-Biomassa,4184,6645,7865,7478,24. Expansão de 8.000 MW de Usinas Nucleares
-Eólica,1269,10631,19030,34777,24. Expansão de 8.000 MW de Usinas Nucleares
-Solar,3,1386,11431,15424,24. Expansão de 8.000 MW de Usinas Nucleares
-Outros,452,452,452,452,24. Expansão de 8.000 MW de Usinas Nucleares
-Pot. Compl.,0,9121,28752,52174,24. Expansão de 8.000 MW de Usinas Nucleares
-GD,0,904,2005,3733,24. Expansão de 8.000 MW de Usinas Nucleares
-Hidro,64227,92244,91775,82749,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Gás Natural,9622,13280,14026,13676,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Carvão,1840,1689,255,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Nuclear,1652,2983,2983,2983,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Óleos Comb,4235,0,0,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Biomassa,4132,7127,6953,6736,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Eólica,1105,15868,31847,48668,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Solar,3,1271,8204,16795,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Outros,452,452,0,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Pot. Compl.,0,14277,44793,79697,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-GD,0,904,2005,3733,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
-Hidro,63959,95535,107592,107428,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Gás Natural,10476,18469,27644,35650,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Carvão,2380,2635,1772,1772,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Nuclear,1652,2983,2983,2983,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Óleos Comb,3820,0,0,0,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Biomassa,3951,6645,8001,8377,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Eólica,574,11015,19780,37497,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Solar,4,1386,7518,7518,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Outros,452,452,452,452,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Pot. Compl.,0,10071,25095,49629,62. Capacidade Instalada de GD alcança 75 GW em 2050
-GD,1,1356,3007,5600,62. Capacidade Instalada de GD alcança 75 GW em 2050
-Hidro,63959,95535,107592,107428,32. UHEs em áreas de interferência com CAPEX dobrado
-Gás Natural,10476,18469,27644,35650,32. UHEs em áreas de interferência com CAPEX dobrado
-Carvão,2380,2635,1772,1772,32. UHEs em áreas de interferência com CAPEX dobrado
-Nuclear,1652,2983,2983,2983,32. UHEs em áreas de interferência com CAPEX dobrado
-Óleos Comb,3820,0,0,0,32. UHEs em áreas de interferência com CAPEX dobrado
-Biomassa,3951,6645,8001,8377,32. UHEs em áreas de interferência com CAPEX dobrado
-Eólica,574,11015,19780,37497,32. UHEs em áreas de interferência com CAPEX dobrado
-Solar,4,1386,7518,7518,32. UHEs em áreas de interferência com CAPEX dobrado
-Outros,452,452,452,452,32. UHEs em áreas de interferência com CAPEX dobrado
-Pot. Compl.,0,10071,25095,49629,32. UHEs em áreas de interferência com CAPEX dobrado
-GD,0,904,2005,3733,32. UHEs em áreas de interferência com CAPEX dobrado
-Hidro,65331,93741,95867,95937,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Gás Natural,9805,18511,31171,39168,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Carvão,2107,2635,1551,1551,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Nuclear,1652,2983,2983,2983,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Óleos Comb,3340,0,0,0,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Biomassa,3985,6645,8001,9008,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Eólica,594,11507,21322,38024,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Solar,3,1386,8560,8560,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Outros,452,452,452,452,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Pot. Compl.,0,11330,30929,55623,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-GD,0,904,2005,3733,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Hidro,62271,95882,93739,90845,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Gás Natural,10652,19216,32118,40196,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Carvão,2380,2635,1551,1551,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Nuclear,1652,2983,2983,2983,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Óleos Comb,4156,0,0,0,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Biomassa,4234,6645,7695,7648,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Eólica,1468,9853,19218,35011,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Solar,3,1386,11431,16332,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Outros,452,452,452,452,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Pot. Compl.,0,9691,30656,54437,27. Capacidade Instalada de GD alcança 75 GW em 2050
-GD,1,1356,3007,5600,27. Capacidade Instalada de GD alcança 75 GW em 2050
-Hidro,64604,91805,92191,83130,2. Matriz Elétrica com expansão 100% renovável
-Gás Natural,9531,6559,1150,0,2. Matriz Elétrica com expansão 100% renovável
-Carvão,2012,1689,255,0,2. Matriz Elétrica com expansão 100% renovável
-Nuclear,1813,3144,3144,3144,2. Matriz Elétrica com expansão 100% renovável
-Óleos Comb,3439,0,0,0,2. Matriz Elétrica com expansão 100% renovável
-Biomassa,4245,14470,12586,12238,2. Matriz Elétrica com expansão 100% renovável
-Eólica,1169,15484,32805,51196,2. Matriz Elétrica com expansão 100% renovável
-Solar,4,1249,7575,16166,2. Matriz Elétrica com expansão 100% renovável
-Outros,452,452,0,0,2. Matriz Elétrica com expansão 100% renovável
-Pot. Compl.,0,14337,51131,85432,2. Matriz Elétrica com expansão 100% renovável
-GD,0,904,2005,3733,2. Matriz Elétrica com expansão 100% renovável
-Hidro,62944,92200,91479,94338,25. Expansão de 10.000 MW de Usinas Nucleares
-Gás Natural,10261,16566,23905,29188,25. Expansão de 10.000 MW de Usinas Nucleares
-Carvão,2380,1689,255,0,25. Expansão de 10.000 MW de Usinas Nucleares
-Nuclear,1652,2983,7964,11285,25. Expansão de 10.000 MW de Usinas Nucleares
-Óleos Comb,4040,0,0,0,25. Expansão de 10.000 MW de Usinas Nucleares
-Biomassa,4235,4945,4771,4554,25. Expansão de 10.000 MW de Usinas Nucleares
-Eólica,1299,15365,31070,36307,25. Expansão de 10.000 MW de Usinas Nucleares
-Solar,4,1271,4155,12746,25. Expansão de 10.000 MW de Usinas Nucleares
-Outros,452,452,452,452,25. Expansão de 10.000 MW de Usinas Nucleares
-Pot. Compl.,0,13719,36786,62437,25. Expansão de 10.000 MW de Usinas Nucleares
-GD,0,904,2005,3733,25. Expansão de 10.000 MW de Usinas Nucleares
-Hidro,64860,81560,85458,86339,1. Estagnação
-Gás Natural,10521,7982,8919,8190,1. Estagnação
-Carvão,2107,1689,255,0,1. Estagnação
-Nuclear,1652,2983,2983,2983,1. Estagnação
-Óleos Comb,3482,0,0,0,1. Estagnação
-Biomassa,4137,4945,7696,7686,1. Estagnação
-Eólica,1264,4305,35,0,1. Estagnação
-Solar,3,434,0,0,1. Estagnação
-Outros,452,452,452,452,1. Estagnação
-Pot. Compl.,0,0,3354,3406,1. Estagnação
-GD,0,406,811,1248,1. Estagnação
-Hidro,63353,94019,106995,107505,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Gás Natural,9971,18948,28687,37262,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Carvão,2380,1689,255,0,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Nuclear,1652,2983,2983,2983,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Óleos Comb,4082,0,0,0,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Biomassa,4040,8923,9574,9389,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Eólica,1334,9877,19607,36198,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Solar,4,1386,8149,8149,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Outros,452,452,452,452,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Pot. Compl.,0,10914,24133,49367,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-GD,0,904,2005,3733,39. Potencial Hidrelétrico Inventariado com áreas de interferência
-Hidro,62950,87016,83791,86840,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Gás Natural,10303,22037,25501,22462,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Carvão,2380,1689,255,0,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Nuclear,1652,2983,2983,2983,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Óleos Comb,4145,0,0,0,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Biomassa,4102,14511,14338,14121,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Eólica,1280,15933,31653,41021,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Solar,3,2360,9250,17842,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Outros,452,452,452,452,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Pot. Compl.,0,2209,32614,65585,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-GD,0,904,2005,3733,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
-Hidro,63695,95449,93174,94710,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Gás Natural,10652,19184,33890,39178,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Carvão,2108,2635,1821,1551,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Nuclear,1652,2983,2983,2983,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Óleos Comb,4156,0,0,0,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Biomassa,4212,6645,7865,7648,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Eólica,338,8006,20917,37034,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Solar,3,1386,11431,17482,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Outros,452,452,452,452,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Pot. Compl.,0,12450,28303,50268,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-GD,0,904,2005,3733,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
-Hidro,63959,95535,107592,107428,20. Redução de 45% no CAPEX de Usina Nuclear
-Gás Natural,10476,18469,27644,35650,20. Redução de 45% no CAPEX de Usina Nuclear
-Carvão,2380,2635,1772,1772,20. Redução de 45% no CAPEX de Usina Nuclear
-Nuclear,1652,2983,2983,2983,20. Redução de 45% no CAPEX de Usina Nuclear
-Óleos Comb,3820,0,0,0,20. Redução de 45% no CAPEX de Usina Nuclear
-Biomassa,3951,6645,8001,8377,20. Redução de 45% no CAPEX de Usina Nuclear
-Eólica,574,11015,19780,37497,20. Redução de 45% no CAPEX de Usina Nuclear
-Solar,4,1386,7518,7518,20. Redução de 45% no CAPEX de Usina Nuclear
-Outros,452,452,452,452,20. Redução de 45% no CAPEX de Usina Nuclear
-Pot. Compl.,0,10071,25095,49629,20. Redução de 45% no CAPEX de Usina Nuclear
-GD,0,904,2005,3733,20. Redução de 45% no CAPEX de Usina Nuclear
-Hidro,63959,95535,107592,107428,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Gás Natural,10476,18469,27644,35650,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Carvão,2380,2635,1772,1772,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Nuclear,1652,2983,2983,2983,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Óleos Comb,3820,0,0,0,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Biomassa,3951,6645,8001,8377,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Eólica,574,11015,19780,37497,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Solar,4,1386,7518,7518,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Outros,452,452,452,452,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Pot. Compl.,0,10071,25095,49629,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-GD,0,904,2005,3733,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
-Hidro,59109,92793,97325,97475,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Gás Natural,10147,13719,20731,22772,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Carvão,1638,1689,255,0,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Nuclear,1652,2983,2983,2983,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Óleos Comb,4472,0,0,0,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Biomassa,8451,18237,19613,19636,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Eólica,1408,12034,28743,39986,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Solar,4,434,944,9535,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Outros,452,452,452,452,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Pot. Compl.,0,6849,29789,58467,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-GD,0,904,2005,3733,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Hidro,63306,92939,104994,105721,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Gás Natural,10476,15878,23766,24370,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Carvão,2380,1689,255,0,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Nuclear,1813,4178,4178,4178,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Óleos Comb,3624,0,0,0,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Biomassa,4009,8551,8378,8161,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Eólica,1204,12450,29060,40657,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Solar,4,434,944,7580,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Outros,452,452,452,452,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Pot. Compl.,0,12619,28809,60188,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-GD,0,904,2005,3733,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
-Hidro,59978,90326,92662,88278,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Gás Natural,10342,13625,20637,24248,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Carvão,2107,1689,255,0,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Nuclear,1652,2983,2983,2983,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Óleos Comb,3389,0,0,0,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Biomassa,8317,15951,15892,15543,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Eólica,1093,14246,30900,43240,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Solar,3,434,2382,11266,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Outros,452,452,452,452,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Pot. Compl.,0,9484,34674,65296,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-GD,0,904,2005,3733,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Hidro,63959,95535,107592,107428,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Gás Natural,10476,18469,27644,35650,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Carvão,2380,2635,1772,1772,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Nuclear,1652,2983,2983,2983,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Óleos Comb,3820,0,0,0,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Biomassa,3951,6645,8001,8377,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Eólica,574,11015,19780,37497,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Solar,4,1386,7518,7518,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Outros,452,452,452,452,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Pot. Compl.,0,10071,25095,49629,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-GD,0,452,1002,1867,28. Capacidade Instalada de GD limitada a 25 GW em 2050
-Hidro,63306,91577,102261,102358,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Gás Natural,10476,14835,22724,23138,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Carvão,2380,1689,255,0,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Nuclear,1813,12734,12734,12734,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Óleos Comb,3624,0,0,0,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Biomassa,4009,6834,6661,6444,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Eólica,1204,9917,26648,39491,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Solar,4,434,944,6877,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Outros,452,452,452,452,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Pot. Compl.,0,10717,28159,59812,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-GD,0,904,2005,3733,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
-Hidro,63959,95535,107592,107428,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Gás Natural,10476,18469,27644,35650,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Carvão,2380,2635,1772,1772,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Nuclear,1652,2983,2983,2983,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Óleos Comb,3820,0,0,0,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Biomassa,3951,6645,8001,8377,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Eólica,574,11015,19780,37497,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Solar,4,1386,7518,7518,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Outros,452,452,452,452,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Pot. Compl.,0,10071,25095,49629,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-GD,0,904,2005,3733,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
-Hidro,63353,94162,104818,108673,50. Eólica Offshore com 20% de redução de CAPEX
-Gás Natural,9971,16006,23543,21793,50. Eólica Offshore com 20% de redução de CAPEX
-Carvão,2380,1689,255,0,50. Eólica Offshore com 20% de redução de CAPEX
-Nuclear,1652,2983,2983,2983,50. Eólica Offshore com 20% de redução de CAPEX
-Óleos Comb,4082,0,0,0,50. Eólica Offshore com 20% de redução de CAPEX
-Biomassa,4040,8462,8289,7942,50. Eólica Offshore com 20% de redução de CAPEX
-Eólica,1334,12519,31053,42667,50. Eólica Offshore com 20% de redução de CAPEX
-Solar,4,434,944,9073,50. Eólica Offshore com 20% de redução de CAPEX
-Outros,452,452,452,452,50. Eólica Offshore com 20% de redução de CAPEX
-Pot. Compl.,0,12482,28499,57724,50. Eólica Offshore com 20% de redução de CAPEX
-GD,0,904,2005,3733,50. Eólica Offshore com 20% de redução de CAPEX
-Hidro,59945,92663,102470,106012,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Gás Natural,9818,13011,18349,18379,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Carvão,2380,1689,255,0,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Nuclear,1652,2983,2983,2983,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Óleos Comb,3810,0,0,0,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Biomassa,8227,18237,19613,20268,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Eólica,1047,12544,25823,41931,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Solar,2,434,944,4273,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Outros,452,452,452,452,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Pot. Compl.,0,7177,29946,57009,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-GD,0,904,2005,3733,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Hidro,63695,95449,93174,94710,9. Integração Elétrica com países da América do Sul
-Gás Natural,10652,19184,33890,39178,9. Integração Elétrica com países da América do Sul
-Carvão,2108,2635,1821,1551,9. Integração Elétrica com países da América do Sul
-Nuclear,1652,2983,2983,2983,9. Integração Elétrica com países da América do Sul
-Óleos Comb,4156,0,0,0,9. Integração Elétrica com países da América do Sul
-Biomassa,4212,6645,7865,7648,9. Integração Elétrica com países da América do Sul
-Eólica,338,8006,20917,37034,9. Integração Elétrica com países da América do Sul
-Solar,3,1386,11431,17482,9. Integração Elétrica com países da América do Sul
-Outros,452,452,452,452,9. Integração Elétrica com países da América do Sul
-Pot. Compl.,0,12450,28303,50268,9. Integração Elétrica com países da América do Sul
-GD,0,904,2005,3733,9. Integração Elétrica com países da América do Sul
-Hidro,63959,95535,107592,107428,15. Eólica Offshore com 20% de redução de CAPEX
-Gás Natural,10476,18469,27644,35650,15. Eólica Offshore com 20% de redução de CAPEX
-Carvão,2380,2635,1772,1772,15. Eólica Offshore com 20% de redução de CAPEX
-Nuclear,1652,2983,2983,2983,15. Eólica Offshore com 20% de redução de CAPEX
-Óleos Comb,3820,0,0,0,15. Eólica Offshore com 20% de redução de CAPEX
-Biomassa,3951,6645,8001,8377,15. Eólica Offshore com 20% de redução de CAPEX
-Eólica,574,11015,19780,37497,15. Eólica Offshore com 20% de redução de CAPEX
-Solar,4,1386,7518,7518,15. Eólica Offshore com 20% de redução de CAPEX
-Outros,452,452,452,452,15. Eólica Offshore com 20% de redução de CAPEX
-Pot. Compl.,0,10071,25095,49629,15. Eólica Offshore com 20% de redução de CAPEX
-GD,0,904,2005,3733,15. Eólica Offshore com 20% de redução de CAPEX
-Hidro,63959,95535,107592,107428,35. UHEs com interferência após 2040
-Gás Natural,10476,18469,27644,35650,35. UHEs com interferência após 2040
-Carvão,2380,2635,1772,1772,35. UHEs com interferência após 2040
-Nuclear,1652,2983,2983,2983,35. UHEs com interferência após 2040
-Óleos Comb,3820,0,0,0,35. UHEs com interferência após 2040
-Biomassa,3951,6645,8001,8377,35. UHEs com interferência após 2040
-Eólica,574,11015,19780,37497,35. UHEs com interferência após 2040
-Solar,4,1386,7518,7518,35. UHEs com interferência após 2040
-Outros,452,452,452,452,35. UHEs com interferência após 2040
-Pot. Compl.,0,10071,25095,49629,35. UHEs com interferência após 2040
-GD,0,904,2005,3733,35. UHEs com interferência após 2040
-Hidro,63959,95535,107592,107428,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Gás Natural,10476,18469,27644,35650,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Carvão,2380,2635,1772,1772,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Nuclear,1652,2983,2983,2983,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Óleos Comb,3820,0,0,0,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Biomassa,3951,6645,8001,8377,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Eólica,574,11015,19780,37497,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Solar,4,1386,7518,7518,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Outros,452,452,452,452,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Pot. Compl.,0,10071,25095,49629,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-GD,0,904,2005,3733,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
-Hidro,63695,95449,93174,94710,47. Frota de veículos leves integralmente elétrica em 2050
-Gás Natural,10652,19184,33890,39178,47. Frota de veículos leves integralmente elétrica em 2050
-Carvão,2108,2635,1821,1551,47. Frota de veículos leves integralmente elétrica em 2050
-Nuclear,1652,2983,2983,2983,47. Frota de veículos leves integralmente elétrica em 2050
-Óleos Comb,4156,0,0,0,47. Frota de veículos leves integralmente elétrica em 2050
-Biomassa,4212,6645,7865,7648,47. Frota de veículos leves integralmente elétrica em 2050
-Eólica,338,8006,20917,37034,47. Frota de veículos leves integralmente elétrica em 2050
-Solar,3,1386,11431,17482,47. Frota de veículos leves integralmente elétrica em 2050
-Outros,452,452,452,452,47. Frota de veículos leves integralmente elétrica em 2050
-Pot. Compl.,0,12450,28303,50268,47. Frota de veículos leves integralmente elétrica em 2050
-GD,0,904,2005,3733,47. Frota de veículos leves integralmente elétrica em 2050
-Hidro,63959,95535,107592,107428,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Gás Natural,10476,18469,27644,35650,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Carvão,2380,2635,1772,1772,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Nuclear,1652,2983,2983,2983,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Óleos Comb,3820,0,0,0,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Biomassa,3951,6645,8001,8377,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Eólica,574,11015,19780,37497,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Solar,4,1386,7518,7518,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Outros,452,452,452,452,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Pot. Compl.,0,10071,25095,49629,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-GD,0,904,2005,3733,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
-Hidro,63740,94506,112678,112728,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Gás Natural,10147,18027,37102,58087,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Carvão,2380,1689,255,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Nuclear,1652,2983,2983,2983,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Óleos Comb,3503,0,0,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Biomassa,4141,8923,9574,9706,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Eólica,1250,10008,10418,16250,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Solar,2,2174,5340,8553,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Outros,452,452,0,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Pot. Compl.,0,10427,22486,42998,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-GD,0,904,2005,3733,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
-Hidro,63959,95535,107592,107428,7. Sobrecusto de 100% no CAPEX de PCH
-Gás Natural,10476,18469,27644,35650,7. Sobrecusto de 100% no CAPEX de PCH
-Carvão,2380,2635,1772,1772,7. Sobrecusto de 100% no CAPEX de PCH
-Nuclear,1652,2983,2983,2983,7. Sobrecusto de 100% no CAPEX de PCH
-Óleos Comb,3820,0,0,0,7. Sobrecusto de 100% no CAPEX de PCH
-Biomassa,3951,6645,8001,8377,7. Sobrecusto de 100% no CAPEX de PCH
-Eólica,574,11015,19780,37497,7. Sobrecusto de 100% no CAPEX de PCH
-Solar,4,1386,7518,7518,7. Sobrecusto de 100% no CAPEX de PCH
-Outros,452,452,452,452,7. Sobrecusto de 100% no CAPEX de PCH
-Pot. Compl.,0,10071,25095,49629,7. Sobrecusto de 100% no CAPEX de PCH
-GD,0,904,2005,3733,7. Sobrecusto de 100% no CAPEX de PCH
-Hidro,59346,92408,99803,101195,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Gás Natural,9971,13225,20237,20456,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Carvão,2380,1689,255,0,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Nuclear,1652,2983,2983,2983,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Óleos Comb,4082,0,0,0,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Biomassa,8112,17952,17892,17818,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Eólica,1334,12898,28109,44468,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Solar,4,434,944,3724,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Outros,452,452,452,452,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Pot. Compl.,0,7149,30161,60210,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-GD,0,904,2005,3733,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
-Hidro,63353,93372,107249,104304,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Gás Natural,9971,16975,17804,18576,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Carvão,2380,1689,255,0,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Nuclear,1652,2983,2983,2983,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Óleos Comb,4082,0,0,0,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Biomassa,4040,8207,8033,7816,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Eólica,1334,12577,28648,40843,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Solar,4,434,944,9535,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Outros,452,452,452,452,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Pot. Compl.,0,12502,34468,66796,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-GD,0,904,2005,3733,64. GN Pré-Sal ao preço de US$ 6/MMBtu
-Hidro,63507,92977,105376,105830,60. Expansão de 10.000 MW de Usinas Nucleares
-Gás Natural,9534,16132,23144,23369,60. Expansão de 10.000 MW de Usinas Nucleares
-Carvão,2380,1689,255,0,60. Expansão de 10.000 MW de Usinas Nucleares
-Nuclear,1652,2983,7964,11285,60. Expansão de 10.000 MW de Usinas Nucleares
-Óleos Comb,4382,0,0,0,60. Expansão de 10.000 MW de Usinas Nucleares
-Biomassa,4122,8923,8750,8533,60. Expansão de 10.000 MW de Usinas Nucleares
-Eólica,1235,12680,26708,37167,60. Expansão de 10.000 MW de Usinas Nucleares
-Solar,4,434,944,6869,60. Expansão de 10.000 MW de Usinas Nucleares
-Outros,452,452,452,452,60. Expansão de 10.000 MW de Usinas Nucleares
-Pot. Compl.,0,12920,27244,57802,60. Expansão de 10.000 MW de Usinas Nucleares
-GD,0,904,2005,3733,60. Expansão de 10.000 MW de Usinas Nucleares
-Hidro,64064,92275,91301,93134,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Gás Natural,10342,16581,23495,32556,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Carvão,2107,1689,255,0,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Nuclear,1652,2983,2983,2983,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Óleos Comb,3389,0,0,0,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Biomassa,4146,4945,4771,4423,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Eólica,1113,15286,31945,45977,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Solar,3,1334,4500,8500,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Outros,452,452,452,452,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Pot. Compl.,0,13645,41134,63281,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-GD,0,904,2005,3733,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
-Hidro,62432,95797,93700,91331,59. Expansão de 8.000 MW de Usinas Nucleares
-Gás Natural,10652,19540,31481,38224,59. Expansão de 8.000 MW de Usinas Nucleares
-Carvão,2380,2635,1821,1821,59. Expansão de 8.000 MW de Usinas Nucleares
-Nuclear,1652,2983,6304,9624,59. Expansão de 8.000 MW de Usinas Nucleares
-Óleos Comb,4244,0,0,0,59. Expansão de 8.000 MW de Usinas Nucleares
-Biomassa,4184,6645,7865,7478,59. Expansão de 8.000 MW de Usinas Nucleares
-Eólica,1269,10631,19030,34777,59. Expansão de 8.000 MW de Usinas Nucleares
-Solar,3,1386,11431,15424,59. Expansão de 8.000 MW de Usinas Nucleares
-Outros,452,452,452,452,59. Expansão de 8.000 MW de Usinas Nucleares
-Pot. Compl.,0,9121,28752,52174,59. Expansão de 8.000 MW de Usinas Nucleares
-GD,0,904,2005,3733,59. Expansão de 8.000 MW de Usinas Nucleares
-Hidro,64064,92705,86707,85083,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Gás Natural,10342,20356,30801,33205,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Carvão,2107,1689,255,0,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Nuclear,1652,2983,2983,2983,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Óleos Comb,3389,0,0,0,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Biomassa,4146,8915,9523,9166,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Eólica,1113,9380,9790,13260,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Solar,3,3520,20818,26035,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Outros,452,452,452,452,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Pot. Compl.,0,9189,39506,81122,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-GD,0,904,2005,3733,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
-Hidro,63959,95535,107592,107428,21. Redução de 50% no CAPEX de Usina Nuclear
-Gás Natural,10476,18469,27644,35650,21. Redução de 50% no CAPEX de Usina Nuclear
-Carvão,2380,2635,1772,1772,21. Redução de 50% no CAPEX de Usina Nuclear
-Nuclear,1652,2983,2983,2983,21. Redução de 50% no CAPEX de Usina Nuclear
-Óleos Comb,3820,0,0,0,21. Redução de 50% no CAPEX de Usina Nuclear
-Biomassa,3951,6645,8001,8377,21. Redução de 50% no CAPEX de Usina Nuclear
-Eólica,574,11015,19780,37497,21. Redução de 50% no CAPEX de Usina Nuclear
-Solar,4,1386,7518,7518,21. Redução de 50% no CAPEX de Usina Nuclear
-Outros,452,452,452,452,21. Redução de 50% no CAPEX de Usina Nuclear
-Pot. Compl.,0,10071,25095,49629,21. Redução de 50% no CAPEX de Usina Nuclear
-GD,0,904,2005,3733,21. Redução de 50% no CAPEX de Usina Nuclear
-Hidro,63695,95449,93174,94710,44. Integração Elétrica com países da América do Sul
-Gás Natural,10652,19184,33890,39178,44. Integração Elétrica com países da América do Sul
-Carvão,2108,2635,1821,1551,44. Integração Elétrica com países da América do Sul
-Nuclear,1652,2983,2983,2983,44. Integração Elétrica com países da América do Sul
-Óleos Comb,4156,0,0,0,44. Integração Elétrica com países da América do Sul
-Biomassa,4212,6645,7865,7648,44. Integração Elétrica com países da América do Sul
-Eólica,338,8006,20917,37034,44. Integração Elétrica com países da América do Sul
-Solar,3,1386,11431,17482,44. Integração Elétrica com países da América do Sul
-Outros,452,452,452,452,44. Integração Elétrica com países da América do Sul
-Pot. Compl.,0,12450,28303,50268,44. Integração Elétrica com países da América do Sul
-GD,0,904,2005,3733,44. Integração Elétrica com países da América do Sul
 Hidro,59978,90501,92708,88903,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
 Gás Natural,10342,13769,20781,23728,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
 Carvão,2107,1689,255,0,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
@@ -681,17 +21,226 @@ Solar,3,434,2015,10607,17. Aumento do fator de capacidade das usinas a bagaço u
 Outros,452,452,452,452,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
 Pot. Compl.,0,7776,32671,62888,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
 GD,0,904,2005,3733,17. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
-Hidro,63959,95535,107592,107428,12. Frota de veículos leves integralmente elétrica em 2050
-Gás Natural,10476,18469,27644,35650,12. Frota de veículos leves integralmente elétrica em 2050
-Carvão,2380,2635,1772,1772,12. Frota de veículos leves integralmente elétrica em 2050
-Nuclear,1652,2983,2983,2983,12. Frota de veículos leves integralmente elétrica em 2050
-Óleos Comb,3820,0,0,0,12. Frota de veículos leves integralmente elétrica em 2050
-Biomassa,3951,6645,8001,8377,12. Frota de veículos leves integralmente elétrica em 2050
-Eólica,574,11015,19780,37497,12. Frota de veículos leves integralmente elétrica em 2050
-Solar,4,1386,7518,7518,12. Frota de veículos leves integralmente elétrica em 2050
-Outros,452,452,452,452,12. Frota de veículos leves integralmente elétrica em 2050
-Pot. Compl.,0,10071,25095,49629,12. Frota de veículos leves integralmente elétrica em 2050
-GD,0,904,2005,3733,12. Frota de veículos leves integralmente elétrica em 2050
+Hidro,63959,95535,107592,107428,20. Redução de 45% no CAPEX de Usina Nuclear
+Gás Natural,10476,18469,27644,35650,20. Redução de 45% no CAPEX de Usina Nuclear
+Carvão,2380,2635,1772,1772,20. Redução de 45% no CAPEX de Usina Nuclear
+Nuclear,1652,2983,2983,2983,20. Redução de 45% no CAPEX de Usina Nuclear
+Óleos Comb,3820,0,0,0,20. Redução de 45% no CAPEX de Usina Nuclear
+Biomassa,3951,6645,8001,8377,20. Redução de 45% no CAPEX de Usina Nuclear
+Eólica,574,11015,19780,37497,20. Redução de 45% no CAPEX de Usina Nuclear
+Solar,4,1386,7518,7518,20. Redução de 45% no CAPEX de Usina Nuclear
+Outros,452,452,452,452,20. Redução de 45% no CAPEX de Usina Nuclear
+Pot. Compl.,0,10071,25095,49629,20. Redução de 45% no CAPEX de Usina Nuclear
+GD,0,904,2005,3733,20. Redução de 45% no CAPEX de Usina Nuclear
+Hidro,62432,95797,93700,91331,24. Expansão de 8.000 MW de Usinas Nucleares
+Gás Natural,10652,19540,31481,38224,24. Expansão de 8.000 MW de Usinas Nucleares
+Carvão,2380,2635,1821,1821,24. Expansão de 8.000 MW de Usinas Nucleares
+Nuclear,1652,2983,6304,9624,24. Expansão de 8.000 MW de Usinas Nucleares
+Óleos Comb,4244,0,0,0,24. Expansão de 8.000 MW de Usinas Nucleares
+Biomassa,4184,6645,7865,7478,24. Expansão de 8.000 MW de Usinas Nucleares
+Eólica,1269,10631,19030,34777,24. Expansão de 8.000 MW de Usinas Nucleares
+Solar,3,1386,11431,15424,24. Expansão de 8.000 MW de Usinas Nucleares
+Outros,452,452,452,452,24. Expansão de 8.000 MW de Usinas Nucleares
+Pot. Compl.,0,9121,28752,52174,24. Expansão de 8.000 MW de Usinas Nucleares
+GD,0,904,2005,3733,24. Expansão de 8.000 MW de Usinas Nucleares
+Hidro,62140,92455,91485,87962,26. Carvão financiado com redução de 20% no CAPEX
+Gás Natural,10652,16214,23913,28028,26. Carvão financiado com redução de 20% no CAPEX
+Carvão,2107,3189,1755,1500,26. Carvão financiado com redução de 20% no CAPEX
+Nuclear,1652,2983,2983,2983,26. Carvão financiado com redução de 20% no CAPEX
+Óleos Comb,4507,0,0,0,26. Carvão financiado com redução de 20% no CAPEX
+Biomassa,4255,4945,4771,4554,26. Carvão financiado com redução de 20% no CAPEX
+Eólica,1499,14411,30427,43653,26. Carvão financiado com redução de 20% no CAPEX
+Solar,4,1271,6393,14984,26. Carvão financiado com redução de 20% no CAPEX
+Outros,452,452,452,452,26. Carvão financiado com redução de 20% no CAPEX
+Pot. Compl.,0,13271,38658,67189,26. Carvão financiado com redução de 20% no CAPEX
+GD,0,904,2005,3733,26. Carvão financiado com redução de 20% no CAPEX
+Hidro,63695,95449,93174,94710,44. Integração Elétrica com países da América do Sul
+Gás Natural,10652,19184,33890,39178,44. Integração Elétrica com países da América do Sul
+Carvão,2108,2635,1821,1551,44. Integração Elétrica com países da América do Sul
+Nuclear,1652,2983,2983,2983,44. Integração Elétrica com países da América do Sul
+Óleos Comb,4156,0,0,0,44. Integração Elétrica com países da América do Sul
+Biomassa,4212,6645,7865,7648,44. Integração Elétrica com países da América do Sul
+Eólica,338,8006,20917,37034,44. Integração Elétrica com países da América do Sul
+Solar,3,1386,11431,17482,44. Integração Elétrica com países da América do Sul
+Outros,452,452,452,452,44. Integração Elétrica com países da América do Sul
+Pot. Compl.,0,12450,28303,50268,44. Integração Elétrica com países da América do Sul
+GD,0,904,2005,3733,44. Integração Elétrica com países da América do Sul
+Hidro,64227,92244,91775,82749,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Gás Natural,9622,13280,14026,13676,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Carvão,1840,1689,255,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Nuclear,1652,2983,2983,2983,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Óleos Comb,4235,0,0,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Biomassa,4132,7127,6953,6736,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Eólica,1105,15868,31847,48668,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Solar,3,1271,8204,16795,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Outros,452,452,0,0,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Pot. Compl.,0,14277,44793,79697,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+GD,0,904,2005,3733,3. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Hidro,63959,95535,107592,107428,7. Sobrecusto de 100% no CAPEX de PCH
+Gás Natural,10476,18469,27644,35650,7. Sobrecusto de 100% no CAPEX de PCH
+Carvão,2380,2635,1772,1772,7. Sobrecusto de 100% no CAPEX de PCH
+Nuclear,1652,2983,2983,2983,7. Sobrecusto de 100% no CAPEX de PCH
+Óleos Comb,3820,0,0,0,7. Sobrecusto de 100% no CAPEX de PCH
+Biomassa,3951,6645,8001,8377,7. Sobrecusto de 100% no CAPEX de PCH
+Eólica,574,11015,19780,37497,7. Sobrecusto de 100% no CAPEX de PCH
+Solar,4,1386,7518,7518,7. Sobrecusto de 100% no CAPEX de PCH
+Outros,452,452,452,452,7. Sobrecusto de 100% no CAPEX de PCH
+Pot. Compl.,0,10071,25095,49629,7. Sobrecusto de 100% no CAPEX de PCH
+GD,0,904,2005,3733,7. Sobrecusto de 100% no CAPEX de PCH
+Hidro,65331,93741,95867,95937,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Gás Natural,9805,18511,31171,39168,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Carvão,2107,2635,1551,1551,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Nuclear,1652,2983,2983,2983,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Óleos Comb,3340,0,0,0,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Biomassa,3985,6645,8001,9008,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Eólica,594,11507,21322,38024,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Solar,3,1386,8560,8560,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Outros,452,452,452,452,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Pot. Compl.,0,11330,30929,55623,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+GD,0,904,2005,3733,10. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Hidro,62944,92200,91479,94338,25. Expansão de 10.000 MW de Usinas Nucleares
+Gás Natural,10261,16566,23905,29188,25. Expansão de 10.000 MW de Usinas Nucleares
+Carvão,2380,1689,255,0,25. Expansão de 10.000 MW de Usinas Nucleares
+Nuclear,1652,2983,7964,11285,25. Expansão de 10.000 MW de Usinas Nucleares
+Óleos Comb,4040,0,0,0,25. Expansão de 10.000 MW de Usinas Nucleares
+Biomassa,4235,4945,4771,4554,25. Expansão de 10.000 MW de Usinas Nucleares
+Eólica,1299,15365,31070,36307,25. Expansão de 10.000 MW de Usinas Nucleares
+Solar,4,1271,4155,12746,25. Expansão de 10.000 MW de Usinas Nucleares
+Outros,452,452,452,452,25. Expansão de 10.000 MW de Usinas Nucleares
+Pot. Compl.,0,13719,36786,62437,25. Expansão de 10.000 MW de Usinas Nucleares
+GD,0,904,2005,3733,25. Expansão de 10.000 MW de Usinas Nucleares
+Hidro,63306,91577,102261,102358,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Gás Natural,10476,14835,22724,23138,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Carvão,2380,1689,255,0,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Nuclear,1813,12734,12734,12734,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Óleos Comb,3624,0,0,0,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Biomassa,4009,6834,6661,6444,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Eólica,1204,9917,26648,39491,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Solar,4,434,944,6877,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Outros,452,452,452,452,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Pot. Compl.,0,10717,28159,59812,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+GD,0,904,2005,3733,58. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Hidro,63959,95535,107592,107428,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Gás Natural,10476,18469,27644,35650,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Carvão,2380,2635,1772,1772,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Nuclear,1652,2983,2983,2983,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Óleos Comb,3820,0,0,0,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Biomassa,3951,6645,8001,8377,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Eólica,574,11015,19780,37497,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Solar,4,1386,7518,7518,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Outros,452,452,452,452,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Pot. Compl.,0,10071,25095,49629,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+GD,0,904,2005,3733,31. Potencial Inventariado Total exceto UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI)
+Hidro,63959,95535,107592,107428,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Gás Natural,10476,18469,27644,35650,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Carvão,2380,2635,1772,1772,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Nuclear,1652,2983,2983,2983,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Óleos Comb,3820,0,0,0,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Biomassa,3951,6645,8001,8377,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Eólica,574,11015,19780,37497,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Solar,4,1386,7518,7518,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Outros,452,452,452,452,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Pot. Compl.,0,10071,25095,49629,62. Capacidade Instalada de GD alcança 75 GW em 2050
+GD,1,1356,3007,5600,62. Capacidade Instalada de GD alcança 75 GW em 2050
+Hidro,62271,95882,93739,90845,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Gás Natural,10652,19216,32118,40196,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Carvão,2380,2635,1551,1551,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Nuclear,1652,2983,2983,2983,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Óleos Comb,4156,0,0,0,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Biomassa,4234,6645,7695,7648,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Eólica,1468,9853,19218,35011,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Solar,3,1386,11431,16332,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Outros,452,452,452,452,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Pot. Compl.,0,9691,30656,54437,27. Capacidade Instalada de GD alcança 75 GW em 2050
+GD,1,1356,3007,5600,27. Capacidade Instalada de GD alcança 75 GW em 2050
+Hidro,64064,92705,86707,85083,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Gás Natural,10342,20356,30801,33205,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Carvão,2107,1689,255,0,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Nuclear,1652,2983,2983,2983,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Óleos Comb,3389,0,0,0,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Biomassa,4146,8915,9523,9166,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Eólica,1113,9380,9790,13260,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Solar,3,3520,20818,26035,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Outros,452,452,452,452,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Pot. Compl.,0,9189,39506,81122,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+GD,0,904,2005,3733,13. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Hidro,63695,95449,93174,94710,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Gás Natural,10652,19184,33890,39178,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Carvão,2108,2635,1821,1551,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Nuclear,1652,2983,2983,2983,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Óleos Comb,4156,0,0,0,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Biomassa,4212,6645,7865,7648,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Eólica,338,8006,20917,37034,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Solar,3,1386,11431,17482,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Outros,452,452,452,452,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Pot. Compl.,0,12450,28303,50268,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+GD,0,904,2005,3733,52. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Hidro,63306,93103,105244,105875,56. Redução de 50% no CAPEX de Usina Nuclear
+Gás Natural,10476,16147,24035,24459,56. Redução de 50% no CAPEX de Usina Nuclear
+Carvão,2380,1689,255,0,56. Redução de 50% no CAPEX de Usina Nuclear
+Nuclear,1813,3144,3144,3144,56. Redução de 50% no CAPEX de Usina Nuclear
+Óleos Comb,3624,0,0,0,56. Redução de 50% no CAPEX de Usina Nuclear
+Biomassa,4009,8668,8495,8278,56. Redução de 50% no CAPEX de Usina Nuclear
+Eólica,1204,12784,29452,40715,56. Redução de 50% no CAPEX de Usina Nuclear
+Solar,4,434,944,7841,56. Redução de 50% no CAPEX de Usina Nuclear
+Outros,452,452,452,452,56. Redução de 50% no CAPEX de Usina Nuclear
+Pot. Compl.,0,12769,28816,60542,56. Redução de 50% no CAPEX de Usina Nuclear
+GD,0,904,2005,3733,56. Redução de 50% no CAPEX de Usina Nuclear
+Hidro,63959,95535,107592,107428,15. Eólica Offshore com 20% de redução de CAPEX
+Gás Natural,10476,18469,27644,35650,15. Eólica Offshore com 20% de redução de CAPEX
+Carvão,2380,2635,1772,1772,15. Eólica Offshore com 20% de redução de CAPEX
+Nuclear,1652,2983,2983,2983,15. Eólica Offshore com 20% de redução de CAPEX
+Óleos Comb,3820,0,0,0,15. Eólica Offshore com 20% de redução de CAPEX
+Biomassa,3951,6645,8001,8377,15. Eólica Offshore com 20% de redução de CAPEX
+Eólica,574,11015,19780,37497,15. Eólica Offshore com 20% de redução de CAPEX
+Solar,4,1386,7518,7518,15. Eólica Offshore com 20% de redução de CAPEX
+Outros,452,452,452,452,15. Eólica Offshore com 20% de redução de CAPEX
+Pot. Compl.,0,10071,25095,49629,15. Eólica Offshore com 20% de redução de CAPEX
+GD,0,904,2005,3733,15. Eólica Offshore com 20% de redução de CAPEX
+Hidro,63959,95535,107592,107428,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Gás Natural,10476,18469,27644,35650,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Carvão,2380,2635,1772,1772,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Nuclear,1652,2983,2983,2983,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Óleos Comb,3820,0,0,0,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Biomassa,3951,6645,8001,8377,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Eólica,574,11015,19780,37497,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Solar,4,1386,7518,7518,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Outros,452,452,452,452,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Pot. Compl.,0,10071,25095,49629,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+GD,0,904,2005,3733,30. Potencial Inventariado Total exceto UHEs em áreas de interferência com Unidades de Conservação (UC)
+Hidro,63695,95449,93174,94710,47. Frota de veículos leves integralmente elétrica em 2050
+Gás Natural,10652,19184,33890,39178,47. Frota de veículos leves integralmente elétrica em 2050
+Carvão,2108,2635,1821,1551,47. Frota de veículos leves integralmente elétrica em 2050
+Nuclear,1652,2983,2983,2983,47. Frota de veículos leves integralmente elétrica em 2050
+Óleos Comb,4156,0,0,0,47. Frota de veículos leves integralmente elétrica em 2050
+Biomassa,4212,6645,7865,7648,47. Frota de veículos leves integralmente elétrica em 2050
+Eólica,338,8006,20917,37034,47. Frota de veículos leves integralmente elétrica em 2050
+Solar,3,1386,11431,17482,47. Frota de veículos leves integralmente elétrica em 2050
+Outros,452,452,452,452,47. Frota de veículos leves integralmente elétrica em 2050
+Pot. Compl.,0,12450,28303,50268,47. Frota de veículos leves integralmente elétrica em 2050
+GD,0,904,2005,3733,47. Frota de veículos leves integralmente elétrica em 2050
+Hidro,65587,88969,90431,91885,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Gás Natural,9114,14620,23015,27410,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Carvão,2107,1689,255,0,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Nuclear,1652,11721,19586,19586,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Óleos Comb,3553,0,0,0,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Biomassa,4041,5116,4943,4726,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Eólica,761,12549,25664,38030,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Solar,2,434,2582,11174,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Outros,452,452,452,452,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Pot. Compl.,0,13640,33908,58043,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+GD,0,904,2005,3733,23. Redução de 50% no CAPEX e no OPEX de Usina Nuclear
+Hidro,64860,81560,85458,86339,1. Estagnação
+Gás Natural,10521,7982,8919,8190,1. Estagnação
+Carvão,2107,1689,255,0,1. Estagnação
+Nuclear,1652,2983,2983,2983,1. Estagnação
+Óleos Comb,3482,0,0,0,1. Estagnação
+Biomassa,4137,4945,7696,7686,1. Estagnação
+Eólica,1264,4305,35,0,1. Estagnação
+Solar,3,434,0,0,1. Estagnação
+Outros,452,452,452,452,1. Estagnação
+Pot. Compl.,0,0,3354,3406,1. Estagnação
+GD,0,406,811,1248,1. Estagnação
 Hidro,66285,96125,106465,102960,37. Matriz Elétrica com expansão 100% renovável
 Gás Natural,8536,6559,1494,0,37. Matriz Elétrica com expansão 100% renovável
 Carvão,1566,1689,255,0,37. Matriz Elétrica com expansão 100% renovável
@@ -703,3 +252,454 @@ Solar,4,434,944,9535,37. Matriz Elétrica com expansão 100% renovável
 Outros,452,452,0,0,37. Matriz Elétrica com expansão 100% renovável
 Pot. Compl.,0,11829,42891,77275,37. Matriz Elétrica com expansão 100% renovável
 GD,0,904,2005,3733,37. Matriz Elétrica com expansão 100% renovável
+Hidro,64005,93445,111512,111636,43. Repotenciação de UHE
+Gás Natural,9818,16147,23159,23393,43. Repotenciação de UHE
+Carvão,2380,1689,255,0,43. Repotenciação de UHE
+Nuclear,1652,2983,2983,2983,43. Repotenciação de UHE
+Óleos Comb,3810,0,0,0,43. Repotenciação de UHE
+Biomassa,4094,8825,8652,8435,43. Repotenciação de UHE
+Eólica,1055,12268,27388,39418,43. Repotenciação de UHE
+Solar,2,434,944,7689,43. Repotenciação de UHE
+Outros,452,452,452,452,43. Repotenciação de UHE
+Pot. Compl.,0,12947,25492,57300,43. Repotenciação de UHE
+GD,0,904,2005,3733,43. Repotenciação de UHE
+Hidro,59109,92793,97325,97475,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Gás Natural,10147,13719,20731,22772,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Carvão,1638,1689,255,0,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Nuclear,1652,2983,2983,2983,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Óleos Comb,4472,0,0,0,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Biomassa,8451,18237,19613,19636,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Eólica,1408,12034,28743,39986,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Solar,4,434,944,9535,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Outros,452,452,452,452,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Pot. Compl.,0,6849,29789,58467,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+GD,0,904,2005,3733,19. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Hidro,63959,95535,107592,107428,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Gás Natural,10476,18469,27644,35650,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Carvão,2380,2635,1772,1772,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Nuclear,1652,2983,2983,2983,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Óleos Comb,3820,0,0,0,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Biomassa,3951,6645,8001,8377,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Eólica,574,11015,19780,37497,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Solar,4,1386,7518,7518,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Outros,452,452,452,452,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Pot. Compl.,0,10071,25095,49629,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+GD,0,904,2005,3733,33. UHEs em áreas de interferência com Terras Indígenas e Quilombolas (TI) com CAPEX dobrado
+Hidro,63959,95535,107592,107428,42. Sobrecusto de 100% no CAPEX de PCH
+Gás Natural,10476,18469,27644,35650,42. Sobrecusto de 100% no CAPEX de PCH
+Carvão,2380,2635,1772,1772,42. Sobrecusto de 100% no CAPEX de PCH
+Nuclear,1652,2983,2983,2983,42. Sobrecusto de 100% no CAPEX de PCH
+Óleos Comb,3820,0,0,0,42. Sobrecusto de 100% no CAPEX de PCH
+Biomassa,3951,6645,8001,8377,42. Sobrecusto de 100% no CAPEX de PCH
+Eólica,574,11015,19780,37497,42. Sobrecusto de 100% no CAPEX de PCH
+Solar,4,1386,7518,7518,42. Sobrecusto de 100% no CAPEX de PCH
+Outros,452,452,452,452,42. Sobrecusto de 100% no CAPEX de PCH
+Pot. Compl.,0,10071,25095,49629,42. Sobrecusto de 100% no CAPEX de PCH
+GD,0,904,2005,3733,42. Sobrecusto de 100% no CAPEX de PCH
+Hidro,59978,90326,92662,88278,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Gás Natural,10342,13625,20637,24248,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Carvão,2107,1689,255,0,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Nuclear,1652,2983,2983,2983,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Óleos Comb,3389,0,0,0,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Biomassa,8317,15951,15892,15543,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Eólica,1093,14246,30900,43240,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Solar,3,434,2382,11266,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Outros,452,452,452,452,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Pot. Compl.,0,9484,34674,65296,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+GD,0,904,2005,3733,18. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Hidro,63353,93372,107249,104304,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Gás Natural,9971,16975,17804,18576,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Carvão,2380,1689,255,0,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Nuclear,1652,2983,2983,2983,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Óleos Comb,4082,0,0,0,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Biomassa,4040,8207,8033,7816,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Eólica,1334,12577,28648,40843,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Solar,4,434,944,9535,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Outros,452,452,452,452,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Pot. Compl.,0,12502,34468,66796,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+GD,0,904,2005,3733,64. GN Pré-Sal ao preço de US$ 6/MMBtu
+Hidro,63695,95449,93174,94710,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Gás Natural,10652,19184,33890,39178,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Carvão,2108,2635,1821,1551,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Nuclear,1652,2983,2983,2983,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Óleos Comb,4156,0,0,0,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Biomassa,4212,6645,7865,7648,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Eólica,338,8006,20917,37034,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Solar,3,1386,11431,17482,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Outros,452,452,452,452,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Pot. Compl.,0,12450,28303,50268,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+GD,0,904,2005,3733,46. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Hidro,62432,95797,93700,91331,59. Expansão de 8.000 MW de Usinas Nucleares
+Gás Natural,10652,19540,31481,38224,59. Expansão de 8.000 MW de Usinas Nucleares
+Carvão,2380,2635,1821,1821,59. Expansão de 8.000 MW de Usinas Nucleares
+Nuclear,1652,2983,6304,9624,59. Expansão de 8.000 MW de Usinas Nucleares
+Óleos Comb,4244,0,0,0,59. Expansão de 8.000 MW de Usinas Nucleares
+Biomassa,4184,6645,7865,7478,59. Expansão de 8.000 MW de Usinas Nucleares
+Eólica,1269,10631,19030,34777,59. Expansão de 8.000 MW de Usinas Nucleares
+Solar,3,1386,11431,15424,59. Expansão de 8.000 MW de Usinas Nucleares
+Outros,452,452,452,452,59. Expansão de 8.000 MW de Usinas Nucleares
+Pot. Compl.,0,9121,28752,52174,59. Expansão de 8.000 MW de Usinas Nucleares
+GD,0,904,2005,3733,59. Expansão de 8.000 MW de Usinas Nucleares
+Hidro,63959,95535,107592,107428,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Gás Natural,10476,18469,27644,35650,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Carvão,2380,2635,1772,1772,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Nuclear,1652,2983,2983,2983,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Óleos Comb,3820,0,0,0,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Biomassa,3951,6645,8001,8377,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Eólica,574,11015,19780,37497,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Solar,4,1386,7518,7518,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Outros,452,452,452,452,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Pot. Compl.,0,10071,25095,49629,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+GD,0,904,2005,3733,4. Potencial Hidrelétrico Inventariado sem áreas de interferência
+Hidro,63959,95535,107592,107428,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Gás Natural,10476,18469,27644,35650,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Carvão,2380,2635,1772,1772,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Nuclear,1652,2983,2983,2983,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Óleos Comb,3820,0,0,0,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Biomassa,3951,6645,8001,8377,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Eólica,574,11015,19780,37497,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Solar,4,1386,7518,7518,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Outros,452,452,452,452,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Pot. Compl.,0,10071,25095,49629,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+GD,0,904,2005,3733,5. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Hidro,63959,95535,107592,107428,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Gás Natural,10476,18469,27644,35650,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Carvão,2380,2635,1772,1772,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Nuclear,1652,2983,2983,2983,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Óleos Comb,3820,0,0,0,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Biomassa,3951,6645,8001,8377,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Eólica,574,11015,19780,37497,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Solar,4,1386,7518,7518,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Outros,452,452,452,452,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Pot. Compl.,0,10071,25095,49629,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+GD,0,904,2005,3733,34. UHEs em áreas de interferência com Unidades de Conservação (UC) com CAPEX dobrado
+Hidro,63959,95535,107592,107428,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Gás Natural,10476,18469,27644,35650,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Carvão,2380,2635,1772,1772,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Nuclear,1652,2983,2983,2983,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Óleos Comb,3820,0,0,0,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Biomassa,3951,6645,8001,8377,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Eólica,574,11015,19780,37497,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Solar,4,1386,7518,7518,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Outros,452,452,452,452,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Pot. Compl.,0,10071,25095,49629,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+GD,0,452,1002,1867,63. Capacidade Instalada de GD limitada a 25 GW em 2050
+Hidro,64064,92275,91301,93134,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Gás Natural,10342,16581,23495,32556,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Carvão,2107,1689,255,0,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Nuclear,1652,2983,2983,2983,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Óleos Comb,3389,0,0,0,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Biomassa,4146,4945,4771,4423,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Eólica,1113,15286,31945,45977,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Solar,3,1334,4500,8500,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Outros,452,452,452,452,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Pot. Compl.,0,13645,41134,63281,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+GD,0,904,2005,3733,16. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Hidro,63507,92977,105376,105830,60. Expansão de 10.000 MW de Usinas Nucleares
+Gás Natural,9534,16132,23144,23369,60. Expansão de 10.000 MW de Usinas Nucleares
+Carvão,2380,1689,255,0,60. Expansão de 10.000 MW de Usinas Nucleares
+Nuclear,1652,2983,7964,11285,60. Expansão de 10.000 MW de Usinas Nucleares
+Óleos Comb,4382,0,0,0,60. Expansão de 10.000 MW de Usinas Nucleares
+Biomassa,4122,8923,8750,8533,60. Expansão de 10.000 MW de Usinas Nucleares
+Eólica,1235,12680,26708,37167,60. Expansão de 10.000 MW de Usinas Nucleares
+Solar,4,434,944,6869,60. Expansão de 10.000 MW de Usinas Nucleares
+Outros,452,452,452,452,60. Expansão de 10.000 MW de Usinas Nucleares
+Pot. Compl.,0,12920,27244,57802,60. Expansão de 10.000 MW de Usinas Nucleares
+GD,0,904,2005,3733,60. Expansão de 10.000 MW de Usinas Nucleares
+Hidro,63959,95535,107592,107428,21. Redução de 50% no CAPEX de Usina Nuclear
+Gás Natural,10476,18469,27644,35650,21. Redução de 50% no CAPEX de Usina Nuclear
+Carvão,2380,2635,1772,1772,21. Redução de 50% no CAPEX de Usina Nuclear
+Nuclear,1652,2983,2983,2983,21. Redução de 50% no CAPEX de Usina Nuclear
+Óleos Comb,3820,0,0,0,21. Redução de 50% no CAPEX de Usina Nuclear
+Biomassa,3951,6645,8001,8377,21. Redução de 50% no CAPEX de Usina Nuclear
+Eólica,574,11015,19780,37497,21. Redução de 50% no CAPEX de Usina Nuclear
+Solar,4,1386,7518,7518,21. Redução de 50% no CAPEX de Usina Nuclear
+Outros,452,452,452,452,21. Redução de 50% no CAPEX de Usina Nuclear
+Pot. Compl.,0,10071,25095,49629,21. Redução de 50% no CAPEX de Usina Nuclear
+GD,0,904,2005,3733,21. Redução de 50% no CAPEX de Usina Nuclear
+Hidro,63353,95488,100914,96622,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Gás Natural,9971,20228,29537,30779,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Carvão,2380,1689,255,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Nuclear,1652,2983,2983,2983,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Óleos Comb,4082,0,0,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Biomassa,4040,8923,9574,3979,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Eólica,1334,9548,9215,14003,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Solar,4,434,15906,26392,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Outros,452,452,0,0,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Pot. Compl.,0,9444,32453,76548,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+GD,0,904,2005,3733,48. Capacidade Instalada Total de Eólica limitada a 50 GW no horizonte
+Hidro,59945,92663,102470,106012,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Gás Natural,9818,13011,18349,18379,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Carvão,2380,1689,255,0,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Nuclear,1652,2983,2983,2983,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Óleos Comb,3810,0,0,0,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Biomassa,8227,18237,19613,20268,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Eólica,1047,12544,25823,41931,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Solar,2,434,944,4273,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Outros,452,452,452,452,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Pot. Compl.,0,7177,29946,57009,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+GD,0,904,2005,3733,54. Repotenciação e aumento do fator de capacidade das usinas a bagaço usando insumo com custo na entressafra
+Hidro,63959,95535,107592,107428,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Gás Natural,10476,18469,27644,35650,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Carvão,2380,2635,1772,1772,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Nuclear,1652,2983,2983,2983,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Óleos Comb,3820,0,0,0,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Biomassa,3951,6645,8001,8377,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Eólica,574,11015,19780,37497,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Solar,4,1386,7518,7518,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Outros,452,452,452,452,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Pot. Compl.,0,10071,25095,49629,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+GD,0,452,1002,1867,28. Capacidade Instalada de GD limitada a 25 GW em 2050
+Hidro,65331,93741,95867,95937,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Gás Natural,9805,18511,31171,39168,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Carvão,2107,2635,1551,1551,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Nuclear,1652,2983,2983,2983,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Óleos Comb,3340,0,0,0,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Biomassa,3985,6645,8001,9008,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Eólica,594,11507,21322,38024,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Solar,3,1386,8560,8560,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Outros,452,452,452,452,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Pot. Compl.,0,11330,30929,55623,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+GD,0,904,2005,3733,11. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% menor
+Hidro,63740,94506,112678,112728,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Gás Natural,10147,18027,37102,58087,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Carvão,2380,1689,255,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Nuclear,1652,2983,2983,2983,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Óleos Comb,3503,0,0,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Biomassa,4141,8923,9574,9706,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Eólica,1250,10008,10418,16250,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Solar,2,2174,5340,8553,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Outros,452,452,0,0,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Pot. Compl.,0,10427,22486,42998,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+GD,0,904,2005,3733,49. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Hidro,63353,94019,106995,107505,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Gás Natural,9971,18948,28687,37262,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Carvão,2380,1689,255,0,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Nuclear,1652,2983,2983,2983,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Óleos Comb,4082,0,0,0,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Biomassa,4040,8923,9574,9389,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Eólica,1334,9877,19607,36198,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Solar,4,1386,8149,8149,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Outros,452,452,452,452,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Pot. Compl.,0,10914,24133,49367,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+GD,0,904,2005,3733,39. Potencial Hidrelétrico Inventariado com áreas de interferência
+Hidro,63695,95449,93174,94710,9. Integração Elétrica com países da América do Sul
+Gás Natural,10652,19184,33890,39178,9. Integração Elétrica com países da América do Sul
+Carvão,2108,2635,1821,1551,9. Integração Elétrica com países da América do Sul
+Nuclear,1652,2983,2983,2983,9. Integração Elétrica com países da América do Sul
+Óleos Comb,4156,0,0,0,9. Integração Elétrica com países da América do Sul
+Biomassa,4212,6645,7865,7648,9. Integração Elétrica com países da América do Sul
+Eólica,338,8006,20917,37034,9. Integração Elétrica com países da América do Sul
+Solar,3,1386,11431,17482,9. Integração Elétrica com países da América do Sul
+Outros,452,452,452,452,9. Integração Elétrica com países da América do Sul
+Pot. Compl.,0,12450,28303,50268,9. Integração Elétrica com países da América do Sul
+GD,0,904,2005,3733,9. Integração Elétrica com países da América do Sul
+Hidro,63353,95081,106590,107849,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Gás Natural,9971,15799,23338,25504,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Carvão,2380,1689,255,0,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Nuclear,1652,2983,2983,2983,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Óleos Comb,4082,0,0,0,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Biomassa,4040,7276,7103,6886,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Eólica,1334,13174,30439,43670,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Solar,4,434,931,4931,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Outros,452,452,452,452,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Pot. Compl.,0,12302,28746,59032,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+GD,0,904,2005,3733,51. Capacidade Instalada Total de PV Solar limitada a 50 GW (cada uma) no horizonte
+Hidro,64604,91805,92191,83130,2. Matriz Elétrica com expansão 100% renovável
+Gás Natural,9531,6559,1150,0,2. Matriz Elétrica com expansão 100% renovável
+Carvão,2012,1689,255,0,2. Matriz Elétrica com expansão 100% renovável
+Nuclear,1813,3144,3144,3144,2. Matriz Elétrica com expansão 100% renovável
+Óleos Comb,3439,0,0,0,2. Matriz Elétrica com expansão 100% renovável
+Biomassa,4245,14470,12586,12238,2. Matriz Elétrica com expansão 100% renovável
+Eólica,1169,15484,32805,51196,2. Matriz Elétrica com expansão 100% renovável
+Solar,4,1249,7575,16166,2. Matriz Elétrica com expansão 100% renovável
+Outros,452,452,0,0,2. Matriz Elétrica com expansão 100% renovável
+Pot. Compl.,0,14337,51131,85432,2. Matriz Elétrica com expansão 100% renovável
+GD,0,904,2005,3733,2. Matriz Elétrica com expansão 100% renovável
+Hidro,63353,94162,104818,108673,50. Eólica Offshore com 20% de redução de CAPEX
+Gás Natural,9971,16006,23543,21793,50. Eólica Offshore com 20% de redução de CAPEX
+Carvão,2380,1689,255,0,50. Eólica Offshore com 20% de redução de CAPEX
+Nuclear,1652,2983,2983,2983,50. Eólica Offshore com 20% de redução de CAPEX
+Óleos Comb,4082,0,0,0,50. Eólica Offshore com 20% de redução de CAPEX
+Biomassa,4040,8462,8289,7942,50. Eólica Offshore com 20% de redução de CAPEX
+Eólica,1334,12519,31053,42667,50. Eólica Offshore com 20% de redução de CAPEX
+Solar,4,434,944,9073,50. Eólica Offshore com 20% de redução de CAPEX
+Outros,452,452,452,452,50. Eólica Offshore com 20% de redução de CAPEX
+Pot. Compl.,0,12482,28499,57724,50. Eólica Offshore com 20% de redução de CAPEX
+GD,0,904,2005,3733,50. Eólica Offshore com 20% de redução de CAPEX
+Hidro,63306,92939,104994,105721,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Gás Natural,10476,15878,23766,24370,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Carvão,2380,1689,255,0,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Nuclear,1813,4178,4178,4178,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Óleos Comb,3624,0,0,0,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Biomassa,4009,8551,8378,8161,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Eólica,1204,12450,29060,40657,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Solar,4,434,944,7580,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Outros,452,452,452,452,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Pot. Compl.,0,12619,28809,60188,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+GD,0,904,2005,3733,57. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Hidro,59346,92408,99803,101195,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Gás Natural,9971,13225,20237,20456,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Carvão,2380,1689,255,0,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Nuclear,1652,2983,2983,2983,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Óleos Comb,4082,0,0,0,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Biomassa,8112,17952,17892,17818,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Eólica,1334,12898,28109,44468,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Solar,4,434,944,3724,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Outros,452,452,452,452,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Pot. Compl.,0,7149,30161,60210,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+GD,0,904,2005,3733,53. Aumento do fator de capacidade das usinas a bagaço usando insumo com custo 50% maior na entressafra
+Hidro,65587,92390,92210,89064,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Gás Natural,9114,15057,23633,27083,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Carvão,2107,1689,255,0,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Nuclear,1652,8830,8830,8830,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Óleos Comb,3553,0,0,0,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Biomassa,4041,5118,4944,4727,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Eólica,761,12789,28297,41633,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Solar,2,738,5942,14534,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Outros,452,452,452,452,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Pot. Compl.,0,12127,36273,64984,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+GD,0,904,2005,3733,22. Redução de 45% no CAPEX e no OPEX de Usina Nuclear
+Hidro,62140,92532,92473,85811,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Gás Natural,10652,17936,19941,22533,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Carvão,2107,1689,255,0,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Nuclear,1652,2983,2983,2983,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Óleos Comb,4507,0,0,0,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Biomassa,4255,4945,4771,4554,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Eólica,1499,14913,32267,46448,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Solar,4,1271,7416,16008,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Outros,452,452,452,452,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Pot. Compl.,0,12470,40278,72516,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+GD,0,904,2005,3733,29. GN Pré-Sal ao preço de US$ 6/MMBtu
+Hidro,63959,95535,107592,107428,35. UHEs com interferência após 2040
+Gás Natural,10476,18469,27644,35650,35. UHEs com interferência após 2040
+Carvão,2380,2635,1772,1772,35. UHEs com interferência após 2040
+Nuclear,1652,2983,2983,2983,35. UHEs com interferência após 2040
+Óleos Comb,3820,0,0,0,35. UHEs com interferência após 2040
+Biomassa,3951,6645,8001,8377,35. UHEs com interferência após 2040
+Eólica,574,11015,19780,37497,35. UHEs com interferência após 2040
+Solar,4,1386,7518,7518,35. UHEs com interferência após 2040
+Outros,452,452,452,452,35. UHEs com interferência após 2040
+Pot. Compl.,0,10071,25095,49629,35. UHEs com interferência após 2040
+GD,0,904,2005,3733,35. UHEs com interferência após 2040
+Hidro,63293,96651,97730,95585,8. Repotenciação de UHE
+Gás Natural,10147,16580,24279,29325,8. Repotenciação de UHE
+Carvão,1638,1689,255,0,8. Repotenciação de UHE
+Nuclear,1652,2983,2983,2983,8. Repotenciação de UHE
+Óleos Comb,4472,0,0,0,8. Repotenciação de UHE
+Biomassa,4202,4966,4793,4576,8. Repotenciação de UHE
+Eólica,1408,14284,30812,43744,8. Repotenciação de UHE
+Solar,4,434,4601,13193,8. Repotenciação de UHE
+Outros,452,452,452,452,8. Repotenciação de UHE
+Pot. Compl.,0,11151,34931,61447,8. Repotenciação de UHE
+GD,0,904,2005,3733,8. Repotenciação de UHE
+Hidro,63959,95535,107592,107428,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Gás Natural,10476,18469,27644,35650,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Carvão,2380,2635,1772,1772,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Nuclear,1652,2983,2983,2983,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Óleos Comb,3820,0,0,0,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Biomassa,3951,6645,8001,8377,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Eólica,574,11015,19780,37497,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Solar,4,1386,7518,7518,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Outros,452,452,452,452,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Pot. Compl.,0,10071,25095,49629,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+GD,0,904,2005,3733,40. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica)
+Hidro,63959,95535,107592,107428,12. Frota de veículos leves integralmente elétrica em 2050
+Gás Natural,10476,18469,27644,35650,12. Frota de veículos leves integralmente elétrica em 2050
+Carvão,2380,2635,1772,1772,12. Frota de veículos leves integralmente elétrica em 2050
+Nuclear,1652,2983,2983,2983,12. Frota de veículos leves integralmente elétrica em 2050
+Óleos Comb,3820,0,0,0,12. Frota de veículos leves integralmente elétrica em 2050
+Biomassa,3951,6645,8001,8377,12. Frota de veículos leves integralmente elétrica em 2050
+Eólica,574,11015,19780,37497,12. Frota de veículos leves integralmente elétrica em 2050
+Solar,4,1386,7518,7518,12. Frota de veículos leves integralmente elétrica em 2050
+Outros,452,452,452,452,12. Frota de veículos leves integralmente elétrica em 2050
+Pot. Compl.,0,10071,25095,49629,12. Frota de veículos leves integralmente elétrica em 2050
+GD,0,904,2005,3733,12. Frota de veículos leves integralmente elétrica em 2050
+Hidro,63959,95535,107592,107428,32. UHEs em áreas de interferência com CAPEX dobrado
+Gás Natural,10476,18469,27644,35650,32. UHEs em áreas de interferência com CAPEX dobrado
+Carvão,2380,2635,1772,1772,32. UHEs em áreas de interferência com CAPEX dobrado
+Nuclear,1652,2983,2983,2983,32. UHEs em áreas de interferência com CAPEX dobrado
+Óleos Comb,3820,0,0,0,32. UHEs em áreas de interferência com CAPEX dobrado
+Biomassa,3951,6645,8001,8377,32. UHEs em áreas de interferência com CAPEX dobrado
+Eólica,574,11015,19780,37497,32. UHEs em áreas de interferência com CAPEX dobrado
+Solar,4,1386,7518,7518,32. UHEs em áreas de interferência com CAPEX dobrado
+Outros,452,452,452,452,32. UHEs em áreas de interferência com CAPEX dobrado
+Pot. Compl.,0,10071,25095,49629,32. UHEs em áreas de interferência com CAPEX dobrado
+GD,0,904,2005,3733,32. UHEs em áreas de interferência com CAPEX dobrado
+Hidro,63243,93968,95022,97164,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Gás Natural,10172,17343,48201,71385,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Carvão,1840,1689,255,0,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Nuclear,1652,2983,2983,2983,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Óleos Comb,4382,0,0,0,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Biomassa,4221,8970,9736,9519,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Eólica,1301,9866,10276,14321,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Solar,4,2423,5588,9588,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Outros,452,452,452,452,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Pot. Compl.,0,11495,28323,45893,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+GD,0,904,2005,3733,14. Capacidade Instalada Total de Eólica e de PV Solar limitada a 50 GW (cada uma) no horizonte
+Hidro,65468,96125,106465,102960,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Gás Natural,9629,6559,1494,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Carvão,1566,1689,255,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Nuclear,1813,3144,3144,3144,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Óleos Comb,2478,0,0,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Biomassa,4265,14470,14297,13949,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Eólica,1593,14487,31346,44443,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Solar,4,434,944,9535,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Outros,452,452,0,0,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Pot. Compl.,0,11829,42891,77275,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+GD,0,904,2005,3733,38. Matriz Elétrica com expansão a partir de tecnologias não emissoras de GEE
+Hidro,63695,95449,93174,94710,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Gás Natural,10652,19184,33890,39178,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Carvão,2108,2635,1821,1551,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Nuclear,1652,2983,2983,2983,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Óleos Comb,4156,0,0,0,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Biomassa,4212,6645,7865,7648,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Eólica,338,8006,20917,37034,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Solar,3,1386,11431,17482,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Outros,452,452,452,452,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Pot. Compl.,0,12450,28303,50268,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+GD,0,904,2005,3733,45. Integração Elétrica com países da América do Sul com custo do sistema de transmissão 50% maior
+Hidro,62950,87016,83791,86840,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Gás Natural,10303,22037,25501,22462,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Carvão,2380,1689,255,0,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Nuclear,1652,2983,2983,2983,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Óleos Comb,4145,0,0,0,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Biomassa,4102,14511,14338,14121,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Eólica,1280,15933,31653,41021,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Solar,3,2360,9250,17842,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Outros,452,452,452,452,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Pot. Compl.,0,2209,32614,65585,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+GD,0,904,2005,3733,6. Efeitos das Mudanças Climáticas (redução de disponibilidade hídrica) sem emissões
+Hidro,63306,93103,105244,105695,55. Redução de 45% no CAPEX de Usina Nuclear
+Gás Natural,10476,16147,24035,24639,55. Redução de 45% no CAPEX de Usina Nuclear
+Carvão,2380,1689,255,0,55. Redução de 45% no CAPEX de Usina Nuclear
+Nuclear,1813,3144,3144,3144,55. Redução de 45% no CAPEX de Usina Nuclear
+Óleos Comb,3624,0,0,0,55. Redução de 45% no CAPEX de Usina Nuclear
+Biomassa,4009,8668,8495,8278,55. Redução de 45% no CAPEX de Usina Nuclear
+Eólica,1204,12784,29452,40715,55. Redução de 45% no CAPEX de Usina Nuclear
+Solar,4,434,944,7841,55. Redução de 45% no CAPEX de Usina Nuclear
+Outros,452,452,452,452,55. Redução de 45% no CAPEX de Usina Nuclear
+Pot. Compl.,0,12769,28816,60542,55. Redução de 45% no CAPEX de Usina Nuclear
+GD,0,904,2005,3733,55. Redução de 45% no CAPEX de Usina Nuclear
+Hidro,64463,82431,86841,87235,36. Estagnação
+Gás Natural,10147,6921,7372,7023,36. Estagnação
+Carvão,2107,1689,255,0,36. Estagnação
+Nuclear,1652,2983,2983,2983,36. Estagnação
+Óleos Comb,4365,0,0,0,36. Estagnação
+Biomassa,4015,4945,4771,4554,36. Estagnação
+Eólica,1272,4305,1437,1506,36. Estagnação
+Solar,4,434,0,0,36. Estagnação
+Outros,452,452,452,452,36. Estagnação
+Pot. Compl.,0,190,5039,5303,36. Estagnação
+GD,0,406,811,1248,36. Estagnação
+Hidro,63353,93860,105044,105814,61. Carvão financiado com redução de 20% no CAPEX
+Gás Natural,9971,15124,22577,23181,61. Carvão financiado com redução de 20% no CAPEX
+Carvão,2380,3189,1755,1500,61. Carvão financiado com redução de 20% no CAPEX
+Nuclear,1652,2983,2983,2983,61. Carvão financiado com redução de 20% no CAPEX
+Óleos Comb,4082,0,0,0,61. Carvão financiado com redução de 20% no CAPEX
+Biomassa,4040,8574,8401,8184,61. Carvão financiado com redução de 20% no CAPEX
+Eólica,1334,12078,29187,40799,61. Carvão financiado com redução de 20% no CAPEX
+Solar,4,434,944,7605,61. Carvão financiado com redução de 20% no CAPEX
+Outros,452,452,452,452,61. Carvão financiado com redução de 20% no CAPEX
+Pot. Compl.,0,12496,29493,60789,61. Carvão financiado com redução de 20% no CAPEX
+GD,0,904,2005,3733,61. Carvão financiado com redução de 20% no CAPEX
