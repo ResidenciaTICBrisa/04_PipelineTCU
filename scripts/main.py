@@ -6,12 +6,10 @@ from handlers.benHandler import BenHandler
 from handlers.comunicacaoHandler import ComunicacaoHandler
 from handlers.pcbioHandler import PCBIOHandler
 from handlers.pneHandler import PNEHandler
-from handlers.ieaHandler import IeaHandler
 from scrappers.excelScrapper import ExcelScrapper
 from scrappers.excelScrapperByHref import ExcelScrapperByHref
 from scrappers.excelScrapperAnuarioANP import ExcelScrapperAnuarioANP
 from scrappers.zipScrapper import ZipScrapper
-from scrappers.excelScrapperIEA import ExcelScrapperIEA
 
 if __name__ == '__main__':
     year_atual = datetime.now().year
@@ -140,9 +138,3 @@ if __name__ == '__main__':
                 break
         year -= 1
         cont += 1
-
-    # url_site = "https://www.iea.org/data-and-statistics/data-product/world-energy-statistics-and-balances"
-    # scrapperIea = ExcelScrapperIEA(url_site, path_raiz)
-    # nome_arquivo = scrapperIea.baixa_arquivo()
-    # ieaHandler = IeaHandler(file=nome_arquivo)
-    # ieaHandler.formatar_xlsx_IEA()
