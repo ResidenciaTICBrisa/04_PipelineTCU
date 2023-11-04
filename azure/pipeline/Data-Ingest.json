@@ -409,9 +409,31 @@
 							"type": "DelimitedTextReadSettings"
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "DelimitedTextSink",
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
 				},
 				"inputs": [
+					{
+						"referenceName": "CapInstRenPaises",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
 					{
 						"referenceName": "CapInstRenPaises",
 						"type": "DatasetReference"
@@ -611,7 +633,7 @@
 				]
 			},
 			{
-				"name": "Comunicao",
+				"name": "Comunicacao",
 				"type": "Copy",
 				"dependsOn": [
 					{
@@ -679,7 +701,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Comunicao",
+						"activity": "Comunicacao",
 						"dependencyConditions": [
 							"Completed"
 						]
