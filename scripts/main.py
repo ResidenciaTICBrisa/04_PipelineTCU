@@ -11,7 +11,7 @@ from scrappers.excelScrapper import ExcelScrapper
 from scrappers.excelScrapperByHref import ExcelScrapperByHref
 from scrappers.excelScrapperAnuarioANP import ExcelScrapperAnuarioANP
 from scrappers.zipScrapper import ZipScrapper
-from scripts.scrappers.excelScrapperIEA import ExcelScrapperIEA
+from scrappers.excelScrapperIEA import ExcelScrapperIEA
 
 if __name__ == '__main__':
     year_atual = datetime.now().year
