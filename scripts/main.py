@@ -141,8 +141,8 @@ if __name__ == '__main__':
         year -= 1
         cont += 1
 
-    url_site = "https://www.iea.org/data-and-statistics/data-product/world-energy-statistics-and-balances"
-    scrapperIea = ExcelScrapperIEA(url_site, path_raiz)
-    nome_arquivo = scrapperIea.baixa_arquivo()
-    ieaHandler = IeaHandler(file=nome_arquivo)
-    ieaHandler.formatar_xlsx_IEA()
+    # url_site = "https://www.iea.org/data-and-statistics/data-product/world-energy-statistics-and-balances"
+    # scrapperIea = ExcelScrapperIEA(url_site, path_raiz)
+    # nome_arquivo = scrapperIea.baixa_arquivo()
+    # ieaHandler = IeaHandler(file=nome_arquivo)
+    # ieaHandler.formatar_xlsx_IEA()
