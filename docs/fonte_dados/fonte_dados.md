@@ -488,7 +488,7 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
 </td>
       </tr>
       <tr>
-        <td>Custo de Tecnologia</td>
+        <td>Custo por Tecnologia</td>
         <td><a href="https://docs.google.com/spreadsheets/d/1X-IMagTyON8my7dzIeMe97HSCulXc0829MyDVb9mAIY/edit?usp=sharing">Renewable Power Generation Costs in 2021</a>
         </td>
       </tr>
