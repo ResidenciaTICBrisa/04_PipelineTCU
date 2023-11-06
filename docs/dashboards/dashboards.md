@@ -250,4 +250,27 @@ Realizados com Dados da [Empresa de Pesquisa Energética - EPE](https://www.epe.
 <center> <figcaption>Figura 18: Evolução das fontes de tecnologia</figcaption> </center>
 
 
+## **10. Custo por Tecnologia**
+Realizados com Dados do [Our World in Data](https://ourworldindata.org/grapher/levelized-cost-of-energy?tab=table&time=1985..2021&country=~CAN). Todas as visualizações abaixo foram geradas a partir dos dados acima.
+
+<details>
+    <summary>Our World in Data</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/1X-IMagTyON8my7dzIeMe97HSCulXc0829MyDVb9mAIY/edit?usp=sharing" width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+<div align="center">
+<img src="https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/4053f58d7847c88a35ed59de074e4baa1349f44b/docs/assets/custoPorTecnologia.png" width="1000"/>
+</div>
+<center> <figcaption>Figura 19: Custo por Tecnologia e Pais(US$/kilowatt-hour)</figcaption> </center>
+
+
+## **11. Custo por Investimento**
+Realizados com Dados do [Our World in Data](https://ourworldindata.org/grapher/investment-in-renewable-energy-by-technology). Todas as visualizações abaixo foram geradas a partir dos dados acima.
+<details>
+    <summary>Our World in Data</summary>
+<iframe src="https://docs.google.com/spreadsheets/d/15mWpMYNEW-qM7UiEasCqj-Z2EVb_TnTao_2mhASmY_I/edit?usp=sharing" width="100%" height="400" frameborder="1" scrolling="no"></iframe>
+</details>
+<div align="center">
+<img src="https://raw.githubusercontent.com/ResidenciaTICBrisa/04_PipelineTCU/4053f58d7847c88a35ed59de074e4baa1349f44b/docs/assets/investimentoporTecnologia.png" width="1000"/>
+</div>
+<center> <figcaption>Figura 20: Investimento por Tecnologia no undo(US$ por Ano)</figcaption> </center>
 

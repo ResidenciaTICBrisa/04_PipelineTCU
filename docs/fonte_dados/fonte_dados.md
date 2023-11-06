@@ -411,6 +411,7 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
   </table>
 </details>
 
+
 <details>
   <summary> Sistema de Informações Energéticas - Ministério de Minas e Energia
  </summary>
@@ -438,11 +439,66 @@ As tabelas contidas dentros dos toggles evidenciam o dados que encontramos.
     </tbody>
   </table>
 </details>
-
-
-
+<details>
+  <summary> Global Trends in Renewable Energy Investment 2019
+ </summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Anexos</th>
+        <th>Referência</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Referência dos dados</td>
+        <td><a href="	https://www.unep.org/resources/report/global-trends-renewable-energy-investment-2019">Investment in solar energy technology.
+</a>
+</td>
+      </tr>
+      <tr>
+        <td>Custo de Investimento por Tecnologia</td>
+        <td><a href="https://docs.google.com/spreadsheets/d/15mWpMYNEW-qM7UiEasCqj-Z2EVb_TnTao_2mhASmY_I/edit?usp=drive_link">Global Trends in Renewable Energy Investment 2019</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Tipo de dados</td>
+        <td>.xlsx</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
   </table>
 
+<details>
+  <summary> Renewable Power Generation Costs in 2021
+ </summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Anexos</th>
+        <th>Referência</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Referência dos dados</td>
+        <td><a href="	https://irena.org/publications/2022/Jul/Renewable-Power-Generation-Costs-in-2021">Investment in solar energy technology.
+</a>
+</td>
+      </tr>
+      <tr>
+        <td>Custo de Tecnologia</td>
+        <td><a href="https://docs.google.com/spreadsheets/d/1X-IMagTyON8my7dzIeMe97HSCulXc0829MyDVb9mAIY/edit?usp=sharing">Renewable Power Generation Costs in 2021</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Tipo de dados</td>
+        <td>.xlsx</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
 
 </details>
 
