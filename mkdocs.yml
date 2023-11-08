@@ -111,5 +111,7 @@ nav:
         - Reunião: comunicacao/reunioes/reuniao6/reuniao.md
       - Reunião 7:
         - Reunião: comunicacao/reunioes/reuniao7/reuniao.md
+  - Post Mortem:
+    - Inicio: sobre/post-mortem.md
 plugins:
   - search
