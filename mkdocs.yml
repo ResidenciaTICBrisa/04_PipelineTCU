@@ -73,7 +73,9 @@ nav:
     - Requisitos: modelagem/requisitos.md
     - Protótipo: modelagem/prototipo.md
     - Arquitetura: modelagem/arquitetura.md
-  - Fonte de dados: fonte_dados/fonte_dados.md
+  - Fonte de dados:
+    - Fonte de dados: fonte_dados/fonte_dados.md
+    - Estudos Subsidios: fonte_dados/estudos_subsidio.md
   - Dicionário de Dados: fonte_dados/dicionario.md
   - Pipeline: pipeline/pipeline.md
   - Gráficos : dashboards/dashboards.md
