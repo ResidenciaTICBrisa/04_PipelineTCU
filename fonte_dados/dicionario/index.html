@@ -1,0 +1,5721 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../estudos_subsidio/">
+      
+      
+        <link rel="next" href="../../pipeline/pipeline/">
+      
+      
+      <link rel="icon" href="../../assets/PipelineTCU.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.13">
+    
+    
+      
+        <title>Dicionário de Dados - PipelineTCU</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#fff" data-md-color-accent="#0B4D9B">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dicionario-de-dados" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="PipelineTCU" class="md-header__button md-logo" aria-label="PipelineTCU" data-md-component="logo">
+      
+  <img src="../../assets/PipelineTCU.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PipelineTCU
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dicionário de Dados
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ResidenciaTICBrisa/04_PipelineTCU" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    04_PipelineTCU
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../painel/painel/" class="md-tabs__link">
+        
+  
+    
+  
+  Painel
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../cronograma/cronograma/" class="md-tabs__link">
+        
+  
+    
+  
+  Cronograma Geral
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://github.com/orgs/ResidenciaTICBrisa/projects/5" class="md-tabs__link">
+        
+  
+    
+  
+  Roadmap
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../analise/rich_picture/" class="md-tabs__link">
+          
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../fonte_dados/" class="md-tabs__link">
+          
+  
+  Fonte de dados
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Dicionário de Dados
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pipeline/pipeline/" class="md-tabs__link">
+        
+  
+    
+  
+  Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dashboards/dashboards/" class="md-tabs__link">
+        
+  
+    
+  
+  Gráficos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tutoriais/tutoriais/" class="md-tabs__link">
+        
+  
+    
+  
+  Tutoriais
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../comunicacao/documentacao_sprints/rituais_da_equipe/" class="md-tabs__link">
+          
+  
+  Comunicação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sobre/post-mortem/" class="md-tabs__link">
+          
+  
+  Post Mortem
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PipelineTCU" class="md-nav__button md-logo" aria-label="PipelineTCU" data-md-component="logo">
+      
+  <img src="../../assets/PipelineTCU.png" alt="logo">
+
+    </a>
+    PipelineTCU
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ResidenciaTICBrisa/04_PipelineTCU" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    04_PipelineTCU
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../painel/painel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Painel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronograma/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/orgs/ResidenciaTICBrisa/projects/5" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/rich_picture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/projetos_similares/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projetos Similares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/pne_2050/pne_2050/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PNE 2050
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/IRENA_IEA_NREL/irena_iea_nrel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IRENA, IEA e NREL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Técnicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/entrevista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entrevista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/storytelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storytelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/lexico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lexico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Priorização
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/MoScoW/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MoScoW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem Ágil
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem Ágil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Fonte de dados
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Fonte de dados
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fonte_dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fonte de dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estudos_subsidio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos Subsidios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Dicionário de Dados
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Dicionário de Dados
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-capacidade-instalada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Capacidade Instalada
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Capacidade Instalada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-potacumpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: PotAcumPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-geracao-periodo-medio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Geração Período Médio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Geração Período Médio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-gerpermedpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: GerPerMedPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-balanco-de-potencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Balanço de Potência
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Balanço de Potência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-atendpontapne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: AtendPontaPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-demmaxmw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: DemMax(MW)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-matriz-energetica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Matriz Energética
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Matriz Energética">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-matriz-energetica-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Matriz energética - Brasil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-matriz-energetica-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Matriz energética - Mundo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-empregabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Empregabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Empregabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-empregabilidade-no-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Empregabilidade no Brasil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-consumo-total-epe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Consumo Total EPE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Consumo Total EPE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_gwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_GWh
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_medio_por_classe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_Médio_por_classe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_acumulado_regiao_gwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_acumulado_região_GWh
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-ben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página BEN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página BEN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ben_total" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: BEN_total
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-extras-pne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Extras - PNE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Extras - PNE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-emtotpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: EmTotPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-custototpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CustoTotPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaconsgasnatpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:ConsGasNatPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Mundo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Mundo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capacidade_instalada_matriz_eletrica_br_ons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Capacidade_Instalada_Matriz_Eletrica_BR_ONS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstbiopaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstBioPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstbiopaisesgw_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstBioPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsteolpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstEolPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelacapinstfontemw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:CapInstFonte(MW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstnucpaises-gw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstNucPaises (GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstrenpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstRenPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstsolpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstSolPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsttermfospaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstTermFosPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsttermfospaisesgw_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstTermFosPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsthidpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstHidPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerbiopaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerBioPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagereolpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerEolPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerhidpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerHidPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerrenpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerRenPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagersolpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerSolPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagertermfospaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerTermFosPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Brasil
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Brasil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabelagelelfontegwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GelElFonte(GWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeesistisomtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEESistIso(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeegerelmtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEEGerEl(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeesinmtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEESIN(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedresregkwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedResReg(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedressubsiskwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedResSubsis(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaconsmedtotregkwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:ConsMedTotReg(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedtotsubsiskwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedTotSubsis(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedanpercapregkwh_hab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedAnPerCapReg(kWh_hab)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-emissoes_co2_br" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: emissoes_co2_Br
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-evolucao_energia_1970_2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Evolucao_Energia_1970_2022
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pipeline/pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/dashboards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráficos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriais/tutoriais/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutoriais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Comunicação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Comunicação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/rituais_da_equipe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rituais da Equipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_2" id="__nav_11_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentação das Sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_2">
+            <span class="md-nav__icon md-icon"></span>
+            Documentação das Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint12/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 12
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/documentacao_sprints/sprint11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 13
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Relatorio de Reuniões
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            Relatorio de Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_1" id="__nav_11_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao1/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião de apresentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_2" id="__nav_11_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao2/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião regras de negócio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao2/acompanhamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acompanhamento projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_3" id="__nav_11_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao3/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_4" id="__nav_11_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao4/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_5" id="__nav_11_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao5/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_6" id="__nav_11_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao6/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3_7" id="__nav_11_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reunião 7
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Reunião 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao/reunioes/reuniao7/reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Post Mortem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Post Mortem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sobre/post-mortem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-capacidade-instalada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Capacidade Instalada
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Capacidade Instalada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-potacumpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: PotAcumPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-geracao-periodo-medio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Geração Período Médio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Geração Período Médio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-gerpermedpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: GerPerMedPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-balanco-de-potencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Balanço de Potência
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Balanço de Potência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-atendpontapne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: AtendPontaPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-demmaxmw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: DemMax(MW)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-matriz-energetica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Matriz Energética
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Matriz Energética">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-matriz-energetica-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Matriz energética - Brasil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-matriz-energetica-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Matriz energética - Mundo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-empregabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Empregabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Empregabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-empregabilidade-no-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Empregabilidade no Brasil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-consumo-total-epe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página de Consumo Total EPE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página de Consumo Total EPE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_gwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_GWh
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_medio_por_classe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_Médio_por_classe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ct_consumo_acumulado_regiao_gwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CT_Consumo_acumulado_região_GWh
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-ben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página BEN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página BEN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-ben_total" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: BEN_total
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-extras-pne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Extras - PNE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Extras - PNE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-emtotpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: EmTotPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-custototpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CustoTotPNE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaconsgasnatpne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:ConsGasNatPNE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Mundo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Mundo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capacidade_instalada_matriz_eletrica_br_ons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Capacidade_Instalada_Matriz_Eletrica_BR_ONS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstbiopaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstBioPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstbiopaisesgw_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstBioPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsteolpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstEolPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelacapinstfontemw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:CapInstFonte(MW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstnucpaises-gw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstNucPaises (GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstrenpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstRenPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinstsolpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstSolPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsttermfospaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstTermFosPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsttermfospaisesgw_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstTermFosPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-capinsthidpaisesgw" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: CapInstHidPaises(GW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerbiopaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerBioPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagereolpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerEolPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerhidpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerHidPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagerrenpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerRenPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagersolpaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerSolPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelagertermfospaisestwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GerTermFosPaises(TWh)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-brasil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página Brasil
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página Brasil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabelagelelfontegwh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:GelElFonte(GWh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeesistisomtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEESistIso(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeegerelmtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEEGerEl(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaemgeesinmtco2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:EmGEESIN(MtCO2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedresregkwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedResReg(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedressubsiskwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedResSubsis(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelaconsmedtotregkwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela:ConsMedTotReg(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedtotsubsiskwh_mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedTotSubsis(kWh_mes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-consmedanpercapregkwh_hab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: ConsMedAnPerCapReg(kWh_hab)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-emissoes_co2_br" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: emissoes_co2_Br
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-evolucao_energia_1970_2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela: Evolucao_Energia_1970_2022
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="dicionario-de-dados">Dicionário de Dados</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Um Dicionário de Dados é uma ferramenta essencial para organizar, descrever e padronizar informações relacionadas a sistemas de dados e software. Ele fornece uma visão detalhada das estruturas de dados, incluindo definições, formatos e relacionamentos, facilitando a colaboração e garantindo a qualidade e integridade dos dados em projetos de TI e gerenciamento de informações.
+Nesse documento, adicionamos o dicionário relacionado as tabelas presentes no banco de dados com separação por página do dashboard.</p>
+<h2 id="pagina-de-capacidade-instalada"><strong>Página de Capacidade Instalada</strong></h2>
+<h4 id="tabela-potacumpne"><strong>Tabela: PotAcumPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte_Tecnologia</td>
+<td style="text-align: center;">Fonte ou Tecnologia</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte ou Tecnologia da análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2015 (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2030</td>
+<td style="text-align: center;">Ano de 2030</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2030(MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2040</td>
+<td style="text-align: center;">Ano de 2040</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2040(MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2050</td>
+<td style="text-align: center;">Ano de 2050</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2050(MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário do PNE</td>
+<td style="text-align: center;">NVARCHAR(150)</td>
+<td style="text-align: center;">Cenário do PNE de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-de-geracao-periodo-medio"><strong>Página de Geração Período Médio</strong></h2>
+<h4 id="tabela-gerpermedpne"><strong>Tabela: GerPerMedPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte_Tecnologia</td>
+<td style="text-align: center;">Fonte ou Tecnologia</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte ou Tecnologia da análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2015 (MW Médios)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2030</td>
+<td style="text-align: center;">Ano de 2030</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2030 (MW Médios)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2040</td>
+<td style="text-align: center;">Ano de 2040</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2040 (MW Médios)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2050</td>
+<td style="text-align: center;">Ano de 2050</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2050 (MW Médios)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário do PNE</td>
+<td style="text-align: center;">NVARCHAR(150)</td>
+<td style="text-align: center;">Cenário do PNE de análise (MW Médios)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-de-balanco-de-potencia"><strong>Página de Balanço de Potência</strong></h2>
+<h4 id="tabela-atendpontapne"><strong>Tabela: AtendPontaPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte_Tecnologia</td>
+<td style="text-align: center;">Fonte ou Tecnologia</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte ou Tecnologia da análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2015 (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2030</td>
+<td style="text-align: center;">Ano de 2030</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2030 (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2040</td>
+<td style="text-align: center;">Ano de 2040</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2040 (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2050</td>
+<td style="text-align: center;">Ano de 2050</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no ano de 2050 (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário do PNE</td>
+<td style="text-align: center;">NVARCHAR(150)</td>
+<td style="text-align: center;">Cenário do PNE de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-demmaxmw"><strong>Tabela: DemMax(MW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Demanda_Máxima</td>
+<td style="text-align: center;">Demanda Máxima</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade em MW de Demanda</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Região de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-de-matriz-energetica"><strong>Página de Matriz Energética</strong></h2>
+<h4 id="tabela-matriz-energetica-brasil"><strong>Tabela: Matriz energética - Brasil</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Carvão</td>
+<td style="text-align: center;">Carvão</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda do carvão</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Gás Natural</td>
+<td style="text-align: center;">Gás Natural</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda do Gás Natural</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de energia Nuclear</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Hidro</td>
+<td style="text-align: center;">Hidro</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Hidro</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Biocombustíveis e resíduos</td>
+<td style="text-align: center;">Biocombustíveis e resíduos</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Biocombustíveis e resíduos</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Óleo</td>
+<td style="text-align: center;">Óleo</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de óleo</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Eólica, solar, etc.</td>
+<td style="text-align: center;">Eólica, solar, etc.</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Eólica, solar, etc.</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Unidades</td>
+<td style="text-align: center;">Unidades</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Unidade de medida</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-matriz-energetica-mundo"><strong>Tabela: Matriz energética - Mundo</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Carvão</td>
+<td style="text-align: center;">Carvão</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda do carvão</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Gás Natural</td>
+<td style="text-align: center;">Gás Natural</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda do Gás Natural</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de energia Nuclear</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Hidro</td>
+<td style="text-align: center;">Hidro</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Hidro</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Biocombustíveis e resíduos</td>
+<td style="text-align: center;">Biocombustíveis e resíduos</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Biocombustíveis e resíduos</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Óleo</td>
+<td style="text-align: center;">Óleo</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de óleo</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Eólica, solar, etc.</td>
+<td style="text-align: center;">Eólica, solar, etc.</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade vinda de Eólica, solar, etc.</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Unidades</td>
+<td style="text-align: center;">Unidades</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Unidade de medida</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-de-empregabilidade"><strong>Página de Empregabilidade</strong></h2>
+<h4 id="tabela-empregabilidade-no-brasil"><strong>Tabela: Empregabilidade no Brasil</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Pais</td>
+<td style="text-align: center;">Pais</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Tecnologia</td>
+<td style="text-align: center;">Tecnologia</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Tecnologia de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Empregabilidade</td>
+<td style="text-align: center;">Empregabilidade</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Numero de empregabilidade (MIL)</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-de-consumo-total-epe"><strong>Página de Consumo Total EPE</strong></h2>
+<h4 id="tabela-ct_consumo_gwh"><strong>Tabela: CT_Consumo_GWh</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">nomMes</td>
+<td style="text-align: center;">Nome do mês</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Mês de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2016</td>
+<td style="text-align: center;">Ano de 2016</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2016</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2017</td>
+<td style="text-align: center;">Ano de 2017</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Quantidade no ano de 2017</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2018</td>
+<td style="text-align: center;">Ano de 2018</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Quantidade no ano de 2018</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2019</td>
+<td style="text-align: center;">Ano de 2019</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2019</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2020</td>
+<td style="text-align: center;">Ano de 2020</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2020</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2021</td>
+<td style="text-align: center;">Ano de 2021</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2021</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2022</td>
+<td style="text-align: center;">Ano de 2022</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2022</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2023</td>
+<td style="text-align: center;">Ano de 2023</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2023</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-ct_consumo_medio_por_classe"><strong>Tabela: CT_Consumo_Médio_por_classe</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">nomMes</td>
+<td style="text-align: center;">Nome do mês</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Mês de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2016</td>
+<td style="text-align: center;">Ano de 2016</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2016</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2017</td>
+<td style="text-align: center;">Ano de 2017</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Quantidade no ano de 2017</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2018</td>
+<td style="text-align: center;">Ano de 2018</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Quantidade no ano de 2018</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2019</td>
+<td style="text-align: center;">Ano de 2019</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2019</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2020</td>
+<td style="text-align: center;">Ano de 2020</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2020</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2021</td>
+<td style="text-align: center;">Ano de 2021</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2021</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2022</td>
+<td style="text-align: center;">Ano de 2022</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2022</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2023</td>
+<td style="text-align: center;">Ano de 2023</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade no ano de 2023</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-ct_consumo_acumulado_regiao_gwh"><strong>Tabela: CT_Consumo_acumulado_região_GWh</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">nomRegiao</td>
+<td style="text-align: center;">Nome Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Região de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">ValorTotal</td>
+<td style="text-align: center;">Valor Total</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de consumo</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-ben"><strong>Página BEN</strong></h2>
+<h4 id="tabela-ben_total"><strong>Tabela: BEN_total</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">CONTA</td>
+<td style="text-align: center;">Conta</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ramo analisado</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">PRODUÇÃO</td>
+<td style="text-align: center;">Produção</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de produção</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">IMPORTAÇÃO</td>
+<td style="text-align: center;">Importação</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de importação</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">VARIAÇÃO_DE_ESTOQUES</td>
+<td style="text-align: center;">Variação de Estoques</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade da variação de estoques</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">EXPORTAÇÃO</td>
+<td style="text-align: center;">Exportação</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de exportação</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">NÃO_APROVEITADA</td>
+<td style="text-align: center;">Não Aproveitada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade não aproveitada</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">REINJEÇÃO</td>
+<td style="text-align: center;">Reinjeção</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade reinjetada</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">CONSUMO_FINAL_NÃO_ENERGÉTICO</td>
+<td style="text-align: center;">Consumo Final Não Energético</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade do consumo final não energético</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">SETOR_ENERGÉTICO</td>
+<td style="text-align: center;">Setor Energético</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor energético</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">RESIDENCIAL</td>
+<td style="text-align: center;">Residencial</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade residencial</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">COMERCIAL</td>
+<td style="text-align: center;">Comercial</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade comercial</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">PÚBLICO</td>
+<td style="text-align: center;">Público</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor público</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">AGROPECUÁRIO</td>
+<td style="text-align: center;">Agropecuário</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor agropecuário</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">RODOVIÁRIO</td>
+<td style="text-align: center;">Rodoviário</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade no setor rodoviário</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">FERROVIÁRIO</td>
+<td style="text-align: center;">Ferroviário</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor ferroviário</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">AÉREO</td>
+<td style="text-align: center;">Aéro</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor aéro</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">HIDROVIÁRIO</td>
+<td style="text-align: center;">Hidroviário</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade no setor hidroviário</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">INDUSTRIAL_TOTAL</td>
+<td style="text-align: center;">Industrial Total</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade industrial total</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-extras-pne"><strong>Página Extras - PNE</strong></h2>
+<h4 id="tabela-emtotpne"><strong>Tabela: EmTotPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Período</td>
+<td style="text-align: center;">Período</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Período de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de emissões no ano de 2015</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2030</td>
+<td style="text-align: center;">Ano de 2030</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de emissões no ano de 2030</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2040</td>
+<td style="text-align: center;">Ano de 2040</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de emissões no ano de 2040</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2050</td>
+<td style="text-align: center;">Ano de 2050</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de emissões no ano de 2050</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Cenário PNE</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-custototpne"><strong>Tabela: CustoTotPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Tipo_Expansão</td>
+<td style="text-align: center;">Tipo de expansão</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Tipo de expansão analisada</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2012</td>
+<td style="text-align: center;">Ano de 2012</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Custo total no ano de 2012</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Custo total no ano de 2015</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">NVARCHAR(150)</td>
+<td style="text-align: center;">Cenário do PNE</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelaconsgasnatpne"><strong>Tabela:ConsGasNatPNE</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Período</td>
+<td style="text-align: center;">Período</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Período médio</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano de 2015</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Consumo de Gás Natural no ano de 2015 (Mm^3/dia)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2030</td>
+<td style="text-align: center;">Ano de 2030</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Consumo de Gás Natural no ano de 2030 (Mm^3/dia)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2040</td>
+<td style="text-align: center;">Ano de 2040</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Consumo de Gás Natural no ano de 2040 (Mm^3/dia)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2050</td>
+<td style="text-align: center;">Ano de 2050</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Consumo de Gás Natural no ano de 2050 (Mm^3/dia)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">Cenário</td>
+<td style="text-align: center;">NVARCHAR(150)</td>
+<td style="text-align: center;">Cenário do PNE</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-mundo"><strong>Página Mundo</strong></h2>
+<h4 id="tabela-capacidade_instalada_matriz_eletrica_br_ons"><strong>Tabela: Capacidade_Instalada_Matriz_Eletrica_BR_ONS</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Eólica</td>
+<td style="text-align: center;">Eólica</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração Eólica</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Térmica</td>
+<td style="text-align: center;">Térmica</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração Térmica</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Hidráulica</td>
+<td style="text-align: center;">Hidráulica</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração Hidráulica</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">Nuclear</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração Nuclear</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Solar</td>
+<td style="text-align: center;">Solar</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração Solar</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">MMGD</td>
+<td style="text-align: center;">MMGD</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Capacidade instalada na geração MMGD</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinstbiopaisesgw"><strong>Tabela: CapInstBioPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinstbiopaisesgw_1"><strong>Tabela: CapInstBioPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de geração biomassa (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinsteolpaisesgw"><strong>Tabela: CapInstEolPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de geração eólica (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelacapinstfontemw"><strong>Tabela:CapInstFonte(MW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada (MW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinstnucpaises-gw"><strong>Tabela: CapInstNucPaises (GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de geração nuclear(GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinstrenpaisesgw"><strong>Tabela: CapInstRenPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinstsolpaisesgw"><strong>Tabela: CapInstSolPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de geração solar (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinsttermfospaisesgw"><strong>Tabela: CapInstTermFosPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de térmica fóssil (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinsttermfospaisesgw_1"><strong>Tabela: CapInstTermFosPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de térmica fóssil (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-capinsthidpaisesgw"><strong>Tabela: CapInstHidPaises(GW)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacidade_Instalada</td>
+<td style="text-align: center;">Capacidade Instalada</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Quantidade de Capacidade instalada de hidrelétrica  (GW)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagerbiopaisestwh"><strong>Tabela:GerBioPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - biomassa (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagereolpaisestwh"><strong>Tabela:GerEolPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - eólica(TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagerhidpaisestwh"><strong>Tabela:GerHidPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - hidrelétrica (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagerrenpaisestwh"><strong>Tabela:GerRenPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - fontes renováveis (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagersolpaisestwh"><strong>Tabela:GerSolPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - solar (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelagertermfospaisestwh"><strong>Tabela:GerTermFosPaises(TWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">País</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">País de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">TINYINT</td>
+<td style="text-align: center;">Quantidade de geração - térmica fossilr (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pagina-brasil"><strong>Página Brasil</strong></h2>
+<h4 id="tabelagelelfontegwh"><strong>Tabela:GelElFonte(GWh)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">Geração</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de geração elétrica (TWh)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelaemgeesistisomtco2"><strong>Tabela:EmGEESistIso(MtCO2)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Emissões_GEE</td>
+<td style="text-align: center;">Emissão de GEE</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissão de GEE (MtCO2)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelaemgeegerelmtco2"><strong>Tabela:EmGEEGerEl(MtCO2)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Emissões_GEE</td>
+<td style="text-align: center;">Emissão de GEE</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissão de GEE (MtCO2)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelaemgeesinmtco2"><strong>Tabela:EmGEESIN(MtCO2)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">Fonte</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Emissões_GEE</td>
+<td style="text-align: center;">Emissão de GEE</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissão de GEE (MtCO2)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-consmedresregkwh_mes"><strong>Tabela: ConsMedResReg(kWh_mes)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Consumo_médio_residencial</td>
+<td style="text-align: center;">Consumo Médio Residencial</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de consumo médio residencial (kWH/mês)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-consmedressubsiskwh_mes"><strong>Tabela: ConsMedResSubsis(kWh_mes)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Consumo_médio_residencial</td>
+<td style="text-align: center;">Consumo Médio Residencial</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de consumo médio residencial no subsistema  (kWH/mês)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabelaconsmedtotregkwh_mes"><strong>Tabela:ConsMedTotReg(kWh_mes)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Consumo_médio_residencial</td>
+<td style="text-align: center;">Consumo Médio Residencial</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de consumo médio residencial na região (kWH/mês)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-consmedtotsubsiskwh_mes"><strong>Tabela: ConsMedTotSubsis(kWh_mes)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Fonte de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Consumo_médio_residencial</td>
+<td style="text-align: center;">Consumo Médio Residencial</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Quantidade de consumo médio residencial na região (kWH/mês)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-consmedanpercapregkwh_hab"><strong>Tabela: ConsMedAnPerCapReg(kWh_hab)</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">Região</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Região de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Consumo_médio_anual_per_capita</td>
+<td style="text-align: center;">Consumo Médio Anual Per Capita</td>
+<td style="text-align: center;">FLOAT</td>
+<td style="text-align: center;">Consumo Médio Anual Per Capita l na região (kWh_hab)</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">SMALLINT</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;">NÃO NULO</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-emissoes_co2_br"><strong>Tabela: emissoes_co2_Br</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">CO2_GWP_SAR_Gg</td>
+<td style="text-align: center;">GWP - SAR Gg (CO2e)</td>
+<td style="text-align: center;">NVARCHAR(50)</td>
+<td style="text-align: center;">Setor de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1991</td>
+<td style="text-align: center;">Ano 1991</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1991</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1992</td>
+<td style="text-align: center;">Ano 1992</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1992</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1993</td>
+<td style="text-align: center;">Ano 1993</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1993</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1994</td>
+<td style="text-align: center;">Ano 1994</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1994</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1995</td>
+<td style="text-align: center;">Ano 1995</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1995</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1996</td>
+<td style="text-align: center;">Ano 1996</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1996</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1997</td>
+<td style="text-align: center;">Ano 1997</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1997</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1998</td>
+<td style="text-align: center;">Ano 1998</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1998</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_1999</td>
+<td style="text-align: center;">Ano 1999</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 1999</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2000</td>
+<td style="text-align: center;">Ano 2000</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2000</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2001</td>
+<td style="text-align: center;">Ano 2001</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2001</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2002</td>
+<td style="text-align: center;">Ano 2002</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2002</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2003</td>
+<td style="text-align: center;">Ano 2003</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2003</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2004</td>
+<td style="text-align: center;">Ano 2004</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2004</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2005</td>
+<td style="text-align: center;">Ano 2005</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2005</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2006</td>
+<td style="text-align: center;">Ano 2006</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2006</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2007</td>
+<td style="text-align: center;">Ano 2007</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2007</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2008</td>
+<td style="text-align: center;">Ano 2008</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2008</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2009</td>
+<td style="text-align: center;">Ano 2009</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2009</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2010</td>
+<td style="text-align: center;">Ano 2010</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2010</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2011</td>
+<td style="text-align: center;">Ano 2011</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2011</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2012</td>
+<td style="text-align: center;">Ano 2012</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2012</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2013</td>
+<td style="text-align: center;">Ano 2013</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2013</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2014</td>
+<td style="text-align: center;">Ano 2014</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2014</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2015</td>
+<td style="text-align: center;">Ano 2015</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2015</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2016</td>
+<td style="text-align: center;">Ano 2016</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2016</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2017</td>
+<td style="text-align: center;">Ano 2017</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2017</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2018</td>
+<td style="text-align: center;">Ano 2018</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2018</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2019</td>
+<td style="text-align: center;">Ano 2019</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2019</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Ano_2020</td>
+<td style="text-align: center;">Ano 2020</td>
+<td style="text-align: center;">INT</td>
+<td style="text-align: center;">Quantidade de emissões em 2020</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tabela-evolucao_energia_1970_2022"><strong>Tabela: Evolucao_Energia_1970_2022</strong></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">DADO</th>
+<th style="text-align: center;">NOME DO CAMPO</th>
+<th style="text-align: center;">TIPO DO DADO</th>
+<th style="text-align: center;">DESCRIÇÃO</th>
+<th style="text-align: center;">RESTRIÇÃO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">ANO</td>
+<td style="text-align: center;">Ano</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Ano de análise</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">NÃO_RENOVÁVEL</td>
+<td style="text-align: center;">Não Renovável</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Não renováveis ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">PETRÓLEO</td>
+<td style="text-align: center;">Petróleo</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Petróleo ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">GÁS_NATURAL</td>
+<td style="text-align: center;">Gás Natural</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Gás Natural ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">CARVÃO_VAPOR</td>
+<td style="text-align: center;">Carvão -  Vapor</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia -Carvão vapor  ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">CARVÃO_METALÚRGICO</td>
+<td style="text-align: center;">Carvão - Metaluigico</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Carvão metalúrgico ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">UR NIO_U3O8</td>
+<td style="text-align: center;">Urânio U3O8</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Urânio ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">RENOVÁVEL</td>
+<td style="text-align: center;">Renovável</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Renovaveis ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">ENERGIA_HIDRÁULICA</td>
+<td style="text-align: center;">Energia Hidráulica</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Energia Hidráulica( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">LENHA</td>
+<td style="text-align: center;">Lenha</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Lenha ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">PRODUTOS_DA_CANA</td>
+<td style="text-align: center;">Produtos da Cana</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Produtos da Cana  ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">EÓLICA</td>
+<td style="text-align: center;">Eólica</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Eólica  ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">SOLAR</td>
+<td style="text-align: center;">Solar</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Solar ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">OUTRAS_RENOVÁVEIS</td>
+<td style="text-align: center;">Outras Renováveis</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Outras Renováveis ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">TOTAL</td>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">VARCHAR(150)</td>
+<td style="text-align: center;">Produção de enregia - Total ( 103tep)</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="historico-de-versao">Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">04/07/2023</td>
+<td style="text-align: center;">Criação do documento e adição de conteúdo</td>
+<td style="text-align: center;">Ugor Brandão</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.pat", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>
